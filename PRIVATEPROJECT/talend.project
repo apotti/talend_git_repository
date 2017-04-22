@@ -31,6 +31,20 @@
       <relatedItems xmi:id="_-aKi9CeiEeejtYW-5flErg" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_-aKi9SeiEeejtYW-5flErg" id="Mathematical" version="Latest" type="routine"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_ERhbACenEeeBc4mgvm22Pw">
+      <baseItem xmi:id="_ERhbASenEeeBc4mgvm22Pw" id="_72ZBwCemEeeBc4mgvm22Pw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_ERhbAienEeeBc4mgvm22Pw" id="_Lzo-ECemEeeBc4mgvm22Pw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_ERhbAyenEeeBc4mgvm22Pw" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ERhbBCenEeeBc4mgvm22Pw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ERhbBSenEeeBc4mgvm22Pw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ERhbBienEeeBc4mgvm22Pw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ERhbByenEeeBc4mgvm22Pw" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ERhbCCenEeeBc4mgvm22Pw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ERhbCSenEeeBc4mgvm22Pw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ERhbCienEeeBc4mgvm22Pw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ERhbCyenEeeBc4mgvm22Pw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ERhbDCenEeeBc4mgvm22Pw" id="Mathematical" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_FKcOkCd8EeeBc4mgvm22Pw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_FKcOkSd8EeeBc4mgvm22Pw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_FKcOkid8EeeBc4mgvm22Pw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
