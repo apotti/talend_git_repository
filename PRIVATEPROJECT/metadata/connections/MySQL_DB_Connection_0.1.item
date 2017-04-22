@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_OKUwUCegEeeBc4mgvm22Pw" name="MySQL_DB_Connection" id="_-BGqACefEeeBc4mgvm22Pw" label="MySQL_DB_Connection" ContextMode="true" ContextId="_NNEd4CegEeeBc4mgvm22Pw" contextName="Default" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/tac_db_631?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="context.MySQL_DB_Connection_Port" Username="context.MySQL_DB_Connection_Login" Password="context.MySQL_DB_Connection_Password" ServerName="context.MySQL_DB_Connection_Server" DatasourceName="" FileFieldName="" SID="context.MySQL_DB_Connection_Database" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="context.MySQL_DB_Connection_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_OKXzoCegEeeBc4mgvm22Pw" tag="Is Conn Need Reload" value="false"/>
+  <taggedValue xmi:id="_OLLr8CegEeeBc4mgvm22Pw" tag="package filter" value=""/>
+  <taggedValue xmi:id="_OLQkcCegEeeBc4mgvm22Pw" tag="Status" value=""/>
+  <taggedValue xmi:id="_OLQkcSegEeeBc4mgvm22Pw" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_OLQkciegEeeBc4mgvm22Pw" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_OLQkcyegEeeBc4mgvm22Pw" tag="Description" value=""/>
+  <taggedValue xmi:id="_OLQkdCegEeeBc4mgvm22Pw" tag="Author" value=""/>
+  <taggedValue xmi:id="_OLQkdSegEeeBc4mgvm22Pw" tag="otherParameter"/>
+  <parameters xmi:id="_OKXzoSegEeeBc4mgvm22Pw" key="CONN_PARA_KEY_USERNAME" value="context.MySQL_DB_Connection_Login"/>
+</TalendMetadata:DatabaseConnection>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_NNgiwCegEeeBc4mgvm22Pw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_NNgiwSegEeeBc4mgvm22Pw" comment="" name="MySQL_DB_Connection_Login" prompt="MySQL_DB_Connection_Login?" promptNeeded="false" type="id_String" value="root"/>
+  <contextParameter xmi:id="_NNgiwiegEeeBc4mgvm22Pw" comment="" name="MySQL_DB_Connection_AdditionalParams" prompt="MySQL_DB_Connection_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  <contextParameter xmi:id="_NNgiwyegEeeBc4mgvm22Pw" comment="" name="MySQL_DB_Connection_Port" prompt="MySQL_DB_Connection_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_NNgixCegEeeBc4mgvm22Pw" comment="" name="MySQL_DB_Connection_Database" prompt="MySQL_DB_Connection_Database?" promptNeeded="false" type="id_String" value="tac_db_631"/>
+  <contextParameter xmi:id="_NNgixSegEeeBc4mgvm22Pw" comment="" name="MySQL_DB_Connection_Server" prompt="MySQL_DB_Connection_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_NNgixiegEeeBc4mgvm22Pw" comment="" name="MySQL_DB_Connection_Password" prompt="MySQL_DB_Connection_Password?" promptNeeded="false" type="id_Password" value="v7j3+A7Lk44="/>
+</talendfile:ContextType>
