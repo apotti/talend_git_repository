@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_dJpKICeyEeeC6prp-bCPlw" name="mySQL_Connection" id="_XGYAICeyEeeC6prp-bCPlw" label="mySQL_Connection" dataPackage="_dOt3YCeyEeeC6prp-bCPlw" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/tac_db_631?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="HpdoWoFRlrXxeX2xdyD8vw==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="tac_db_631" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_dJziMCeyEeeC6prp-bCPlw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_dLPFkCeyEeeC6prp-bCPlw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_dLcg8CeyEeeC6prp-bCPlw" tag="Status" value=""/>
+    <taggedValue xmi:id="_dLcg8SeyEeeC6prp-bCPlw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_dLcg8ieyEeeC6prp-bCPlw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_dLcg8yeyEeeC6prp-bCPlw" tag="Description" value=""/>
+    <taggedValue xmi:id="_dLcg9CeyEeeC6prp-bCPlw" tag="Author" value=""/>
+    <taggedValue xmi:id="_dLcg9SeyEeeC6prp-bCPlw" tag="otherParameter"/>
+    <taggedValue xmi:id="_dMnloCeyEeeC6prp-bCPlw" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_dMnloSeyEeeC6prp-bCPlw" tag="DB ProductVersion" value="5.7.17-log"/>
+    <taggedValue xmi:id="_dMnloieyEeeC6prp-bCPlw" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_dJziMSeyEeeC6prp-bCPlw" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_dOt3YCeyEeeC6prp-bCPlw" name="tac_db_631" dataManager="_dJpKICeyEeeC6prp-bCPlw"/>
+</xmi:XMI>
