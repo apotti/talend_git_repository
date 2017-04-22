@@ -26,7 +26,4 @@
     <migrationTask xmi:id="_F7-ZQCd8EeeBc4mgvm22Pw" id="org.talend.repository.model.migration.ChangeMappingFileMigrationTask" breaks="6.2.1" version="6.2.2" status="ok"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_8lfyASd7EeeBc4mgvm22Pw" login="admin@company.com" firstName="admin" lastName="admin" type="DQ" additionnalData="{}"/>
-  <TalendProperties:User xmi:id="_F-StYCd8EeeBc4mgvm22Pw" login="dev2@company.com" firstName="dev2" lastName="dev2" type="DI" additionnalData="{}">
-    <projectAuthorization href="../C:/Talend/6.3.1/studio/#/"/>
-  </TalendProperties:User>
 </xmi:XMI>
