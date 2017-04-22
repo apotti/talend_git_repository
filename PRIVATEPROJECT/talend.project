@@ -373,4 +373,5 @@
     <referencedProject href="../REFPROJECT/talend.project#projectReference"/>
   </TalendProperties:ProjectReference>
   <TalendProperties:User xmi:id="_F-StYCd8EeeBc4mgvm22Pw" login="dev2@company.com" firstName="dev2" lastName="dev2" type="DI" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_fHO5MCenEee1l9n9JlMvpg" login="operator@company.com" firstName="Operator" lastName="Operator" type="DI" additionnalData="{}"/>
 </xmi:XMI>
