@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
-  <TalendMetadata:DatabaseConnection xmi:id="_OKUwUCegEeeBc4mgvm22Pw" name="MySQL_DB_Connection" id="_-BGqACefEeeBc4mgvm22Pw" label="MySQL_DB_Connection" dataPackage="_DJoYICeiEeeBc4mgvm22Pw" contextName="Default" DatabaseType="MySQL" DriverJarPath="" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/tac_db_631?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="HpdoWoFRlrXxeX2xdyD8vw==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="tac_db_631" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" DBRootPath="" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+  <TalendMetadata:DatabaseConnection xmi:id="_OKUwUCegEeeBc4mgvm22Pw" name="MySQL_DB_Connection" id="_-BGqACefEeeBc4mgvm22Pw" label="MySQL_DB_Connection" dataPackage="_IU5jICeiEeeBc4mgvm22Pw" contextName="Default" DatabaseType="MySQL" DriverJarPath="" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/tac_db_631?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="HpdoWoFRlrXxeX2xdyD8vw==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="tac_db_631" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" DBRootPath="" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
     <taggedValue xmi:id="_OKXzoCegEeeBc4mgvm22Pw" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_OLLr8CegEeeBc4mgvm22Pw" tag="package filter" value=""/>
     <taggedValue xmi:id="_OLQkcCegEeeBc4mgvm22Pw" tag="Status" value=""/>
@@ -13,6 +13,7 @@
     <taggedValue xmi:id="_DIER4SeiEeeBc4mgvm22Pw" tag="DB ProductVersion" value="5.7.17-log"/>
     <taggedValue xmi:id="_DIER4ieiEeeBc4mgvm22Pw" tag="DB IdentifierQuoteString" value="`"/>
     <parameters xmi:id="_OKXzoSegEeeBc4mgvm22Pw" key="CONN_PARA_KEY_USERNAME" value="root"/>
+    <parameters xmi:id="_Hdv4sCeiEeeBc4mgvm22Pw" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_DJoYICeiEeeBc4mgvm22Pw" name="tac_db_631" dataManager="_OKUwUCegEeeBc4mgvm22Pw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_IU5jICeiEeeBc4mgvm22Pw" name="tac_db_631" dataManager="_OKUwUCegEeeBc4mgvm22Pw"/>
 </xmi:XMI>
