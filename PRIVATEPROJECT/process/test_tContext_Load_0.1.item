@@ -5,7 +5,7 @@
     <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" type="id_String" value=""/>
     <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" type="id_String" value=""/>
     <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" type="id_Password" value="uFaf+9E91xo="/>
     <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" type="id_File" value="C:/Users/apotti/Desktop/test_connection.txt"/>
   </context>
   <context confirmationNeeded="false" name="Production">
