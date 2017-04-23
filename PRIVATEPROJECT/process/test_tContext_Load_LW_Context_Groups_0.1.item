@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Test" jobType="Standard">
-  <context confirmationNeeded="false" name="Test"/>
+  <context confirmationNeeded="false" name="Test">
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_UK_B4CgGEeeC6prp-bCPlw" type="id_String" value=""/>
+    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" repositoryContextId="_UK_B4CgGEeeC6prp-bCPlw" type="id_String" value="C:\Users\apotti\Desktop\test_connection.txt"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_UK_B4CgGEeeC6prp-bCPlw" type="id_String" value=""/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_UK_B4CgGEeeC6prp-bCPlw" type="id_String" value="dummy"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_UK_B4CgGEeeC6prp-bCPlw" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_UK_B4CgGEeeC6prp-bCPlw" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="Production">
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_UK_B4CgGEeeC6prp-bCPlw" type="id_String" value=""/>
+    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" repositoryContextId="_UK_B4CgGEeeC6prp-bCPlw" type="id_String" value="C:\Users\apotti\Desktop\prod_connection.txt"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_UK_B4CgGEeeC6prp-bCPlw" type="id_String" value=""/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_UK_B4CgGEeeC6prp-bCPlw" type="id_String" value="dummy"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_UK_B4CgGEeeC6prp-bCPlw" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_UK_B4CgGEeeC6prp-bCPlw" type="id_String" value=""/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
