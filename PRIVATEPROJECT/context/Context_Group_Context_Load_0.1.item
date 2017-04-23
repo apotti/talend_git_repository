@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_ULNEUCgGEeeC6prp-bCPlw" confirmationNeeded="false" name="Test">
+    <contextParameter xmi:id="_ULNEUSgGEeeC6prp-bCPlw" comment="" name="host" prompt="host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_ULNEUigGEeeC6prp-bCPlw" comment="" name="port" prompt="port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_ULNEUygGEeeC6prp-bCPlw" comment="" name="database" prompt="database?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_ULNEVCgGEeeC6prp-bCPlw" comment="" name="username" prompt="username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_ULNEVSgGEeeC6prp-bCPlw" comment="" name="password" prompt="password?" promptNeeded="false" type="id_String" value="dummy"/>
+    <contextParameter xmi:id="_ULNEVigGEeeC6prp-bCPlw" comment="" name="filename" prompt="filename?" promptNeeded="false" type="id_String" value="C:\Users\apotti\Desktop\test_connection.txt"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_ULNEVygGEeeC6prp-bCPlw" confirmationNeeded="false" name="Production">
+    <contextParameter xmi:id="_ULNEWCgGEeeC6prp-bCPlw" comment="" name="host" prompt="host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_ULNEWSgGEeeC6prp-bCPlw" comment="" name="port" prompt="port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_ULNEWigGEeeC6prp-bCPlw" comment="" name="database" prompt="database?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_ULNEWygGEeeC6prp-bCPlw" comment="" name="username" prompt="username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_ULNEXCgGEeeC6prp-bCPlw" comment="" name="password" prompt="password?" promptNeeded="false" type="id_String" value="dummy"/>
+    <contextParameter xmi:id="_ULNEXSgGEeeC6prp-bCPlw" comment="" name="filename" prompt="filename?" promptNeeded="false" type="id_String" value="C:\Users\apotti\Desktop\prod_connection.txt"/>
+  </talendfile:ContextType>
+</xmi:XMI>
