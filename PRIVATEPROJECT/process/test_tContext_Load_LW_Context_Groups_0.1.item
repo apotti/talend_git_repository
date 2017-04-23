@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Test" jobType="Standard">
-  <context confirmationNeeded="false" name="Test">
-    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" type="id_Password" value="uFaf+9E91xo="/>
-    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" type="id_File" value="C:/Users/apotti/Desktop/test_connection.txt"/>
-  </context>
-  <context confirmationNeeded="false" name="Production">
-    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" type="id_Password" value=""/>
-    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" type="id_File" value="C:/Users/apotti/Desktop/prod_connection.txt"/>
-  </context>
+  <context confirmationNeeded="false" name="Test"/>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
