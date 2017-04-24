@@ -109,7 +109,7 @@
     <routinesParameter id="_G2yboCd8EeeBc4mgvm22Pw" name="TalendDate"/>
     <routinesParameter id="_G24iQCd8EeeBc4mgvm22Pw" name="TalendString"/>
   </parameters>
-  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="224">
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="384">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlInput_1" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
@@ -152,7 +152,7 @@
       <column comment="" key="false" length="255" name="companyName" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFilterRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="224">
+  <node componentName="tFilterRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="384">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFilterRow_3" show="false"/>
     <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
@@ -182,7 +182,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="224">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
@@ -212,7 +212,7 @@
       <column comment="" key="false" length="255" name="companyName" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="352">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="448">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_2" show="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
@@ -245,7 +245,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="64" posY="64">
+  <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_1" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Main loop Failed&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>
@@ -255,19 +255,20 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDie_1"/>
   </node>
-  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="416">
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="448">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Main Loop Succeeeded&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="42"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="4"/>
+    <elementParameter field="TEXT" name="LABEL" value="Main_loop_Success"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWarn_1"/>
   </node>
-  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="64">
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="64">
+  <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlConnection_1" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
@@ -287,7 +288,7 @@
     <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="64">
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_2" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connection Established Successfully&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="42"/>
@@ -295,14 +296,23 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWarn_2"/>
   </node>
-  <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="192">
+  <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_2" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;the end is near&quot;"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Unsuccessful Connection&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
     <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDie_2"/>
+  </node>
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="672">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tMysqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="672">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlClose_1" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMysqlConnection_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tMysqlInput_1" offsetLabelX="0" offsetLabelY="0" source="tMysqlInput_1" target="tFilterRow_3">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -330,6 +340,12 @@
   </connection>
   <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tMysqlConnection_1" offsetLabelX="0" offsetLabelY="0" source="tMysqlConnection_1" target="tDie_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentError1" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMysqlConnection_1" offsetLabelX="0" offsetLabelY="0" source="tMysqlConnection_1" target="tMysqlInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tMysqlClose_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk3" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlInput_1" show="false"/>
@@ -364,6 +380,17 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlClose_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
