@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_YkVJYCkGEeeyW-uUcjRvIw" confirmationNeeded="false" name="development">
+    <contextParameter xmi:id="_YkVJYSkGEeeyW-uUcjRvIw" comment="" name="bookkeep_host" prompt="bookkeep_host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJYikGEeeyW-uUcjRvIw" comment="" name="bookkeep_port" prompt="bookkeep_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJYykGEeeyW-uUcjRvIw" comment="" name="bookkeep_db" prompt="bookkeep_db?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJZCkGEeeyW-uUcjRvIw" comment="" name="bookkeep_user" prompt="bookkeep_user?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJZSkGEeeyW-uUcjRvIw" comment="" name="bookkeep_pass" prompt="bookkeep_pass?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_YkVJZikGEeeyW-uUcjRvIw" comment="" name="prov_host" prompt="prov_host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJZykGEeeyW-uUcjRvIw" comment="" name="prov_port" prompt="prov_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJaCkGEeeyW-uUcjRvIw" comment="" name="prov_db" prompt="prov_db?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJaSkGEeeyW-uUcjRvIw" comment="" name="prov_user" prompt="prov_user?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJaikGEeeyW-uUcjRvIw" comment="" name="prov_pass" prompt="prov_pass?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_YkVJaykGEeeyW-uUcjRvIw" comment="" name="amc_host" prompt="amc_host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJbCkGEeeyW-uUcjRvIw" comment="" name="amc_port" prompt="amc_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJbSkGEeeyW-uUcjRvIw" comment="" name="amc_db" prompt="amc_db?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJbikGEeeyW-uUcjRvIw" comment="" name="amc_user" prompt="amc_user?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJbykGEeeyW-uUcjRvIw" comment="" name="amc_pass" prompt="amc_pass?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_YkVJcCkGEeeyW-uUcjRvIw" comment="" name="pa_host" prompt="pa_host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJcSkGEeeyW-uUcjRvIw" comment="" name="pa_port" prompt="pa_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJcikGEeeyW-uUcjRvIw" comment="" name="pa_db" prompt="pa_db?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJcykGEeeyW-uUcjRvIw" comment="" name="pa_user" prompt="pa_user?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJdCkGEeeyW-uUcjRvIw" comment="" name="pa_pass" prompt="pa_pass?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_YkVJdSkGEeeyW-uUcjRvIw" comment="Where is the DB config located" name="db_config_location" prompt="db_config_location?" promptNeeded="false" type="id_String" value="/home/talenduser/talend_properties/ref_database/database.development"/>
+    <contextParameter xmi:id="_YkVJdikGEeeyW-uUcjRvIw" comment="Config File for AMC" name="amc_config_location" prompt="amc_config_location?" promptNeeded="false" type="id_String" value="/home/talenduser/talend_properties/ref_database/amc.development"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_YkVJdykGEeeyW-uUcjRvIw" confirmationNeeded="false" name="dkrause">
+    <contextParameter xmi:id="_YkVJeCkGEeeyW-uUcjRvIw" comment="" name="bookkeep_host" prompt="bookkeep_host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJeSkGEeeyW-uUcjRvIw" comment="" name="bookkeep_port" prompt="bookkeep_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJeikGEeeyW-uUcjRvIw" comment="" name="bookkeep_db" prompt="bookkeep_db?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJeykGEeeyW-uUcjRvIw" comment="" name="bookkeep_user" prompt="bookkeep_user?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJfCkGEeeyW-uUcjRvIw" comment="" name="bookkeep_pass" prompt="bookkeep_pass?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_YkVJfSkGEeeyW-uUcjRvIw" comment="" name="prov_host" prompt="prov_host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJfikGEeeyW-uUcjRvIw" comment="" name="prov_port" prompt="prov_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJfykGEeeyW-uUcjRvIw" comment="" name="prov_db" prompt="prov_db?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJgCkGEeeyW-uUcjRvIw" comment="" name="prov_user" prompt="prov_user?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJgSkGEeeyW-uUcjRvIw" comment="" name="prov_pass" prompt="prov_pass?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_YkVJgikGEeeyW-uUcjRvIw" comment="" name="amc_host" prompt="amc_host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJgykGEeeyW-uUcjRvIw" comment="" name="amc_port" prompt="amc_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJhCkGEeeyW-uUcjRvIw" comment="" name="amc_db" prompt="amc_db?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJhSkGEeeyW-uUcjRvIw" comment="" name="amc_user" prompt="amc_user?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJhikGEeeyW-uUcjRvIw" comment="" name="amc_pass" prompt="amc_pass?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_YkVJhykGEeeyW-uUcjRvIw" comment="" name="pa_host" prompt="pa_host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJiCkGEeeyW-uUcjRvIw" comment="" name="pa_port" prompt="pa_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJiSkGEeeyW-uUcjRvIw" comment="" name="pa_db" prompt="pa_db?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJiikGEeeyW-uUcjRvIw" comment="" name="pa_user" prompt="pa_user?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJiykGEeeyW-uUcjRvIw" comment="" name="pa_pass" prompt="pa_pass?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_YkVJjCkGEeeyW-uUcjRvIw" comment="Where is the DB config located" name="db_config_location" prompt="db_config_location?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJjSkGEeeyW-uUcjRvIw" comment="Config File for AMC" name="amc_config_location" prompt="amc_config_location?" promptNeeded="false" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_YkVJjikGEeeyW-uUcjRvIw" confirmationNeeded="false" name="jgillman">
+    <contextParameter xmi:id="_YkVJjykGEeeyW-uUcjRvIw" comment="" name="bookkeep_host" prompt="bookkeep_host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJkCkGEeeyW-uUcjRvIw" comment="" name="bookkeep_port" prompt="bookkeep_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJkSkGEeeyW-uUcjRvIw" comment="" name="bookkeep_db" prompt="bookkeep_db?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJkikGEeeyW-uUcjRvIw" comment="" name="bookkeep_user" prompt="bookkeep_user?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJkykGEeeyW-uUcjRvIw" comment="" name="bookkeep_pass" prompt="bookkeep_pass?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_YkVJlCkGEeeyW-uUcjRvIw" comment="" name="prov_host" prompt="prov_host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJlSkGEeeyW-uUcjRvIw" comment="" name="prov_port" prompt="prov_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJlikGEeeyW-uUcjRvIw" comment="" name="prov_db" prompt="prov_db?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJlykGEeeyW-uUcjRvIw" comment="" name="prov_user" prompt="prov_user?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJmCkGEeeyW-uUcjRvIw" comment="" name="prov_pass" prompt="prov_pass?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_YkVJmSkGEeeyW-uUcjRvIw" comment="" name="amc_host" prompt="amc_host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJmikGEeeyW-uUcjRvIw" comment="" name="amc_port" prompt="amc_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJmykGEeeyW-uUcjRvIw" comment="" name="amc_db" prompt="amc_db?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJnCkGEeeyW-uUcjRvIw" comment="" name="amc_user" prompt="amc_user?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJnSkGEeeyW-uUcjRvIw" comment="" name="amc_pass" prompt="amc_pass?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_YkVJnikGEeeyW-uUcjRvIw" comment="" name="pa_host" prompt="pa_host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJnykGEeeyW-uUcjRvIw" comment="" name="pa_port" prompt="pa_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJoCkGEeeyW-uUcjRvIw" comment="" name="pa_db" prompt="pa_db?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJoSkGEeeyW-uUcjRvIw" comment="" name="pa_user" prompt="pa_user?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJoikGEeeyW-uUcjRvIw" comment="" name="pa_pass" prompt="pa_pass?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_YkVJoykGEeeyW-uUcjRvIw" comment="Where is the DB config located" name="db_config_location" prompt="db_config_location?" promptNeeded="false" type="id_String" value="/home/jgillman/QA Stuff/git-repos/talend_properties/ref_database/database.jgillman"/>
+    <contextParameter xmi:id="_YkVJpCkGEeeyW-uUcjRvIw" comment="Config File for AMC" name="amc_config_location" prompt="amc_config_location?" promptNeeded="false" type="id_String" value="/home/jgillman/QA Stuff/git-repos/talend_properties/ref_database/amc.jgillman"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_YkVJpSkGEeeyW-uUcjRvIw" confirmationNeeded="false" name="production">
+    <contextParameter xmi:id="_YkVJpikGEeeyW-uUcjRvIw" comment="" name="bookkeep_host" prompt="bookkeep_host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJpykGEeeyW-uUcjRvIw" comment="" name="bookkeep_port" prompt="bookkeep_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJqCkGEeeyW-uUcjRvIw" comment="" name="bookkeep_db" prompt="bookkeep_db?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJqSkGEeeyW-uUcjRvIw" comment="" name="bookkeep_user" prompt="bookkeep_user?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJqikGEeeyW-uUcjRvIw" comment="" name="bookkeep_pass" prompt="bookkeep_pass?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_YkVJqykGEeeyW-uUcjRvIw" comment="" name="prov_host" prompt="prov_host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJrCkGEeeyW-uUcjRvIw" comment="" name="prov_port" prompt="prov_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJrSkGEeeyW-uUcjRvIw" comment="" name="prov_db" prompt="prov_db?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJrikGEeeyW-uUcjRvIw" comment="" name="prov_user" prompt="prov_user?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJrykGEeeyW-uUcjRvIw" comment="" name="prov_pass" prompt="prov_pass?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_YkVJsCkGEeeyW-uUcjRvIw" comment="" name="amc_host" prompt="amc_host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJsSkGEeeyW-uUcjRvIw" comment="" name="amc_port" prompt="amc_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJsikGEeeyW-uUcjRvIw" comment="" name="amc_db" prompt="amc_db?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJsykGEeeyW-uUcjRvIw" comment="" name="amc_user" prompt="amc_user?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJtCkGEeeyW-uUcjRvIw" comment="" name="amc_pass" prompt="amc_pass?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_YkVJtSkGEeeyW-uUcjRvIw" comment="" name="pa_host" prompt="pa_host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJtikGEeeyW-uUcjRvIw" comment="" name="pa_port" prompt="pa_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJtykGEeeyW-uUcjRvIw" comment="" name="pa_db" prompt="pa_db?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJuCkGEeeyW-uUcjRvIw" comment="" name="pa_user" prompt="pa_user?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_YkVJuSkGEeeyW-uUcjRvIw" comment="" name="pa_pass" prompt="pa_pass?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_YkVJuikGEeeyW-uUcjRvIw" comment="Where is the DB config located" name="db_config_location" prompt="db_config_location?" promptNeeded="false" type="id_String" value="/home/talenduser/talend_properties/ref_database/database.production"/>
+    <contextParameter xmi:id="_YkVJuykGEeeyW-uUcjRvIw" comment="Config File for AMC" name="amc_config_location" prompt="amc_config_location?" promptNeeded="false" type="id_String" value="/home/talenduser/talend_properties/ref_database/amc.production"/>
+  </talendfile:ContextType>
+</xmi:XMI>
