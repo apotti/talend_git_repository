@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_IonQ0CiIEee2WMbBLVdfvA" name="repository.metadataGenericSchema" dataPackage="_IonQ0SiIEee2WMbBLVdfvA" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_IonQ0SiIEee2WMbBLVdfvA" name="repository.metadataGenericSchema" dataManager="_IonQ0CiIEee2WMbBLVdfvA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Ion34CiIEee2WMbBLVdfvA" id="_B0J6cCiIEee2WMbBLVdfvA" label="Company">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ion34SiIEee2WMbBLVdfvA" name="companyKey" label="companyKey" length="-1" sourceType="INT" talendType="id_Integer" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1BayUCiIEee2WMbBLVdfvA" name="companyID" label="companyID" length="-1" sourceType="INT" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1C3j0CiIEee2WMbBLVdfvA" name="companyName" label="companyName" length="255" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
