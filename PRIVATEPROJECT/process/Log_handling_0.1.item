@@ -171,7 +171,12 @@
       <elementValue elementRef="VALUE" value=""/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="true"/>
-    <elementParameter field="TABLE" name="INTABLE"/>
+    <elementParameter field="TABLE" name="INTABLE">
+      <elementValue elementRef="id" value="1"/>
+      <elementValue elementRef="name" value="'AAPL'"/>
+      <elementValue elementRef="id" value="2"/>
+      <elementValue elementRef="name" value="'MSFT'"/>
+    </elementParameter>
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
