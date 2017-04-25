@@ -143,17 +143,17 @@
   <node componentName="tSplitRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSplitRow_1" show="false"/>
     <elementParameter field="TABLE" name="COL_MAPPING">
-      <elementValue elementRef="StudentID" value="row1.StudentID"/>
-      <elementValue elementRef="Course" value="row1.Course1"/>
-      <elementValue elementRef="StudentID" value="row1.StudentID"/>
-      <elementValue elementRef="Course" value="row1.Course2"/>
-      <elementValue elementRef="StudentID" value="row1.StudentID"/>
-      <elementValue elementRef="Course" value="row1.Course3"/>
+      <elementValue elementRef="Snap_Date" value="row1.Snap_Date"/>
+      <elementValue elementRef="Value_output" value="row1.Snap_Count"/>
+      <elementValue elementRef="Snap_Date" value="row1.Snap_Date"/>
+      <elementValue elementRef="Value_output" value="row1.Swg_Date"/>
+      <elementValue elementRef="Snap_Date" value="row1.Snap_Date"/>
+      <elementValue elementRef="Value_output" value="row1.Swg_Count"/>
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSplitRow_1">
-      <column comment="" key="false" length="-1" name="StudentID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Course" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Snap_Date" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Value_output" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="224">
@@ -186,8 +186,8 @@
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileOutputDelimited_1">
-      <column comment="" key="false" length="-1" name="StudentID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Course" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Snap_Date" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Value_output" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tSplitRow_1">
@@ -195,6 +195,14 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tSplitRow_1" offsetLabelX="0" offsetLabelY="0" source="tSplitRow_1" target="tFileOutputDelimited_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="Value_output"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Snap_Date"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
