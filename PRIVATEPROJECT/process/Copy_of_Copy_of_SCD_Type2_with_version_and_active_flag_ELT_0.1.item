@@ -192,17 +192,21 @@
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="COLUMN_LIST" name="SURROGATE_KEY" value="companyKey"/>
     <elementParameter field="CLOSED_LIST" name="SK_CREATION" value="AUTO_INCREMENT"/>
-    <elementParameter field="TABLE" name="SOURCE_KEYS"/>
+    <elementParameter field="TABLE" name="SOURCE_KEYS">
+      <elementValue elementRef="NAME" value="companyID"/>
+    </elementParameter>
     <elementParameter field="CHECK" name="USE_L1" value="false"/>
     <elementParameter field="TABLE" name="L1_FIELDS" show="false"/>
-    <elementParameter field="CHECK" name="USE_L2" value="false"/>
-    <elementParameter field="TABLE" name="L2_FIELDS" show="false"/>
-    <elementParameter field="COLUMN_LIST" name="L2_STARTDATE_FIELD" value="companyKey" show="false"/>
-    <elementParameter field="COLUMN_LIST" name="L2_ENDDATE_FIELD" value="companyKey" show="false"/>
-    <elementParameter field="CHECK" name="USE_L2_ACTIVE" value="false" show="false"/>
-    <elementParameter field="COLUMN_LIST" name="L2_ACTIVE_FIELD" value="companyKey" show="false"/>
-    <elementParameter field="CHECK" name="USE_L2_VERSION" value="false" show="false"/>
-    <elementParameter field="COLUMN_LIST" name="L2_VERSION_FIELD" value="companyKey" show="false"/>
+    <elementParameter field="CHECK" name="USE_L2" value="true"/>
+    <elementParameter field="TABLE" name="L2_FIELDS">
+      <elementValue elementRef="NAME" value="companyName"/>
+    </elementParameter>
+    <elementParameter field="COLUMN_LIST" name="L2_STARTDATE_FIELD" value="scd_start"/>
+    <elementParameter field="COLUMN_LIST" name="L2_ENDDATE_FIELD" value="scd_end"/>
+    <elementParameter field="CHECK" name="USE_L2_ACTIVE" value="true"/>
+    <elementParameter field="COLUMN_LIST" name="L2_ACTIVE_FIELD" value="scd_active"/>
+    <elementParameter field="CHECK" name="USE_L2_VERSION" value="true"/>
+    <elementParameter field="COLUMN_LIST" name="L2_VERSION_FIELD" value="scd_version"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
