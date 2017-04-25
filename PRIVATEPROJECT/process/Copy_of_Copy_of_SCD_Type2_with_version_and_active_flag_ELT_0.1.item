@@ -300,12 +300,12 @@
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="TABLE" label="company_dim_v2" name="tELTMysqlOutput_1">
-      <column comment="" key="false" length="-1" name="companyKey" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="companyID" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="companyKey" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="companyID" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="companyName" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="scd_start" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="scd_end" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="scd_version" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="scd_start" nullable="true" pattern="" precision="-1" sourceType="DATETIME" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="scd_end" nullable="true" pattern="" precision="-1" sourceType="DATETIME" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="scd_version" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="scd_active" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
