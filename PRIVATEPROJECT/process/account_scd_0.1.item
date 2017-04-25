@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="development" jobType="Standard">
+  <context confirmationNeeded="false" name="jgillman">
+    <contextParameter comment="" name="bookkeep_host" prompt="bookkeep_host?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="bookkeep_port" prompt="bookkeep_port?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="bookkeep_db" prompt="bookkeep_db?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="bookkeep_user" prompt="bookkeep_user?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="bookkeep_pass" prompt="bookkeep_pass?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_Password" value=""/>
+    <contextParameter comment="" name="prov_host" prompt="prov_host?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="prov_port" prompt="prov_port?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="prov_db" prompt="prov_db?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="prov_user" prompt="prov_user?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="prov_pass" prompt="prov_pass?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_Password" value=""/>
+    <contextParameter comment="" name="amc_host" prompt="amc_host?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="amc_port" prompt="amc_port?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="amc_db" prompt="amc_db?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="amc_user" prompt="amc_user?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="amc_pass" prompt="amc_pass?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_Password" value=""/>
+    <contextParameter comment="" name="pa_host" prompt="pa_host?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="pa_port" prompt="pa_port?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="pa_db" prompt="pa_db?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="pa_user" prompt="pa_user?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="pa_pass" prompt="pa_pass?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_Password" value=""/>
+    <contextParameter comment="Where is the DB config located" name="db_config_location" prompt="db_config_location?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value="/home/jgillman/QA Stuff/git-repos/talend_properties/ref_database/database.jgillman"/>
+    <contextParameter comment="Config File for AMC" name="amc_config_location" prompt="amc_config_location?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value="/home/jgillman/QA Stuff/git-repos/talend_properties/ref_database/amc.jgillman"/>
+  </context>
+  <context confirmationNeeded="false" name="development">
+    <contextParameter comment="" name="bookkeep_host" prompt="bookkeep_host?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="bookkeep_port" prompt="bookkeep_port?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="bookkeep_db" prompt="bookkeep_db?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="bookkeep_user" prompt="bookkeep_user?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="bookkeep_pass" prompt="bookkeep_pass?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_Password" value=""/>
+    <contextParameter comment="" name="prov_host" prompt="prov_host?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="prov_port" prompt="prov_port?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="prov_db" prompt="prov_db?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="prov_user" prompt="prov_user?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="prov_pass" prompt="prov_pass?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_Password" value=""/>
+    <contextParameter comment="" name="amc_host" prompt="amc_host?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="amc_port" prompt="amc_port?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="amc_db" prompt="amc_db?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="amc_user" prompt="amc_user?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="amc_pass" prompt="amc_pass?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_Password" value=""/>
+    <contextParameter comment="" name="pa_host" prompt="pa_host?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="pa_port" prompt="pa_port?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="pa_db" prompt="pa_db?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="pa_user" prompt="pa_user?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="pa_pass" prompt="pa_pass?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_Password" value=""/>
+    <contextParameter comment="Where is the DB config located" name="db_config_location" prompt="db_config_location?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value="/home/talenduser/talend_properties/ref_database/database.development"/>
+    <contextParameter comment="Config File for AMC" name="amc_config_location" prompt="amc_config_location?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value="/home/talenduser/talend_properties/ref_database/amc.development"/>
+  </context>
+  <context confirmationNeeded="false" name="production">
+    <contextParameter comment="" name="bookkeep_host" prompt="bookkeep_host?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="bookkeep_port" prompt="bookkeep_port?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="bookkeep_db" prompt="bookkeep_db?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="bookkeep_user" prompt="bookkeep_user?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="bookkeep_pass" prompt="bookkeep_pass?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_Password" value=""/>
+    <contextParameter comment="" name="prov_host" prompt="prov_host?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="prov_port" prompt="prov_port?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="prov_db" prompt="prov_db?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="prov_user" prompt="prov_user?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="prov_pass" prompt="prov_pass?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_Password" value=""/>
+    <contextParameter comment="" name="amc_host" prompt="amc_host?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="amc_port" prompt="amc_port?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="amc_db" prompt="amc_db?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="amc_user" prompt="amc_user?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="amc_pass" prompt="amc_pass?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_Password" value=""/>
+    <contextParameter comment="" name="pa_host" prompt="pa_host?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="pa_port" prompt="pa_port?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="pa_db" prompt="pa_db?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="pa_user" prompt="pa_user?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="pa_pass" prompt="pa_pass?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_Password" value=""/>
+    <contextParameter comment="Where is the DB config located" name="db_config_location" prompt="db_config_location?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value="/home/talenduser/talend_properties/ref_database/database.production"/>
+    <contextParameter comment="Config File for AMC" name="amc_config_location" prompt="amc_config_location?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value="/home/talenduser/talend_properties/ref_database/amc.production"/>
+  </context>
+  <context confirmationNeeded="false" name="dkrause">
+    <contextParameter comment="" name="bookkeep_host" prompt="bookkeep_host?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="bookkeep_port" prompt="bookkeep_port?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="bookkeep_db" prompt="bookkeep_db?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="bookkeep_user" prompt="bookkeep_user?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="bookkeep_pass" prompt="bookkeep_pass?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_Password" value=""/>
+    <contextParameter comment="" name="prov_host" prompt="prov_host?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="prov_port" prompt="prov_port?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="prov_db" prompt="prov_db?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="prov_user" prompt="prov_user?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="prov_pass" prompt="prov_pass?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_Password" value=""/>
+    <contextParameter comment="" name="amc_host" prompt="amc_host?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="amc_port" prompt="amc_port?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="amc_db" prompt="amc_db?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="amc_user" prompt="amc_user?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="amc_pass" prompt="amc_pass?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_Password" value=""/>
+    <contextParameter comment="" name="pa_host" prompt="pa_host?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="pa_port" prompt="pa_port?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="pa_db" prompt="pa_db?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="pa_user" prompt="pa_user?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value=""/>
+    <contextParameter comment="" name="pa_pass" prompt="pa_pass?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_Password" value=""/>
+    <contextParameter comment="Where is the DB config located" name="db_config_location" prompt="db_config_location?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value="/home/dan/bi/talend_properties/ref_database/database.dkrause"/>
+    <contextParameter comment="Config File for AMC" name="amc_config_location" prompt="amc_config_location?" promptNeeded="false" repositoryContextId="__tFA0CflEeehUPdQ49xsgQ" type="id_String" value="/home/dan/bi/talend_properties/ref_database/amc.dkrause"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="64" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="true"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="true"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="context.amc_config_location"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot; = &quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Info"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="true"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;/home/jgillman/TalendWorkspaces/Development/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tPostgresqlOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="PRIOR_TO_V9"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="context.amc_host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.amc_port"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.amc_db"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="context.amc_user"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kudyFrw7wmbcKiL4uN51c3pI"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;stats&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;logs&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;flow&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="true"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_lxcygCkoEee5Rd7NBU-yXg" name="DataOperation"/>
+    <routinesParameter id="_lxo_wCkoEee5Rd7NBU-yXg" name="Mathematical"/>
+    <routinesParameter id="_lxlVYCkoEee5Rd7NBU-yXg" name="Numeric"/>
+    <routinesParameter id="_lxhD8CkoEee5Rd7NBU-yXg" name="Relational"/>
+    <routinesParameter id="_lxw7kCkoEee5Rd7NBU-yXg" name="SQLike"/>
+    <routinesParameter id="_lwZpoCkoEee5Rd7NBU-yXg" name="StringHandling"/>
+    <routinesParameter id="_lxrcACkoEee5Rd7NBU-yXg" name="TalendDataGenerator"/>
+    <routinesParameter id="_lxnKkCkoEee5Rd7NBU-yXg" name="TalendDate"/>
+    <routinesParameter id="_lxsqICkoEee5Rd7NBU-yXg" name="TalendString"/>
+  </parameters>
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="ref_database:open_database_connections" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="224" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="ref_database:open_database_connections_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" value="false" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_1" value="COMPONENT_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value="tPrejob_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="Load DB Configs"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="tPostgresqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlConnection_1" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="PRIOR_TO_V9"/>
+    <elementParameter field="TEXT" name="HOST" value="context.bookkeep_host"/>
+    <elementParameter field="TEXT" name="TYPE" value="PostgreSQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.bookkeep_port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.bookkeep_db"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="context.bookkeep_user"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufn1ORk5rJIO6J+E/C9apaJ"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="BK"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="0">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_1" show="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Could not open connection to bookkeep&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="4"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="BK"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_1"/>
+  </node>
+  <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="0">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_2" show="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Could not open connection to DW - scd&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="4"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="DW - scd"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_2"/>
+  </node>
+  <node componentName="tPostgresqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlConnection_2" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="PRIOR_TO_V9"/>
+    <elementParameter field="TEXT" name="HOST" value="context.pa_host"/>
+    <elementParameter field="TEXT" name="TYPE" value="PostgreSQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.pa_port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.pa_db"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;scd&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="context.pa_user"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kudHl4mK+SwXqA=="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="DW - scd"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connection to bookkeep opened&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="42"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
+    <elementParameter field="TEXT" name="LABEL" value="BK"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_1"/>
+  </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_2" show="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connection to DW - scd opened&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="42"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
+    <elementParameter field="TEXT" name="LABEL" value="DW - scd"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_2"/>
+  </node>
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="416">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlInput_1" show="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresqlConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="PRIOR_TO_V9" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="PostgreSQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#xA;/*&#xA; * Account details sans contact information (we'll pull that in separate)&#xA; */&#xA;WITH reseller_accounts AS (&#xA;&#x9;SELECT&#xA;&#x9;&#x9;accnt AS account&#xA;&#x9;FROM public.accounts_to_traits&#xA;&#x9;WHERE&#xA;&#x9;&#x9;trait = 'Reseller'&#xA;), storm_accounts AS (&#xA;&#x9;SELECT&#xA;&#x9;&#x9;accnt AS account&#xA;&#x9;FROM public.accounts_to_traits&#xA;&#x9;WHERE&#xA;&#x9;&#x9;trait = 'Storm'&#xA;), fraud_accounts AS (&#xA;&#x9;SELECT&#xA;&#x9;&#x9;accnt AS account&#xA;&#x9;FROM public.accounts_to_traits&#xA;&#x9;WHERE&#xA;&#x9;&#x9;trait = 'Fraud'&#xA;), account_manager AS (&#xA;&#x9;SELECT&#xA;&#x9;&#x9;accnt AS account,&#xA;&#x9;&#x9;userid AS account_manager_id&#xA;&#x9;FROM public.account_manager&#xA;&#x9;WHERE&#xA;&#x9;&#x9;is_primary&#xA;)&#xA;SELECT&#xA;&#x9;a.accnt AS account,&#xA;&#x9;a.account_status,&#xA;&#x9;a.priority,&#xA;&#x9;a.activation_date AS create_date,&#xA;&#x9;COALESCE(a.parent_accnt, a.accnt) AS parent_account,&#xA;&#x9;CASE&#xA;&#x9;&#x9;WHEN a.priority IN ('high', 'critical') THEN TRUE&#xA;&#x9;&#x9;ELSE FALSE&#xA;&#x9;END::BOOLEAN AS is_enterprise,&#xA;&#x9;CASE&#xA;&#x9;&#x9;WHEN ra.account IS NOT NULL THEN TRUE&#xA;&#x9;&#x9;ELSE FALSE&#xA;&#x9;END::BOOLEAN AS is_reseller,&#xA;&#x9;COALESCE(am.account_manager_id, -1)::INTEGER AS account_manager_id,&#xA;&#x9;CASE&#xA;&#x9;&#x9;WHEN nra.accnt IS NOT NULL THEN TRUE&#xA;&#x9;&#x9;ELSE FALSE&#xA;&#x9;END::BOOLEAN AS non_reporting,&#xA;&#x9;CASE&#xA;&#x9;&#x9;WHEN sa.account IS NOT NULL THEN TRUE&#xA;&#x9;&#x9;ELSE FALSE&#xA;&#x9;END::BOOLEAN AS is_storm,&#xA;&#x9;CASE&#xA;&#x9;&#x9;WHEN fa.account IS NOT NULL THEN TRUE&#xA;&#x9;&#x9;ELSE FALSE&#xA;&#x9;END::BOOLEAN AS is_fraud,&#xA;&#x9;CASE&#xA;&#x9;&#x9;WHEN (NOW()::DATE - '30 days'::INTERVAL) &lt;= activation_date::DATE&#xA;&#x9;&#x9;&#x9;THEN TRUE&#xA;&#x9;&#x9;ELSE FALSE&#xA;&#x9;END AS in_30,&#xA;&#x9;CASE&#xA;&#x9;&#x9;WHEN (NOW()::DATE - '45 days'::INTERVAL) &lt;= activation_date::DATE&#xA;&#x9;&#x9;&#x9;THEN TRUE&#xA;&#x9;&#x9;ELSE FALSE&#xA;&#x9;END AS in_45,&#xA;&#x9;CASE&#xA;&#x9;&#x9;WHEN (NOW()::DATE - '60 days'::INTERVAL) &lt;= activation_date::DATE&#xA;&#x9;&#x9;&#x9;THEN TRUE&#xA;&#x9;&#x9;ELSE FALSE&#xA;&#x9;END AS in_60&#xA;FROM public.account a&#xA;&#x9;LEFT JOIN reseller_accounts AS ra&#xA;&#x9;&#x9;ON a.accnt = ra.account&#xA;&#x9;LEFT JOIN account_manager am&#xA;&#x9;&#x9;ON a.accnt = am.account&#xA;&#x9;LEFT JOIN public.nonreporting_account nra&#xA;&#x9;&#x9;ON a.accnt = nra.accnt&#xA;&#x9;LEFT JOIN storm_accounts sa&#xA;&#x9;&#x9;ON a.accnt = sa.account&#xA;&#x9;LEFT JOIN fraud_accounts fa&#xA;&#x9;&#x9;ON a.accnt = fa.account&#xA;ORDER BY&#xA;&#x9;a.accnt;&#xA;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="account"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="account_status"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="priority"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="create_date"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="parent_account"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="is_enterprise"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="is_reseller"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="account_manager_id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="non_reporting"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="is_storm"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="is_fraud"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="in_30"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="in_45"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="in_60"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="Read Base Account Details"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tPostgresqlInput_1">
+      <column comment="" defaultValue="" key="false" length="10" name="account" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="account_status" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="priority" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="13" name="create_date" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="TIMESTAMP" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="parent_account" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="is_enterprise" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="is_reseller" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="account_manager_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="non_reporting" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="is_storm" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="is_fraud" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="in_30" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="in_45" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="in_60" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="448" posY="576">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_xa994CkpEee5Rd7NBU-yXg-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="account_details_in">
+      <column comment="" defaultValue="" key="false" length="10" name="account" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="account_status" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="priority" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="13" name="create_date" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="TIMESTAMP" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="parent_account" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="is_enterprise" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="is_reseller" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="account_manager_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="non_reporting" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="is_storm" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="is_fraud" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="in_30" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="in_45" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="in_60" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="contact_first_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="contact_middle_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="120" name="contact_last_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="120" name="contact_organization" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="contact_address" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="contact_address2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="80" name="contact_city" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="80" name="contact_state" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="contact_postal_code" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="contact_country" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_timezone" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_tax_id" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="contact_tax_exempt" nullable="false" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_tax_exempt_reason" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_email_addresses" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_phone_numbers" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="account_traits" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="business_group" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="account_details_in">
+        <mapperTableEntries name="account" expression="row1.account " type="id_Integer"/>
+        <mapperTableEntries name="account_status" expression="row1.account_status " type="id_String"/>
+        <mapperTableEntries name="priority" expression="row1.priority " type="id_String"/>
+        <mapperTableEntries name="create_date" expression="row1.create_date " type="id_Date" nullable="true"/>
+        <mapperTableEntries name="parent_account" expression="row1.parent_account " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="is_enterprise" expression="row1.is_enterprise " type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="is_reseller" expression="row1.is_reseller " type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="account_manager_id" expression="row1.account_manager_id " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="non_reporting" expression="row1.non_reporting " type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="is_storm" expression="row1.is_storm " type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="is_fraud" expression="row1.is_fraud " type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="in_30" expression="row1.in_30 " type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="in_45" expression="row1.in_45 " type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="in_60" expression="row1.in_60 " type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="contact_first_name" expression="row2.contact_first_name " type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_middle_name" expression="row2.contact_middle_name " type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_last_name" expression="row2.contact_last_name " type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_organization" expression="row2.contact_organization " type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_address" expression="row2.contact_address " type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_address2" expression="row2.contact_address2 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_city" expression="row2.contact_city " type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_state" expression="row2.contact_state " type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_postal_code" expression="row2.contact_postal_code " type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_country" expression="row2.contact_country " type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_timezone" expression="row2.contact_timezone " type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_tax_id" expression="row2.contact_tax_id " type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_tax_exempt" expression="row2.contact_tax_exempt " type="id_Boolean"/>
+        <mapperTableEntries name="contact_tax_exempt_reason" expression="row2.contact_tax_exempt_reason " type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_email_addresses" expression="row2.contact_email_addresses " type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_phone_numbers" expression="row2.contact_phone_numbers " type="id_String" nullable="true"/>
+        <mapperTableEntries name="account_traits" expression="row3.account_traits " type="id_String" nullable="true"/>
+        <mapperTableEntries name="business_group" expression="row4.business_group==null?&quot;LiquidWeb&quot;:row4.business_group " type="id_String" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row1" minimized="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="account" type="id_Integer"/>
+        <mapperTableEntries name="account_status" type="id_String"/>
+        <mapperTableEntries name="priority" type="id_String"/>
+        <mapperTableEntries name="create_date" type="id_Date" nullable="true"/>
+        <mapperTableEntries name="parent_account" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="is_enterprise" type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="is_reseller" type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="account_manager_id" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="non_reporting" type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="is_storm" type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="is_fraud" type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="in_30" type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="in_45" type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="in_60" type="id_Boolean" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row2" minimized="true" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="account" expression="row1.account " type="id_Integer" nullable="true" operator="="/>
+        <mapperTableEntries name="contact_first_name" type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_middle_name" type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_last_name" type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_organization" type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_address" type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_address2" type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_city" type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_state" type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_postal_code" type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_country" type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_timezone" type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_tax_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_tax_exempt" type="id_Boolean"/>
+        <mapperTableEntries name="contact_tax_exempt_reason" type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_email_addresses" type="id_String" nullable="true"/>
+        <mapperTableEntries name="contact_phone_numbers" type="id_String" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row3" minimized="true" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="accnt" expression="row1.account " type="id_Integer" operator="="/>
+        <mapperTableEntries name="account_traits" type="id_String" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row4" minimized="true" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="accnt" expression="row1.account " type="id_Integer" nullable="true" operator="="/>
+        <mapperTableEntries name="business_group" type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="512">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlInput_2" show="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresqlConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="PRIOR_TO_V9" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="PostgreSQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#xA;WITH contact_emails AS (&#xA;&#x9;SELECT&#xA;&#x9;&#x9;contact_id,&#xA;&#x9;&#x9;string_agg(address, ', ' ORDER BY address) AS email_addresses&#xA;&#x9;FROM public.contact_emails&#xA;&#x9;GROUP BY&#xA;&#x9;&#x9;contact_id&#xA;), contact_phones AS (&#xA;&#x9;SELECT&#xA;&#x9;&#x9;contact_id,&#xA;&#x9;&#x9;string_agg(number, ' || ' ORDER BY number) AS phone_numbers&#xA;&#x9;FROM public.contact_phones&#xA;&#x9;GROUP BY&#xA;&#x9;&#x9;contact_id&#xA;)&#xA;&#xA;SELECT&#xA;&#x9;orel.owner_id::INTEGER AS account,&#xA;&#x9;c.fname AS contact_first_name,&#xA;&#x9;c.mname AS contact_middle_name,&#xA;&#x9;c.lname AS contact_last_name,&#xA;&#x9;c.organization AS contact_organization,&#xA;&#x9;c.address AS contact_address,&#xA;&#x9;c.address2 AS contact_address2,&#xA;&#x9;c.city AS contact_city,&#xA;&#x9;c.state AS contact_state,&#xA;&#x9;c.postal_code AS contact_postal_code,&#xA;&#x9;c.country AS contact_country,&#xA;&#x9;c.time_zone AS contact_timezone,&#xA;&#x9;c.tax_id AS contact_tax_id,&#xA;&#x9;c.tax_exempt AS contact_tax_exempt,&#xA;&#x9;c.tax_exempt_reason AS contact_tax_exempt_reason,&#xA;&#x9;ce.email_addresses AS contact_email_addresses,&#xA;&#x9;cp.phone_numbers AS contact_phone_numbers&#xA;FROM public.contacts c&#xA;&#x9;INNER JOIN public.billing_contacts bc&#xA;&#x9;&#x9;ON c.id = bc.contact_id AND bc.type_id = 1&#xA;&#x9;INNER JOIN public.owner_relation orel&#xA;&#x9;&#x9;ON bc.owner_rel_id = orel.id AND orel.type = 0&#xA;&#x9;LEFT JOIN contact_emails ce&#xA;&#x9;&#x9;ON c.id = ce.contact_id&#xA;&#x9;LEFT JOIN contact_phones cp&#xA;&#x9;&#x9;ON c.id = cp.contact_id&#xA;ORDER BY&#xA;&#x9;orel.owner_id::INTEGER;&#xA;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="account"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact_first_name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact_middle_name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact_last_name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact_organization"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact_address"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact_address2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact_city"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact_state"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact_postal_code"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact_country"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact_timezone"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact_tax_id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact_tax_exempt"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact_tax_exempt_reason"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact_email_addresses"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="contact_phone_numbers"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="Read Billing Contacts"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tPostgresqlInput_2">
+      <column comment="" defaultValue="" key="false" length="10" name="account" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="contact_first_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="contact_middle_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="120" name="contact_last_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="120" name="contact_organization" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="contact_address" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="contact_address2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="80" name="contact_city" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="80" name="contact_state" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="contact_postal_code" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="contact_country" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_timezone" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_tax_id" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="contact_tax_exempt" nullable="false" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_tax_exempt_reason" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_email_addresses" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_phone_numbers" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="608">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlInput_3" show="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresqlConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="PRIOR_TO_V9" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="PostgreSQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#xA;SELECT&#xA;&#x9;accnt,&#xA;&#x9;string_agg(trait, ',' ORDER BY trait) AS account_traits&#xA;FROM accounts_to_traits&#xA;GROUP BY&#xA;&#x9;accnt&#xA;ORDER BY&#xA;&#x9;accnt;&#xA;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="accnt"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="account_traits"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="Read Account Traits"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tPostgresqlInput_3">
+      <column comment="" defaultValue="" key="false" length="10" name="accnt" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="account_traits" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="704">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlInput_4" show="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresqlConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="PRIOR_TO_V9" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="PostgreSQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#xA;/*&#xA; * Get an account's business group&#xA; */&#xA;&#xA;SELECT&#xA;&#x9;accnt,&#xA;&#x9;'Deluxe'::TEXT AS business_group&#xA;FROM public.d_shared&#xA;&#xA;UNION&#xA;&#xA;SELECT&#xA;&#x9;accnt,&#xA;&#x9;source AS business_group&#xA;FROM public.source_metadata&#xA;ORDER BY accnt;&#xA;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="accnt"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="business_group"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="Read Business Group"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tPostgresqlInput_4">
+      <column comment="" defaultValue="" key="false" length="10" name="accnt" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="business_group" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPostgresqlSCD" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="576">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlSCD_1" show="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresqlConnection_2"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="PRIOR_TO_V9" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="Postgresql" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;test_scd&quot;"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="COLUMN_LIST" name="SURROGATE_KEY" value="id" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="SK_CREATION" value="TABLE_MAX" show="false"/>
+    <elementParameter field="TEXT" name="SK_DB_SEQUENCE" value="" show="false"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="SK_INPUT_FIELD" value="account" show="false"/>
+    <elementParameter field="TEXT" name="SK_ROUTINE" value="Numeric.sequence(&quot;seq&quot;, 1, 1)" show="false"/>
+    <elementParameter field="TABLE" name="SOURCE_KEYS" show="false">
+      <elementValue elementRef="NAME" value="account"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_SAVE_MEM_MODE" value="false"/>
+    <elementParameter field="CHECK" name="SOURCE_KEY_INC_NULL" value="false"/>
+    <elementParameter field="CHECK" name="USE_L0" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_L1" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ONLY_UPDATE_ACTIVE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_L2" value="true" show="false"/>
+    <elementParameter field="TABLE" name="L2_FIELDS" show="false">
+      <elementValue elementRef="NAME" value="account_manager_id"/>
+      <elementValue elementRef="NAME" value="account_status"/>
+      <elementValue elementRef="NAME" value="account_traits"/>
+      <elementValue elementRef="NAME" value="business_group"/>
+      <elementValue elementRef="NAME" value="contact_address"/>
+      <elementValue elementRef="NAME" value="contact_address2"/>
+      <elementValue elementRef="NAME" value="contact_city"/>
+      <elementValue elementRef="NAME" value="contact_country"/>
+      <elementValue elementRef="NAME" value="contact_email_addresses"/>
+      <elementValue elementRef="NAME" value="contact_first_name"/>
+      <elementValue elementRef="NAME" value="contact_last_name"/>
+      <elementValue elementRef="NAME" value="contact_middle_name"/>
+      <elementValue elementRef="NAME" value="contact_organization"/>
+      <elementValue elementRef="NAME" value="contact_phone_numbers"/>
+      <elementValue elementRef="NAME" value="contact_postal_code"/>
+      <elementValue elementRef="NAME" value="contact_state"/>
+      <elementValue elementRef="NAME" value="contact_tax_exempt"/>
+      <elementValue elementRef="NAME" value="contact_tax_exempt_reason"/>
+      <elementValue elementRef="NAME" value="contact_tax_id"/>
+      <elementValue elementRef="NAME" value="contact_timezone"/>
+      <elementValue elementRef="NAME" value="create_date"/>
+      <elementValue elementRef="NAME" value="in_30"/>
+      <elementValue elementRef="NAME" value="in_45"/>
+      <elementValue elementRef="NAME" value="in_60"/>
+      <elementValue elementRef="NAME" value="is_enterprise"/>
+      <elementValue elementRef="NAME" value="is_fraud"/>
+      <elementValue elementRef="NAME" value="is_reseller"/>
+      <elementValue elementRef="NAME" value="is_storm"/>
+      <elementValue elementRef="NAME" value="non_reporting"/>
+      <elementValue elementRef="NAME" value="parent_account"/>
+      <elementValue elementRef="NAME" value="priority"/>
+    </elementParameter>
+    <elementParameter field="COLUMN_LIST" name="L2_STARTDATE_FIELD" value="start_dtg" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="L2_STARTDATE_VALUE" value="JOB_START_TIME" show="false"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="L2_STARTDATE_INPUT_FIELD" value="account" show="false"/>
+    <elementParameter field="COLUMN_LIST" name="L2_ENDDATE_FIELD" value="end_dtg" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="L2_ENDDATE_VALUE" value="FIXED_VALUE" show="false"/>
+    <elementParameter field="TEXT" name="L2_ENDDATE_FIXED_VALUE" value="&quot;12345&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_L2_ACTIVE" value="false" show="false"/>
+    <elementParameter field="COLUMN_LIST" name="L2_ACTIVE_FIELD" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_L2_VERSION" value="false" show="false"/>
+    <elementParameter field="COLUMN_LIST" name="L2_VERSION_FIELD" value="" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="(Version must be an Integer)" show="false"/>
+    <elementParameter field="CHECK" name="USE_L3" value="false" show="false"/>
+    <elementParameter field="TABLE" name="L3_FIELDS" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="TEXT" name="L2_ENDDATE_TIME_DETAILS" value="&quot;00:00:00&quot;"/>
+    <elementParameter field="LABEL" name="NOICE" value="(Time pattern: 'HH:mm:ss')"/>
+    <elementParameter field="CHECK" name="DEBUG" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Account SCD"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tPostgresqlSCD_1">
+      <column comment="" defaultValue="" key="false" length="10" name="account" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="account_status" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="priority" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="13" name="create_date" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="TIMESTAMP" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="parent_account" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="is_enterprise" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="is_reseller" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="account_manager_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="non_reporting" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="is_storm" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="is_fraud" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="in_30" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="in_45" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="in_60" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="contact_first_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="contact_middle_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="120" name="contact_last_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="120" name="contact_organization" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="contact_address" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="contact_address2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="80" name="contact_city" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="80" name="contact_state" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="contact_postal_code" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="contact_country" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_timezone" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_tax_id" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="contact_tax_exempt" nullable="false" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_tax_exempt_reason" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_email_addresses" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_phone_numbers" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="account_traits" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="business_group" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="Column generated by scd editor." defaultValue="" key="false" length="-1" name="start_dtg" nullable="false" pattern="" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="Column generated by scd editor." defaultValue="" key="false" length="-1" name="end_dtg" nullable="true" pattern="" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="Column generated by scd editor." defaultValue="" key="true" length="-1" name="id" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" defaultValue="" key="false" length="10" name="account" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="account_status" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="priority" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="13" name="create_date" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="TIMESTAMP" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="parent_account" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="is_enterprise" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="is_reseller" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="account_manager_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="non_reporting" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="is_storm" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="is_fraud" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="in_30" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="in_45" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="in_60" nullable="true" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="contact_first_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="contact_middle_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="120" name="contact_last_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="120" name="contact_organization" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="contact_address" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="contact_address2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="80" name="contact_city" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="80" name="contact_state" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="contact_postal_code" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="contact_country" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_timezone" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_tax_id" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="contact_tax_exempt" nullable="false" pattern="" precision="0" sourceType="BOOL" type="id_Boolean" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_tax_exempt_reason" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_email_addresses" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="contact_phone_numbers" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="account_traits" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="business_group" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPostgresqlCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="928" posY="576">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlCommit_1" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresqlConnection_2"/>
+    <elementParameter field="CHECK" name="CLOSE" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="Commit DW - scd"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tPostgresqlCommit_1"/>
+  </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="704">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_3" show="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Update Records: &quot; + ((Integer)globalMap.get(&quot;tPostgresqlSCD_1_NB_LINE_UPDATED&quot;))"/>
+    <elementParameter field="TEXT" name="CODE" value="42"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="4"/>
+    <elementParameter field="TEXT" name="LABEL" value="Update Count"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_3"/>
+  </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="864" posY="704">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_4" show="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Inserted Records: &quot; + (((Integer)globalMap.get(&quot;tPostgresqlSCD_1_NB_LINE_INSERTED&quot;)) - ((Integer)globalMap.get(&quot;tPostgresqlSCD_1_NB_LINE_UPDATED&quot;)))"/>
+    <elementParameter field="TEXT" name="CODE" value="42"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="4"/>
+    <elementParameter field="TEXT" name="LABEL" value="Insert Count"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_4"/>
+  </node>
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="864">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tPostgresqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="864">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlClose_1" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresqlConnection_2"/>
+    <elementParameter field="TEXT" name="LABEL" value="Close DW - scd"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tPostgresqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="864">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlClose_2" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresqlConnection_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="Close BK"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1056" posY="704">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_5" show="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Account SCD Commited&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="42"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
+    <elementParameter field="TEXT" name="LABEL" value="Commit Complete"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_5"/>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="ref_database:open_database_connections_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
+  </connection>
+  <connection connectorName="TRIGGER_OUTPUT_1" label="OnSubjobOk (TRIGGER_OUTPUT_1)" lineStyle="1" metaname="ref_database:open_database_connections_1" offsetLabelX="0" offsetLabelY="0" source="ref_database:open_database_connections_1" target="tPostgresqlConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tPostgresqlConnection_1" offsetLabelX="0" offsetLabelY="0" source="tPostgresqlConnection_1" target="tDie_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentError1" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tPostgresqlConnection_1" offsetLabelX="0" offsetLabelY="0" source="tPostgresqlConnection_1" target="tPostgresqlConnection_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostgresqlConnection_1" offsetLabelX="0" offsetLabelY="0" source="tPostgresqlConnection_1" target="tWarn_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tPostgresqlConnection_2" offsetLabelX="0" offsetLabelY="0" source="tPostgresqlConnection_2" target="tDie_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentError2" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostgresqlConnection_2" offsetLabelX="0" offsetLabelY="0" source="tPostgresqlConnection_2" target="tWarn_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk3" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tPostgresqlInput_1" offsetLabelX="0" offsetLabelY="0" source="tPostgresqlInput_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="account_details_in" lineStyle="0" metaname="account_details_in" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tPostgresqlSCD_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="account_details_in" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="8" metaname="tPostgresqlInput_2" offsetLabelX="0" offsetLabelY="0" source="tPostgresqlInput_2" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="8" metaname="tPostgresqlInput_3" offsetLabelX="0" offsetLabelY="0" source="tPostgresqlInput_3" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="8" metaname="tPostgresqlInput_4" offsetLabelX="0" offsetLabelY="0" source="tPostgresqlInput_4" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostgresqlSCD_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tPostgresqlSCD_1" target="tPostgresqlCommit_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk4" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostgresqlSCD_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tPostgresqlSCD_1" target="tWarn_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk5" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostgresqlSCD_1" offsetLabelX="0" offsetLabelY="0" outputId="3" source="tPostgresqlSCD_1" target="tWarn_4">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk6" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostgresqlCommit_1" offsetLabelX="0" offsetLabelY="0" source="tPostgresqlCommit_1" target="tWarn_5">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk9" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tPostgresqlClose_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk7" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostgresqlClose_1" offsetLabelX="0" offsetLabelY="0" source="tPostgresqlClose_1" target="tPostgresqlClose_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk8" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="ref_database:open_database_connections_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlConnection_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlConnection_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlInput_1" show="false"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Update Account Details"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlCommit_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_4" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlClose_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlClose_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_5" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>
