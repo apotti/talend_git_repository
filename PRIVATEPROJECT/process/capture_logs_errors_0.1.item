@@ -141,6 +141,7 @@
     <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
     <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value="" show="false"/>
     <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="TEXT" name="LABEL" value="Source_Records_Count"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFlowMeter_1">
       <column comment="" key="false" length="-1" name="id" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
@@ -249,6 +250,7 @@
     <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
     <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value="" show="false"/>
     <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="TEXT" name="LABEL" value="Target_Records_Count"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFlowMeter_5">
       <column comment="" key="false" length="-1" name="companyID" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
