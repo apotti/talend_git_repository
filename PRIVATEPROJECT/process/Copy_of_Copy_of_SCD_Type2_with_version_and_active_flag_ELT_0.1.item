@@ -175,7 +175,7 @@
         <mapperTableEntries name="scd_version" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="scd_active" type="id_String" nullable="true"/>
         <mapperTableEntries name="companyKey" expression="" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="scd_start" expression="" type="id_Date"/>
+        <mapperTableEntries name="scd_start" expression="TalendDate.getDate(&quot;CCYY-MM-DD hh:mm:ss&quot;) " type="id_Date"/>
         <mapperTableEntries name="scd_end" expression="TalendDate.getDate(&quot;CCYY-MM-DD hh:mm:ss&quot;) " type="id_Date"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
