@@ -252,9 +252,13 @@
     <elementParameter field="IMAGE" name="PREVIEW" value="_0qe3ICmHEeenL9FBdi7ydw-tELTMysqlMap_1-PREVIEW.bmp"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="TABLE" label="company_dim_v2" name="table2">
-      <column comment="" key="false" length="11" name="companyID" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_String" originalLength="11" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="companyName" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="255" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="companyName_1" nullable="true" originalDbColumnName="companyName" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="255" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="companyKey" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="companyID" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="companyName" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="scd_start" nullable="true" pattern="" precision="-1" sourceType="DATETIME" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="scd_end" nullable="true" pattern="" precision="-1" sourceType="DATETIME" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="scd_version" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="scd_active" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="_1:DBMapData">
       <InputTables name="company" tableName="company" joinType="NO_JOIN">
@@ -266,9 +270,13 @@
         <DBMapperTableEntries name="companyName" expression="" operator=""/>
       </InputTables>
       <OutputTables name="table2" tableName="company_dim_v2">
+        <DBMapperTableEntries name="companyKey" expression="company.companyID "/>
         <DBMapperTableEntries name="companyID" expression="company.companyID "/>
-        <DBMapperTableEntries name="companyName" expression="company.companyName "/>
-        <DBMapperTableEntries name="companyName_1" expression="LCASE(company_ref.companyName )"/>
+        <DBMapperTableEntries name="companyName" expression="LCASE(company_ref.companyName )"/>
+        <DBMapperTableEntries name="scd_start" expression="NULL"/>
+        <DBMapperTableEntries name="scd_end" expression="NULL"/>
+        <DBMapperTableEntries name="scd_version" expression="NULL"/>
+        <DBMapperTableEntries name="scd_active" expression="NULL"/>
       </OutputTables>
     </nodeData>
   </node>
