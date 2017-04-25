@@ -117,7 +117,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="name_col"/>
       <elementValue elementRef="VALUE" value="&quot;A&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Zip"/>
-      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="VALUE" value="&quot;20148&quot;"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
     <elementParameter field="TABLE" name="INTABLE" show="false"/>
