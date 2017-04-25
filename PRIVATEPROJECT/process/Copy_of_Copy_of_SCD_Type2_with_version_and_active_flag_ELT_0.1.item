@@ -109,6 +109,7 @@
   </parameters>
   <node componentName="tMysqlSCDELT" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlSCDELT_1" show="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
@@ -130,10 +131,7 @@
     <elementParameter field="TABLE" name="L1_FIELDS" show="false"/>
     <elementParameter field="CHECK" name="USE_L2" value="true"/>
     <elementParameter field="TABLE" name="L2_FIELDS">
-      <elementValue elementRef="NAME" value="scd_start"/>
-      <elementValue elementRef="NAME" value="scd_end"/>
-      <elementValue elementRef="NAME" value="scd_active"/>
-      <elementValue elementRef="NAME" value="scd_version"/>
+      <elementValue elementRef="NAME" value="companyName"/>
     </elementParameter>
     <elementParameter field="COLUMN_LIST" name="L2_STARTDATE_FIELD" value="scd_start"/>
     <elementParameter field="COLUMN_LIST" name="L2_ENDDATE_FIELD" value="scd_end"/>
