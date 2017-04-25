@@ -272,7 +272,7 @@
       <OutputTables name="table1" tableName="company_dim_v2">
         <DBMapperTableEntries name="companyKey" expression="company.companyID "/>
         <DBMapperTableEntries name="companyID" expression="company.companyID "/>
-        <DBMapperTableEntries name="companyName" expression="StringHandling.DOWNCASE(company_ref.companyName)"/>
+        <DBMapperTableEntries name="companyName" expression="LCASE(company_ref.companyName)"/>
         <DBMapperTableEntries name="scd_start" expression="NULL"/>
         <DBMapperTableEntries name="scd_end" expression="NULL"/>
         <DBMapperTableEntries name="scd_version" expression="NULL"/>
