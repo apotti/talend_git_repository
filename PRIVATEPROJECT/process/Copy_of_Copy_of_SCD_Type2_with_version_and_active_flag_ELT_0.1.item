@@ -214,7 +214,7 @@
     <metadata connector="FLOW" name="tMysqlSCDELT_1">
       <column comment="" key="false" length="11" name="companyID" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" originalLength="11" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="companyName" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="255" usefulColumn="true"/>
-      <column comment="" key="false" length="11" name="companyKey" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" originalLength="11" usefulColumn="true"/>
+      <column comment="" key="true" length="11" name="companyKey" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" originalLength="11" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="scd_start" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="scd_end" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="11" name="scd_version" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" originalLength="11" usefulColumn="true"/>
