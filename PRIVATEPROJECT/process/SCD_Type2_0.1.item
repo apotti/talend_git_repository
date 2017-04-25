@@ -120,9 +120,9 @@
     <elementParameter field="RADIO" name="USE_INTABLE" value="true"/>
     <elementParameter field="TABLE" name="INTABLE">
       <elementValue elementRef="companyID" value="100"/>
-      <elementValue elementRef="companyName" value="&quot;DC2&quot;"/>
+      <elementValue elementRef="companyName" value="&quot;AAPL&quot;"/>
       <elementValue elementRef="companyID" value="200"/>
-      <elementValue elementRef="companyName" value="&quot;SF1&quot;"/>
+      <elementValue elementRef="companyName" value="&quot;MSFT&quot;"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
