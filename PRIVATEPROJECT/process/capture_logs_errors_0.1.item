@@ -384,9 +384,9 @@
       <column defaultValue="" key="false" length="255" name="thresholds" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tFlowMeter_1">
+  <connection connectorName="FLOW" label="Source_Read" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tFlowMeter_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Source_Read" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tFlowMeterCatcher_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
@@ -404,9 +404,9 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="out1" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tMysqlOutput_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMysqlOutput_1" target="tFlowMeter_5">
+  <connection connectorName="FLOW" label="Target_Records" lineStyle="0" metaname="tMysqlOutput_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMysqlOutput_1" target="tFlowMeter_5">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Target_Records" show="false"/>
   </connection>
   <connection connectorName="REJECT" label="row5" lineStyle="0" metaname="REJECT" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMysqlOutput_1" target="tWarn_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
