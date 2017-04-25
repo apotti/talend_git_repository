@@ -120,7 +120,7 @@
     <elementParameter field="RADIO" name="USE_INTABLE" value="true"/>
     <elementParameter field="TABLE" name="INTABLE">
       <elementValue elementRef="companyID" value="100"/>
-      <elementValue elementRef="companyName" value="&quot;AAPL&quot;"/>
+      <elementValue elementRef="companyName" value="&quot;AAP&quot;"/>
       <elementValue elementRef="companyID" value="200"/>
       <elementValue elementRef="companyName" value="&quot;MSFT&quot;"/>
     </elementParameter>
@@ -158,7 +158,9 @@
     <elementParameter field="CHECK" name="USE_SAVE_MEM_MODE" value="false"/>
     <elementParameter field="CHECK" name="SOURCE_KEY_INC_NULL" value="false"/>
     <elementParameter field="CHECK" name="USE_L0" value="false" show="false"/>
+    <elementParameter field="TABLE" name="L0_FIELDS" show="false"/>
     <elementParameter field="CHECK" name="USE_L1" value="false" show="false"/>
+    <elementParameter field="TABLE" name="L1_FIELDS" show="false"/>
     <elementParameter field="CHECK" name="ONLY_UPDATE_ACTIVE" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_L2" value="true" show="false"/>
     <elementParameter field="TABLE" name="L2_FIELDS" show="false">
