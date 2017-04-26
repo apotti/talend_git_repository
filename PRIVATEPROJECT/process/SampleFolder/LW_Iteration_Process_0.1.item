@@ -286,7 +286,7 @@
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tMysqlInput_4">
-      <column comment="" key="false" length="-1" name="file_name" nullable="true" pattern="" precision="-1" sourceType="CHAR" type="id_Character" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="file_name" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="384">
