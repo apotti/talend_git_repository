@@ -586,7 +586,7 @@
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out">
         <mapperTableEntries name="comp_count" expression="row7.comp_count " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="valid_flag" expression="Mathematical.row7.comp_count ==((Integer)globalMap.get(&quot;tMysqlOutput_1_NB_LINE&quot;))?&quot;MATCH&quot;:&quot;NO&quot; " type="id_String" nullable="true"/>
+        <mapperTableEntries name="valid_flag" expression="row7.comp_count ==((Integer)globalMap.get(&quot;tMysqlOutput_1_NB_LINE&quot;))?&quot;MATCH&quot;:&quot;NO&quot; " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row7" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="comp_count" type="id_Integer" nullable="true"/>
