@@ -202,15 +202,15 @@
   <node componentName="tSplitRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSplitRow_1" show="false"/>
     <elementParameter field="TABLE" name="COL_MAPPING">
-      <elementValue elementRef="Col1" value="row3.Col1"/>
-      <elementValue elementRef="Col2" value="row3.Col2"/>
-      <elementValue elementRef="Col31" value="row3.Col31"/>
-      <elementValue elementRef="Col1" value="row3.Col1"/>
-      <elementValue elementRef="Col2" value="row3.Col2"/>
-      <elementValue elementRef="Col31" value="row3.Col32"/>
-      <elementValue elementRef="Col1" value="row3.Col1"/>
-      <elementValue elementRef="Col2" value="row3.Col2"/>
-      <elementValue elementRef="Col31" value="row3.Col33"/>
+      <elementValue elementRef="Col1" value="row2.Col1"/>
+      <elementValue elementRef="Col2" value="row2.Col2"/>
+      <elementValue elementRef="Col31" value="row2.Col31"/>
+      <elementValue elementRef="Col1" value="row2.Col1"/>
+      <elementValue elementRef="Col2" value="row2.Col2"/>
+      <elementValue elementRef="Col31" value="row2.Col32"/>
+      <elementValue elementRef="Col1" value="row2.Col1"/>
+      <elementValue elementRef="Col2" value="row2.Col2"/>
+      <elementValue elementRef="Col31" value="row2.Col33"/>
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSplitRow_1">
