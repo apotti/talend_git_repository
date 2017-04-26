@@ -307,7 +307,7 @@
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="Control_Table">
         <mapperTableEntries name="companyID" expression="row6.companyID " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="Flag" expression="((String)globalMap.get(&quot;tMysqlOutput_1_ERROR_MESSAGE&quot;))==null?&quot;SUCCESS&quot;:" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Flag" expression="((String)globalMap.get(&quot;tMysqlOutput_1_ERROR_MESSAGE&quot;))==null?&quot;SUCCESS&quot;:&quot;FAILED&quot; " type="id_String" nullable="true"/>
         <mapperTableEntries name="Job_Name" expression="projectName + &quot;.&quot; + jobName" type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row6" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
