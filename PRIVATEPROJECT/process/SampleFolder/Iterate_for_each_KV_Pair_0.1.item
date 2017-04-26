@@ -252,9 +252,9 @@
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
     <elementParameter field="TABLE" name="VALUES">
       <elementValue elementRef="SCHEMA_COLUMN" value="companyID"/>
-      <elementValue elementRef="VALUE" value="context.to"/>
+      <elementValue elementRef="VALUE" value="context.companyID"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="companyName"/>
-      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="VALUE" value="context.companyName"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
     <elementParameter field="TABLE" name="INTABLE" show="false"/>
