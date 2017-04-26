@@ -243,7 +243,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;edw&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="pmpDGn2KaidLMtUm/9T7dw=="/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;company_ref&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;company_ref_out&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
