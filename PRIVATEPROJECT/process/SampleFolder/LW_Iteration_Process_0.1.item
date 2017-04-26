@@ -617,7 +617,7 @@
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row9" show="false"/>
   </connection>
-  <note opaque="true" posX="352" posY="320" sizeHeight="161" sizeWidth="513" text="This component will load partial data into the table. &#xD;&#xA;But we want to update the control table to success &#xD;&#xA;only if ALL data for the day has been loaded.&#xD;&#xA;So &#xD;&#xA;1. insert into the control table before iterating&#xD;&#xA;2. another subjob that goes back and updates the data &#xD;&#xA;once previous subjob completes successfully">
+  <note opaque="true" posX="352" posY="320" sizeHeight="161" sizeWidth="513" text="This component will load partial data into the table. &#xD;&#xA;But we want to update the control table to success &#xD;&#xA;only if ALL data for the day has been loaded.&#xD;&#xA;So &#xD;&#xA;1. insert into the control table before iterating&#xD;&#xA;2. another subjob that goes back and updates the data &#xD;&#xA;once previous subjob completes successfully&#xD;&#xA;3. What this means is we enable &quot;die on error&quot;. So &#xD;&#xA;irrespective of which iteration failed, we treat everything as &#xD;&#xA;failed.&#xD;&#xA;">
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
     <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
     <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
