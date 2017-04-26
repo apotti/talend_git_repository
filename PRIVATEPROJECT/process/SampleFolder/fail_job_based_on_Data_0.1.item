@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="expected_val" prompt="expected_val?" promptNeeded="false" type="id_Integer" value="100"/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
@@ -163,10 +165,10 @@
     <nodeData xsi:type="MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="Main_Output" expressionFilter="row1.companyID==100" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="Main_Output" expressionFilter="row1.companyID==context.expected_val" activateExpressionFilter="true">
         <mapperTableEntries name="companyID" expression="row1.companyID " type="id_Integer" nullable="true"/>
       </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="Error" expressionFilter="row1.companyID!=100 ||Relational.ISNULL(row1.companyID)" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="Error" expressionFilter="row1.companyID!=context.expected_val ||Relational.ISNULL(row1.companyID)" activateExpressionFilter="true">
         <mapperTableEntries name="companyID" expression="row1.companyID " type="id_Integer" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
@@ -209,7 +211,7 @@
       <column comment="" key="false" length="-1" name="companyID" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="384">
+  <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_2" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Oops! no data returned by your SQL&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>
