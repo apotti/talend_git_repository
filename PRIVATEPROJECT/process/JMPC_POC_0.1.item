@@ -313,8 +313,14 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSplitRow_1" show="false"/>
     <elementParameter field="TABLE" name="COL_MAPPING">
       <elementValue elementRef="Col1" value="row1.Col1"/>
-      <elementValue elementRef="Col2" value="Row1.Col2"/>
-      <elementValue elementRef="Col31" value="Row1.Col31"/>
+      <elementValue elementRef="Col2" value="row1.Col2"/>
+      <elementValue elementRef="Col31" value="row1.Col31"/>
+      <elementValue elementRef="Col1" value="row1.Col1"/>
+      <elementValue elementRef="Col2" value="row1.Col2"/>
+      <elementValue elementRef="Col31" value="row1.Col32"/>
+      <elementValue elementRef="Col1" value="row1.Col1"/>
+      <elementValue elementRef="Col2" value="row1.Col2"/>
+      <elementValue elementRef="Col31" value="row1.Col33"/>
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSplitRow_1">
