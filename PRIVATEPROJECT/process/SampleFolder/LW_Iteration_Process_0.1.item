@@ -579,14 +579,14 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="out" name="out">
       <column comment="" key="false" length="-1" name="comp_count" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="valid_flag" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="valid_flag" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out">
         <mapperTableEntries name="comp_count" expression="row7.comp_count " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="valid_flag" expression="((Integer)globalMap.get(&quot;tMysqlInput_6_NB_LINE&quot;))==((Integer)globalMap.get(&quot;tMysqlOutput_1_NB_LINE&quot;))?&quot;MATCH&quot;:&quot;NO&quot; " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="valid_flag" expression="((Integer)globalMap.get(&quot;tMysqlInput_6_NB_LINE&quot;))==((Integer)globalMap.get(&quot;tMysqlOutput_1_NB_LINE&quot;))?&quot;MATCH&quot;:&quot;NO&quot; " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row7" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="comp_count" type="id_Integer" nullable="true"/>
@@ -617,7 +617,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="out" name="tLogRow_1">
       <column comment="" key="false" length="-1" name="comp_count" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="valid_flag" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="valid_flag" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tMysqlInput_1" offsetLabelX="0" offsetLabelY="0" source="tMysqlInput_1" target="tJavaRow_1">
