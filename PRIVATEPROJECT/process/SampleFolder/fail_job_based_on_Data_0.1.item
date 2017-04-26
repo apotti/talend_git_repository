@@ -166,7 +166,7 @@
       <outputTables sizeState="INTERMEDIATE" name="Main_Output" expressionFilter="row1.companyID==100" activateExpressionFilter="true">
         <mapperTableEntries name="companyID" expression="row1.companyID " type="id_Integer" nullable="true"/>
       </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="Error" expressionFilter="row1.companyID!=100" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="Error" expressionFilter="row1.companyID!=100 ||Relational.ISNULL(row1.companyID)" activateExpressionFilter="true">
         <mapperTableEntries name="companyID" expression="row1.companyID " type="id_Integer" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
