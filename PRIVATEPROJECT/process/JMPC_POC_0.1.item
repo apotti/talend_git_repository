@@ -312,10 +312,10 @@
   <node componentName="tSplitRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSplitRow_1" show="false"/>
     <elementParameter field="TABLE" name="COL_MAPPING">
-      <elementValue elementRef="Col1" value="row1.Col1"/>
+      <elementValue elementRef="Col1" value="row3.Col1"/>
       <elementValue elementRef="Col2" value="row1.Col2"/>
       <elementValue elementRef="Col31" value="row1.Col31"/>
-      <elementValue elementRef="Col1" value="row1.Col1"/>
+      <elementValue elementRef="Col1" value="row3.Col1"/>
       <elementValue elementRef="Col2" value="row1.Col2"/>
       <elementValue elementRef="Col31" value="row1.Col32"/>
       <elementValue elementRef="Col1" value="row1.Col1"/>
