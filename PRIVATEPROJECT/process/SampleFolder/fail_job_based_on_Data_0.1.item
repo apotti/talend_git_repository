@@ -160,7 +160,7 @@
     <nodeData xsi:type="MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="Main_Output" expressionFilter="row.companyID==100" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="Main_Output" expressionFilter="row1.companyID==100" activateExpressionFilter="true">
         <mapperTableEntries name="companyID" expression="row1.companyID " type="id_Integer" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
