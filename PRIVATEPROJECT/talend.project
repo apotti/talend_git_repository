@@ -576,6 +576,7 @@
       <relatedItems xmi:id="_paHTOStVEee5wd4IIL5ThA" id="TalendDataGenerator" version="Latest" type="routine"/>
       <relatedItems xmi:id="_paHTOitVEee5wd4IIL5ThA" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_paHTOytVEee5wd4IIL5ThA" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ho3H8CtWEee5wd4IIL5ThA" id="_ZPx9ICtWEee5wd4IIL5ThA" version="Latest" type="joblet"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_ZgFC8CtWEee5wd4IIL5ThA">
       <baseItem xmi:id="_ZgFqACtWEee5wd4IIL5ThA" id="_ZPx9ICtWEee5wd4IIL5ThA" version="0.1" type="joblet"/>
