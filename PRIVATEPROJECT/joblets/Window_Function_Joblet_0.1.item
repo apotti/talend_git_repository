@@ -130,7 +130,7 @@
         <column comment="" key="false" length="-1" name="MRIC_Diff" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       </metadata>
       <nodeData xsi:type="MapperData">
-        <uiProperties/>
+        <uiProperties shellMaximized="true"/>
         <varTables sizeState="INTERMEDIATE" name="Var">
           <mapperTableEntries name="MRIC_Diff" expression="Derive_Sub_Account_No.SubAccoutNoType ==&quot;same&quot; ?  Derive_Sub_Account_No.MRIC - Var.Prev_MRIC: Derive_Sub_Account_No.MRIC " type="id_Integer"/>
           <mapperTableEntries name="Prev_MRIC" expression="Derive_Sub_Account_No.MRIC " type="id_Integer"/>
