@@ -125,7 +125,7 @@
       <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
       <metadata connector="FLOW" name="Prep_Output">
         <column comment="" key="false" length="-1" name="SubAccountNo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-        <column comment="" key="false" length="-1" name="Date_Account" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="Date_Account" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
         <column comment="" key="false" length="-1" name="MRIC" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
         <column comment="" key="false" length="-1" name="MRIC_Diff" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       </metadata>
@@ -137,7 +137,7 @@
         </varTables>
         <outputTables sizeState="INTERMEDIATE" name="Prep_Output">
           <mapperTableEntries name="SubAccountNo" expression="Derive_Sub_Account_No.SubAccountNo " type="id_String" nullable="true"/>
-          <mapperTableEntries name="Date_Account" expression="Derive_Sub_Account_No.Date_Account " type="id_String" nullable="true"/>
+          <mapperTableEntries name="Date_Account" expression="Derive_Sub_Account_No.Date_Account " type="id_Date" nullable="true"/>
           <mapperTableEntries name="MRIC" expression="Derive_Sub_Account_No.MRIC " type="id_Integer" nullable="true"/>
           <mapperTableEntries name="MRIC_Diff" expression="Var.MRIC_Diff " type="id_Integer"/>
         </outputTables>
@@ -192,7 +192,7 @@
       <elementParameter field="MEMO" name="COMMENT" value=""/>
       <metadata connector="FLOW" name="OUTPUT_1">
         <column comment="" key="false" length="-1" name="SubAccountNo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-        <column comment="" key="false" length="-1" name="Date_Account" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="Date_Account" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
         <column comment="" key="false" length="-1" name="MRIC" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
         <column comment="" key="false" length="-1" name="MRIC_Diff" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       </metadata>
