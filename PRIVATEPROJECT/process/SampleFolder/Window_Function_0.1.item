@@ -235,7 +235,7 @@
       <elementValue elementRef="MRIC" value="200"/>
       <elementValue elementRef="SubAccountNo" value="&quot;100&quot;"/>
       <elementValue elementRef="Date_Account" value="&quot;003&quot;"/>
-      <elementValue elementRef="MRIC" value="300"/>
+      <elementValue elementRef="MRIC" value="100"/>
       <elementValue elementRef="SubAccountNo" value="&quot;200&quot;"/>
       <elementValue elementRef="Date_Account" value="&quot;001&quot;"/>
       <elementValue elementRef="MRIC" value="200"/>
