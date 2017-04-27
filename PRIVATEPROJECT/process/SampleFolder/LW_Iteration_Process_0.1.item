@@ -602,7 +602,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="control_table_initialize">
-        <mapperTableEntries name="jobName" expression="projectName + jobName " type="id_String" nullable="true"/>
+        <mapperTableEntries name="jobName" expression="projectName + &quot;_&quot; + jobName " type="id_String" nullable="true"/>
         <mapperTableEntries name="jobdate" expression="row13.execDate " type="id_Date" nullable="true"/>
         <mapperTableEntries name="execution_status_flag" expression="&quot;INCOMPLETE&quot;" type="id_String" nullable="true"/>
       </outputTables>
