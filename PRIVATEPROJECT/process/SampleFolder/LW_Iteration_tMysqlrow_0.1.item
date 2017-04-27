@@ -232,8 +232,6 @@
   </node>
   <node componentName="tParseRecordSet" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tParseRecordSet_1" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="CHECK" name="DUMMY" value="true" show="false"/>
     <elementParameter field="PREV_COLUMN_LIST" name="RECORDSET_FIELD" value="id"/>
     <elementParameter field="TABLE" name="ATTRIBUTE_TABLE">
       <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
