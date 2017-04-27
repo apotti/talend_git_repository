@@ -231,7 +231,7 @@
       <elementValue elementRef="OUTPUT_COLUMN" value="SubAccountNo"/>
       <elementValue elementRef="INPUT_COLUMN" value="SubAccountNo"/>
       <elementValue elementRef="OUTPUT_COLUMN" value="date_account"/>
-      <elementValue elementRef="INPUT_COLUMN" value="SubAccountNo"/>
+      <elementValue elementRef="INPUT_COLUMN" value="date_account"/>
     </elementParameter>
     <elementParameter field="TABLE" name="OPERATIONS">
       <elementValue elementRef="OUTPUT_COLUMN" value="MRIC"/>
