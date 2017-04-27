@@ -202,7 +202,7 @@
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="true"/>
-    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="id"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="LabelStateRecordSet"/>
     <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="true"/>
     <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS">
       <elementValue elementRef="PARAMETER_INDEX" value="1"/>
