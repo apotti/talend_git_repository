@@ -512,7 +512,7 @@
   <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_5" offsetLabelX="0" offsetLabelY="0" source="tFlowToIterate_5" target="tMysqlInput_10">
     <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
     <elementParameter field="TEXT" name="NUMBER_PARALLEL" value="2" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate5" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate2" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tMysqlInput_10" offsetLabelX="0" offsetLabelY="0" source="tMysqlInput_10" target="tLogRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
