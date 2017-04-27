@@ -422,7 +422,7 @@
     <nodeData xsi:type="MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var">
-        <mapperTableEntries name="MRIC_DIFF" expression="copyOfcopyOfout1.SubAccountNoType==&quot;same&quot;?copyOfcopyOfout1.MRIC-Var.Prev_MRIC:copyOfcopyOfout1.MRIC " type="id_Integer"/>
+        <mapperTableEntries name="MRIC_DIFF" expression="copyOfcopyOfout1.SubAccoutNoType ==&quot;same&quot; ?  copyOfcopyOfout1.MRIC - Var.Prev_MRIC " type="id_Integer"/>
         <mapperTableEntries name="Prev_MRIC" expression="copyOfcopyOfout1.MRIC " type="id_Integer"/>
       </varTables>
       <outputTables sizeState="INTERMEDIATE" name="Main_Out">
