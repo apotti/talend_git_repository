@@ -204,19 +204,19 @@
       <column comment="" key="false" length="-1" name="SubAccountNo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Date_Account" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="MRIC" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="MRIC_Diff" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MRIC_Diff" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var">
-        <mapperTableEntries name="MRIC_Diff" expression="Derive_Sub_Account_No.SubAccoutNoType ==&quot;same&quot; ?  Derive_Sub_Account_No.MRIC - Var.Prev_MRIC: Derive_Sub_Account_No.MRIC " type="id_String"/>
-        <mapperTableEntries name="Prev_MRIC" expression="Derive_Sub_Account_No.MRIC " type="id_String"/>
+        <mapperTableEntries name="MRIC_Diff" expression="Derive_Sub_Account_No.SubAccoutNoType ==&quot;same&quot; ?  Derive_Sub_Account_No.MRIC - Var.Prev_MRIC: Derive_Sub_Account_No.MRIC " type="id_Integer"/>
+        <mapperTableEntries name="Prev_MRIC" expression="Derive_Sub_Account_No.MRIC " type="id_Integer"/>
       </varTables>
       <outputTables sizeState="INTERMEDIATE" name="Prep_Output">
         <mapperTableEntries name="SubAccountNo" expression="Derive_Sub_Account_No.SubAccountNo " type="id_String" nullable="true"/>
         <mapperTableEntries name="Date_Account" expression="Derive_Sub_Account_No.Date_Account " type="id_String" nullable="true"/>
         <mapperTableEntries name="MRIC" expression="Derive_Sub_Account_No.MRIC " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="MRIC_Diff" expression="Var.MRIC_Diff " type="id_String"/>
+        <mapperTableEntries name="MRIC_Diff" expression="Var.MRIC_Diff " type="id_Integer"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="Derive_Sub_Account_No" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="SubAccoutNoType" type="id_String"/>
@@ -256,7 +256,7 @@
       <column comment="" key="false" length="-1" name="SubAccountNo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Date_Account" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="MRIC" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="MRIC_Diff" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MRIC_Diff" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tMap_1">
