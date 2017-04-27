@@ -202,7 +202,7 @@
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="true"/>
-    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="LabelStateRecordSet"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="id"/>
     <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="true"/>
     <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS">
       <elementValue elementRef="PARAMETER_INDEX" value="1"/>
@@ -218,21 +218,21 @@
       <column comment="" key="false" length="-1" name="CustomerName" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="CustomerAddress" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="idState" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="LabelStateRecordSet" nullable="true" originalDbColumnName="LabelState" pattern="" precision="-1" sourceType="" type="id_Object" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="LabelState" nullable="true" pattern="" precision="-1" sourceType="" type="id_Object" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
       <column comment="" key="false" length="-1" name="id" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="CustomerName" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="CustomerAddress" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="idState" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="LabelStateRecordSet" nullable="true" originalDbColumnName="LabelState" pattern="" precision="-1" sourceType="" type="id_Object" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="LabelState" nullable="true" pattern="" precision="-1" sourceType="" type="id_Object" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tParseRecordSet" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tParseRecordSet_1" show="false"/>
-    <elementParameter field="PREV_COLUMN_LIST" name="RECORDSET_FIELD" value="LabelStateRecordSet"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="RECORDSET_FIELD" value="id"/>
     <elementParameter field="TABLE" name="ATTRIBUTE_TABLE">
       <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
       <elementValue elementRef="VALUE" value=""/>
