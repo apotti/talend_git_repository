@@ -122,13 +122,13 @@
     <elementParameter field="RADIO" name="USE_INTABLE" value="true"/>
     <elementParameter field="TABLE" name="INTABLE">
       <elementValue elementRef="SubAccountNo" value="100"/>
-      <elementValue elementRef="Date_Account" value="01-01-2017"/>
+      <elementValue elementRef="Date_Account" value="001"/>
       <elementValue elementRef="MRIC" value="100"/>
       <elementValue elementRef="SubAccountNo" value="100"/>
-      <elementValue elementRef="Date_Account" value="02-01-2017"/>
+      <elementValue elementRef="Date_Account" value="002"/>
       <elementValue elementRef="MRIC" value="200"/>
       <elementValue elementRef="SubAccountNo" value="100"/>
-      <elementValue elementRef="Date_Account" value="03-01-2017"/>
+      <elementValue elementRef="Date_Account" value="003"/>
       <elementValue elementRef="MRIC" value="300"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
