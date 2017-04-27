@@ -153,7 +153,7 @@
     <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;edw&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;edw1&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="pmpDGn2KaidLMtUm/9T7dw=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;company_out&quot;"/>
