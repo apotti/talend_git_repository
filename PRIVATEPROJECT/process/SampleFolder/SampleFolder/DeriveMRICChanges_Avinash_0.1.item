@@ -351,7 +351,7 @@
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="year"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="month"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="mon"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="day"/>
       <elementValue elementRef="TRIM" value="false"/>
@@ -372,7 +372,7 @@
       <column comment="" key="false" length="-1" name="product_sub_group" nullable="true" pattern="" precision="-1" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="product_group" nullable="true" pattern="" precision="-1" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="year" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="month" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="mon" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="day" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="date_accnt" nullable="true" pattern="" precision="-1" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="account_scd_id" nullable="true" pattern="" precision="-1" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -422,7 +422,7 @@
         <mapperTableEntries name="product_sub_group" expression="row1.product_sub_group  " type="id_String" nullable="true"/>
         <mapperTableEntries name="product_group" expression="row1.product_group  " type="id_String" nullable="true"/>
         <mapperTableEntries name="year" expression="row1.year  " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="month" expression="row1.month  " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="month" expression="row1.mon  " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="day" expression="row1.day  " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="date_accnt" expression="row1.date_accnt  " type="id_String" nullable="true"/>
         <mapperTableEntries name="account_scd_id" expression="row1.account_scd_id  " type="id_String" nullable="true"/>
@@ -438,7 +438,7 @@
         <mapperTableEntries name="product_sub_group" type="id_String" nullable="true"/>
         <mapperTableEntries name="product_group" type="id_String" nullable="true"/>
         <mapperTableEntries name="year" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="month" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="mon" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="day" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="date_accnt" type="id_String" nullable="true"/>
         <mapperTableEntries name="account_scd_id" type="id_String" nullable="true"/>
