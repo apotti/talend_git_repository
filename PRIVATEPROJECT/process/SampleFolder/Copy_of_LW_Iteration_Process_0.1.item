@@ -702,7 +702,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="Control_Table_Initialize" show="false"/>
   </connection>
   <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tMysqlOutput_1" offsetLabelX="0" offsetLabelY="0" source="tMysqlOutput_1" target="tMysqlInput_9">
-    <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Integer)globalMap.get(&quot;tMysqlOutput_1_NB_LINE_INSERTED&quot;)) >0 || ((String)globalMap.get(&quot;tMysqlOutput_1_ERROR_MESSAGE&quot;)) == &quot;Duplicate entry 'PRIVATEPROJECT_Copy_of_LW_Iteration_Process-2017-04-27' for key 'PRIMARY'&quot;&#xA;&#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="((String)globalMap.get(&quot;tMysqlOutput_1_ERROR_MESSAGE&quot;)) == &quot;Duplicate entry 'PRIVATEPROJECT_Copy_of_LW_Iteration_Process-2017-04-27' for key 'PRIMARY'&quot;"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="If1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tMysqlInput_2" offsetLabelX="0" offsetLabelY="0" source="tMysqlInput_2" target="tMap_2">
