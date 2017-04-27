@@ -387,7 +387,7 @@
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="SubAccoutNoType" expression="Var.Last_Sub_Acct_No!=null &amp;&amp; Var.Last_Sub_Acct_No.compareToIgnoreCase(row3.SubAccountNo)==0?&quot;same&quot; : &quot;new&quot;" type="id_String"/>
         <mapperTableEntries name="Last_Sub_Acct_No" expression="row3.SubAccountNo " type="id_String"/>
-        <mapperTableEntries name="Diff_var" expression="var.SubAccountNoType==&quot;same&quot;?row3.MRIC-Var.Prev_MRIC:row3.MRIC " type="id_Integer"/>
+        <mapperTableEntries name="Diff_var" expression="Var.SubAccountNoType==&quot;same&quot;?row3.MRIC-Var.Prev_MRIC:row3.MRIC " type="id_Integer"/>
         <mapperTableEntries name="Prev_MRIC" expression="row3.MRIC " type="id_Integer"/>
       </varTables>
       <outputTables sizeState="INTERMEDIATE" name="copyOfcopyOfout1">
