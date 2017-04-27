@@ -344,7 +344,7 @@
         <mapperTableEntries name="SubAccountNo" expression="row8.SubAccountNo " type="id_String" nullable="true"/>
         <mapperTableEntries name="date_account" expression="row8.date_account " type="id_Date" nullable="true"/>
         <mapperTableEntries name="MRIC" expression="row8.MRIC " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="MRIC_Diff" expression="0" type="id_Integer"/>
+        <mapperTableEntries name="MRIC_Diff" expression="0-row8.MRIC_Diff " type="id_Integer"/>
         <mapperTableEntries name="MRIC_Positive" expression="row8.MRIC_Diff>0?row8.MRIC_Diff:0" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="MRIC_Negative" expression="row8.MRIC_Diff&lt;0?row8.MRIC_Diff:0" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="date_flag" expression="row8.date_flag " type="id_String" nullable="true"/>
