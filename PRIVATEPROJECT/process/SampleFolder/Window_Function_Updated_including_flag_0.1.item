@@ -339,7 +339,7 @@
     <nodeData xsi:type="MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var">
-        <mapperTableEntries name="final_derived_MRIC" expression="row8.date_flag==&quot;N&quot;?-row8.MRIC:row8.MRIC" type="id_Integer"/>
+        <mapperTableEntries name="final_derived_MRIC" expression="row8.date_flag==&quot;N&quot;?(0-row8.MRIC):row8.MRIC " type="id_Integer"/>
       </varTables>
       <outputTables sizeState="INTERMEDIATE" name="Final_Output">
         <mapperTableEntries name="SubAccountNo" expression="row8.SubAccountNo " type="id_String" nullable="true"/>
