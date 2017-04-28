@@ -160,7 +160,6 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="Out">
-      <column comment="" key="false" length="-1" name="SubAccoutNoType" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Date_Account" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="MRIC" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="MRIC_DIFF_from_tMap3" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
@@ -168,13 +167,11 @@
     <nodeData xsi:type="MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var">
-        <mapperTableEntries name="SubAccoutNoType" expression="Var.Last_Sub_Acct_No!=null &amp;&amp; Var.Last_Sub_Acct_No.compareToIgnoreCase(row3.SubAccountNo)==0?&quot;same&quot; : &quot;new&quot;" type="id_String"/>
-        <mapperTableEntries name="MRIC_DIFF" expression="Var.SubAccoutNoType==&quot;same&quot;?row3.MRIC-Var.Prev_MRIC:row3.MRIC " type="id_Integer"/>
+        <mapperTableEntries name="MRIC_DIFF" expression="Var.Last_Sub_Acct_No!=null &amp;&amp; Var.Last_Sub_Acct_No.compareToIgnoreCase(row3.SubAccountNo)==0?row3.MRIC-Var.Prev_MRIC:row3.MRIC " type="id_Integer"/>
         <mapperTableEntries name="Last_Sub_Acct_No" expression="row3.SubAccountNo " type="id_String"/>
         <mapperTableEntries name="Prev_MRIC" expression="row3.MRIC " type="id_Integer"/>
       </varTables>
       <outputTables sizeState="INTERMEDIATE" name="Out">
-        <mapperTableEntries name="SubAccoutNoType" expression="Var.SubAccoutNoType " type="id_String"/>
         <mapperTableEntries name="Date_Account" expression="row3.Date_Account " type="id_String" nullable="true"/>
         <mapperTableEntries name="MRIC" expression="row3.MRIC " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="MRIC_DIFF_from_tMap3" expression="Var.MRIC_DIFF " type="id_Integer" nullable="true"/>
@@ -217,7 +214,6 @@
         <mapperTableEntries name="MRIC_DIFF_from_tMap3" expression="Out.MRIC_DIFF_from_tMap3 " type="id_Integer" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="Out" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="SubAccoutNoType" type="id_String"/>
         <mapperTableEntries name="Date_Account" type="id_String" nullable="true"/>
         <mapperTableEntries name="MRIC" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="MRIC_DIFF_from_tMap3" type="id_Integer" nullable="true"/>
