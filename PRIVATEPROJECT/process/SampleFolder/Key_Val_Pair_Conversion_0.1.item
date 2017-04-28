@@ -212,7 +212,7 @@
       <outputTables sizeState="INTERMEDIATE" name="out1">
         <mapperTableEntries name="id" expression="row2.id " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="question" expression="row2.pivot_key " type="id_String" nullable="true"/>
-        <mapperTableEntries name="answer" expression="row8.pivot_value " type="id_String" nullable="true"/>
+        <mapperTableEntries name="answer" expression="row2.pivot_value " type="id_String" nullable="true"/>
         <mapperTableEntries name="Message" expression="&quot;From second job&quot;" type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row2" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
