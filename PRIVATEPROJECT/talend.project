@@ -411,4 +411,5 @@
   <TalendProperties:User xmi:id="_5y5c0SeiEeejtYW-5flErg" login="operator@company.com" firstName="Operator" lastName="Operator" type="DI" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_7buecSwZEeesGfwscHPQ6Q" login="dev1@company.com" firstName="dev1" lastName="dev1" type="DI" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_7bueciwZEeesGfwscHPQ6Q" login="apotti@talend.com" firstName="avinash" lastName="potti" type="DI" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_XSYfcSweEeeNsK2Z6EVRZw" login="user@talend.com"/>
 </xmi:XMI>
