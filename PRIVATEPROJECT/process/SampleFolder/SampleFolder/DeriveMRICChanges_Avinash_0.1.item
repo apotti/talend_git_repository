@@ -993,7 +993,7 @@
       <elementValue elementRef="INPUT_COLUMN" value="date_accnt"/>
       <elementValue elementRef="IGNORE_NULL" value="false"/>
       <elementValue elementRef="OUTPUT_COLUMN" value="account_scd_id"/>
-      <elementValue elementRef="FUNCTION" value="last"/>
+      <elementValue elementRef="FUNCTION" value="first"/>
       <elementValue elementRef="INPUT_COLUMN" value="account_scd_id"/>
       <elementValue elementRef="IGNORE_NULL" value="false"/>
       <elementValue elementRef="OUTPUT_COLUMN" value="current_row"/>
@@ -1158,7 +1158,7 @@
       <column comment="" key="false" length="25" name="decrease" nullable="false" pattern="" precision="5" sourceType="" type="id_Double" originalLength="25" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="608">
+  <node componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="576">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_2" show="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TABLE" name="GROUPBYS">
