@@ -156,7 +156,7 @@
     </elementParameter>
     <elementParameter field="TABLE" name="OPERATIONS">
       <elementValue elementRef="OUTPUT_COLUMN" value="age"/>
-      <elementValue elementRef="FUNCTION" value="last"/>
+      <elementValue elementRef="FUNCTION" value="first"/>
       <elementValue elementRef="INPUT_COLUMN" value="age"/>
       <elementValue elementRef="IGNORE_NULL" value="false"/>
       <elementValue elementRef="OUTPUT_COLUMN" value="score"/>
