@@ -946,7 +946,7 @@
   <node componentName="tAggregateSortedRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="416">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAggregateSortedRow_1" show="false"/>
     <elementParameter field="LABEL" name="NOTE" value="( Enter the accurate number of input rows )"/>
-    <elementParameter field="TEXT" name="ROW_COUNT" value="((Integer)globalMap.get(&quot;tMysqlInput_2_NB_LINE&quot;))"/>
+    <elementParameter field="TEXT" name="ROW_COUNT" value="100"/>
     <elementParameter field="TABLE" name="GROUPBYS">
       <elementValue elementRef="OUTPUT_COLUMN" value="uniq_id"/>
       <elementValue elementRef="INPUT_COLUMN" value="uniq_id"/>
