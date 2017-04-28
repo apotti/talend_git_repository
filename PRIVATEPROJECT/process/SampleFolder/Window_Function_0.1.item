@@ -170,7 +170,7 @@
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="SubAccoutNoType" expression="Var.Last_Sub_Acct_No!=null &amp;&amp; Var.Last_Sub_Acct_No.compareToIgnoreCase(row3.SubAccountNo)==0?&quot;same&quot; : &quot;new&quot;" type="id_String"/>
         <mapperTableEntries name="Last_Sub_Acct_No" expression="row3.SubAccountNo " type="id_String"/>
-        <mapperTableEntries name="MRIC_DIFF" expression="Var.Last_Sub_Acct_No!=null &amp;&amp; Var.Last_Sub_Acct_No.compareToIgnoreCase(row3.SubAccountNo)==0?row3.MRIC-Var.Prev_MRIC:row3.MRIC" type="id_Integer"/>
+        <mapperTableEntries name="MRIC_DIFF" expression="Var.Last_Sub_Acct_No!=null &amp;&amp; Var.Last_Sub_Acct_No.compareToIgnoreCase(row3.SubAccountNo)==0?row3.MRIC-Var.Prev_MRIC:row3.MRIC " type="id_Integer"/>
         <mapperTableEntries name="Prev_MRIC" expression="row3.MRIC " type="id_Integer"/>
       </varTables>
       <outputTables sizeState="INTERMEDIATE" name="Out">
@@ -257,7 +257,7 @@
       <column comment="" key="false" length="-1" name="MRIC_DIFF_from_tMap3" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="320">
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="672">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFixedFlowInput_1" show="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
@@ -296,7 +296,7 @@
       <column comment="" key="false" length="-1" name="MRIC" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="736" posY="320">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="704" posY="672">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
@@ -332,7 +332,7 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="1056" posY="320" sizeX="32" sizeY="64">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="672" sizeX="32" sizeY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_2" show="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
@@ -368,7 +368,7 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1312" posY="320">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1280" posY="672">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
