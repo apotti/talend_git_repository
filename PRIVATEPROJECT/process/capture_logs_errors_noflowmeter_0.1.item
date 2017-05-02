@@ -506,8 +506,8 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="copyOfout1">
-        <mapperTableEntries name="companyID" expression="row1.id  row1.Name " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="companyName" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="companyID" expression="row1.id " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="companyName" expression="row1.Name " type="id_String" nullable="true"/>
       </outputTables>
       <outputTables sizeState="INTERMEDIATE" name="copyOflogg">
         <mapperTableEntries name="Run_Date" expression="TalendDate.getDate(&quot;CCYY-MM-DD hh:mm:ss&quot;) " type="id_Date" nullable="true"/>
