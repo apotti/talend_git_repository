@@ -738,6 +738,49 @@
       <relatedItems xmi:id="_DFWtujAJEeecz-7OadHThg" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_DFWtuzAJEeecz-7OadHThg" id="Mathematical" version="Latest" type="routine"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_hZjm0DAbEeecz-7OadHThg">
+      <baseItem xmi:id="_hZjm0TAbEeecz-7OadHThg" id="_8TmysCqaEeej0OFesO-JaQ" version="0.1" type="job"/>
+      <relatedItems xmi:id="_hZjm0jAbEeecz-7OadHThg" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm0zAbEeecz-7OadHThg" id="SfObmObject" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm1DAbEeecz-7OadHThg" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm1TAbEeecz-7OadHThg" id="tic_word_titleCase" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm1jAbEeecz-7OadHThg" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm1zAbEeecz-7OadHThg" id="DemoRoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm2DAbEeecz-7OadHThg" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm2TAbEeecz-7OadHThg" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm2jAbEeecz-7OadHThg" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm2zAbEeecz-7OadHThg" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm3DAbEeecz-7OadHThg" id="SHA" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm3TAbEeecz-7OadHThg" id="Custom_MatchingAlogs" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm3jAbEeecz-7OadHThg" id="AzureADAuth_D365" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm3zAbEeecz-7OadHThg" id="Charge" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm4DAbEeecz-7OadHThg" id="AzureADAuthentication" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm4TAbEeecz-7OadHThg" id="MD5Routines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm4jAbEeecz-7OadHThg" id="poc_collect" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm4zAbEeecz-7OadHThg" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm5DAbEeecz-7OadHThg" id="IpaasFileUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm5TAbEeecz-7OadHThg" id="FileListHtmlGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm5jAbEeecz-7OadHThg" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm5zAbEeecz-7OadHThg" id="Transformation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm6DAbEeecz-7OadHThg" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm6TAbEeecz-7OadHThg" id="DQ_METHODS" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm6jAbEeecz-7OadHThg" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm6zAbEeecz-7OadHThg" id="Custom_Libs" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm7DAbEeecz-7OadHThg" id="myHashMap" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm7TAbEeecz-7OadHThg" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm7jAbEeecz-7OadHThg" id="SfObmHelper" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm7zAbEeecz-7OadHThg" id="poc_forjob" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm8DAbEeecz-7OadHThg" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm8TAbEeecz-7OadHThg" id="KeyManagementForSqoop" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm8jAbEeecz-7OadHThg" id="SfObmNotification" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm8zAbEeecz-7OadHThg" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm9DAbEeecz-7OadHThg" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm9TAbEeecz-7OadHThg" id="GetRandomPhoneNum" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm9jAbEeecz-7OadHThg" id="SfObmObjectAttribute" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm9zAbEeecz-7OadHThg" id="DataTypeUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm-DAbEeecz-7OadHThg" id="Geospatial" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_hZjm-TAbEeecz-7OadHThg" id="AzureADAuth" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_FKcOkCd8EeeBc4mgvm22Pw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_FKcOkSd8EeeBc4mgvm22Pw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_FKcOkid8EeeBc4mgvm22Pw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
