@@ -7,10 +7,6 @@
     <documentationStatus xmi:id="_GxRCcCd8EeeBc4mgvm22Pw" label="unchecked" code="UCK"/>
     <documentationStatus xmi:id="_GxRCcSd8EeeBc4mgvm22Pw" label="checked" code="CHK"/>
     <documentationStatus xmi:id="_GxRCcid8EeeBc4mgvm22Pw" label="validated" code="VAL"/>
-    <componentsSettings xmi:id="_avvygCjOEeeIJNOB-GPpNw" name="DI|tHashOutput" family="Technical"/>
-    <componentsSettings xmi:id="_avvygSjOEeeIJNOB-GPpNw" name="DI|tHashInput" family="Technical"/>
-    <componentsSettings xmi:id="_avvygijOEeeIJNOB-GPpNw" name="DI|tArray" family="Technical"/>
-    <componentsSettings xmi:id="_avvygyjOEeeIJNOB-GPpNw" name="DI|tArrayIn" family="Technical"/>
     <statAndLogsSettings xmi:id="_Tb3UcCg6EeeLJ_bjz2GDUA">
       <parameters xmi:id="_Tb3UcSg6EeeLJ_bjz2GDUA">
         <elementParameter xmi:id="_w4SgwCg7EeeLJ_bjz2GDUA" field="CHECK" name="UPDATE_COMPONENTS" value="false" contextMode="false"/>
