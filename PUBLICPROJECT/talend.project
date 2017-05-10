@@ -371,4 +371,8 @@
   <TalendProperties:User xmi:id="_91bKEjV3EeeCZd9mId3A8Q" login="admin@company.com" firstName="admin" lastName="admin" type="DQ" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_A0wpADV4EeeCZd9mId3A8Q" login="new_tester@talend.com" firstName="tester" lastName="tester" type="DI" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_pqDngTV4EeeOGYeKK_H3fg" login="user@talend.com"/>
+  <TalendProperties:User xmi:id="_1GCfoDWZEeee35JNvLrB6w" login="dev1@company.com" firstName="dev1" lastName="dev1" type="DI" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_1GCfoTWZEeee35JNvLrB6w" login="dev2@company.com" firstName="dev2" lastName="dev2" type="DI" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_1GCfojWZEeee35JNvLrB6w" login="operator@company.com" firstName="Operator" lastName="Operator" type="DI" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_1GCfozWZEeee35JNvLrB6w" login="apotti@talend.com" firstName="avinash" lastName="potti" type="DI" additionnalData="{}"/>
 </xmi:XMI>
