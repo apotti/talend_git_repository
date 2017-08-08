@@ -43,6 +43,42 @@
       <relatedItems xmi:id="_XxIzSXxHEeedcOg5giuPtw" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_XxIzSnxHEeedcOg5giuPtw" id="Mathematical" version="Latest" type="routine"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_UFucAHxIEeedcOg5giuPtw">
+      <baseItem xmi:id="_UFucAXxIEeedcOg5giuPtw" id="_UEMK8HxIEeedcOg5giuPtw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_UFucAnxIEeedcOg5giuPtw" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucA3xIEeedcOg5giuPtw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucBHxIEeedcOg5giuPtw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucBXxIEeedcOg5giuPtw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucBnxIEeedcOg5giuPtw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucB3xIEeedcOg5giuPtw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucCHxIEeedcOg5giuPtw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucCXxIEeedcOg5giuPtw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucCnxIEeedcOg5giuPtw" id="Mathematical" version="Latest" type="routine"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_UFucC3xIEeedcOg5giuPtw">
+      <baseItem xmi:id="_UFucDHxIEeedcOg5giuPtw" id="_UEMyAHxIEeedcOg5giuPtw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_UFucDXxIEeedcOg5giuPtw" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucDnxIEeedcOg5giuPtw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucD3xIEeedcOg5giuPtw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucEHxIEeedcOg5giuPtw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucEXxIEeedcOg5giuPtw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucEnxIEeedcOg5giuPtw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucE3xIEeedcOg5giuPtw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucFHxIEeedcOg5giuPtw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucFXxIEeedcOg5giuPtw" id="Mathematical" version="Latest" type="routine"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_UFucFnxIEeedcOg5giuPtw">
+      <baseItem xmi:id="_UFucF3xIEeedcOg5giuPtw" id="_UEMyAXxIEeedcOg5giuPtw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_UFucGHxIEeedcOg5giuPtw" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucGXxIEeedcOg5giuPtw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucGnxIEeedcOg5giuPtw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucG3xIEeedcOg5giuPtw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucHHxIEeedcOg5giuPtw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucHXxIEeedcOg5giuPtw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucHnxIEeedcOg5giuPtw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucH3xIEeedcOg5giuPtw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UFucIHxIEeedcOg5giuPtw" id="Mathematical" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_-LrwkHvZEeeiMuDgJoa6jA" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_-LsXoHvZEeeiMuDgJoa6jA" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_-LsXoXvZEeeiMuDgJoa6jA" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
