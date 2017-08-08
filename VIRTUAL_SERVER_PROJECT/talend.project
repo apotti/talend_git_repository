@@ -329,4 +329,5 @@
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_5QELIHvZEeeiMuDgJoa6jA" login="admin@company.com" firstName="admin" lastName="admin" type="DI" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_-NVWYHvZEeeiMuDgJoa6jA" login="operator@company.com" firstName="operator" lastName="operator" type="DI" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_rQpK0XxFEeedcOg5giuPtw" login="user@talend.com"/>
 </xmi:XMI>
