@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="CONTEXT_ADR4_ADDITIONAL_PARAMETERS" prompt="CONTEXT_ADR4_ADDITIONAL_PARAMETERS?" promptNeeded="false" repositoryContextId="_bajyMLkREeaO0PEoVDBlRQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR4_DATABASE" prompt="CONTEXT_ADR4_DATABASE?" promptNeeded="false" repositoryContextId="_bajyMLkREeaO0PEoVDBlRQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR4_LOGIN" prompt="CONTEXT_ADR4_LOGIN?" promptNeeded="false" repositoryContextId="_bajyMLkREeaO0PEoVDBlRQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR4_PASSWORD" prompt="CONTEXT_ADR4_PASSWORD?" promptNeeded="false" repositoryContextId="_bajyMLkREeaO0PEoVDBlRQ" type="id_Password" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR4_SERVER" prompt="CONTEXT_ADR4_SERVER?" promptNeeded="false" repositoryContextId="_bajyMLkREeaO0PEoVDBlRQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR7_ADDITIONAL_PARAMETERS" prompt="CONTEXT_ADR7_ADDITIONAL_PARAMETERS?" promptNeeded="false" repositoryContextId="_aWV2QLB4EeaOr91d2ymlaQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR7_DATABASE" prompt="CONTEXT_ADR7_DATABASE?" promptNeeded="false" repositoryContextId="_aWV2QLB4EeaOr91d2ymlaQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR7_LOGIN" prompt="CONTEXT_ADR7_LOGIN?" promptNeeded="false" repositoryContextId="_aWV2QLB4EeaOr91d2ymlaQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR7_PASSWORD" prompt="CONTEXT_ADR7_PASSWORD?" promptNeeded="false" repositoryContextId="_aWV2QLB4EeaOr91d2ymlaQ" type="id_Password" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR7_SERVER" prompt="CONTEXT_ADR7_SERVER?" promptNeeded="false" repositoryContextId="_aWV2QLB4EeaOr91d2ymlaQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR4_VALID_ITEMS_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_ADR4_VALID_ITEMS_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR4_VALID_ITEMS_FILE_NAME" prompt="CONTEXT_AMI_ADR4_VALID_ITEMS_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR7_VALID_ITEMS_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_ADR7_VALID_ITEMS_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR7_VALID_ITEMS_FILE_NAME" prompt="CONTEXT_AMI_ADR7_VALID_ITEMS_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR7_VALID_VENDORS_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_ADR7_VALID_VENDORS_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR7_VALID_VENDORS_FILE_NAME" prompt="CONTEXT_AMI_ADR7_VALID_VENDORS_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ARD4_ADR7_DB_CONNECTIVITY_FILE" prompt="CONTEXT_AMI_ARD4_ADR7_DB_CONNECTIVITY_FILE?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_FAILURE_MESSAGE" prompt="CONTEXT_AMI_GROUPEMAILID_FAILURE_MESSAGE?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_FAILURE_SUBJECT" prompt="CONTEXT_AMI_GROUPEMAILID_FAILURE_SUBJECT?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_FROM" prompt="CONTEXT_AMI_GROUPEMAILID_FROM?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_REJECT_MESSAGE" prompt="CONTEXT_AMI_GROUPEMAILID_REJECT_MESSAGE?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_REJECT_SUBJECT" prompt="CONTEXT_AMI_GROUPEMAILID_REJECT_SUBJECT?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_REJECT_TO" prompt="CONTEXT_AMI_GROUPEMAILID_REJECT_TO?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_SMTP_HOST" prompt="CONTEXT_AMI_GROUPEMAILID_SMTP_HOST?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_SUCCESS_MESSAGE" prompt="CONTEXT_AMI_GROUPEMAILID_SUCCESS_MESSAGE?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_SUCCESS_SUBJECT" prompt="CONTEXT_AMI_GROUPEMAILID_SUCCESS_SUBJECT?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_SUCCESS_TO" prompt="CONTEXT_AMI_GROUPEMAILID_SUCCESS_TO?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_TO" prompt="CONTEXT_AMI_GROUPEMAILID_TO?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_HEADER" prompt="CONTEXT_AMI_HEADER?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_INTM_FILE_EXTENSION" prompt="CONTEXT_AMI_INTM_FILE_EXTENSION?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_INTM_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_INTM_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_INTM_REJECT_EXTENSION" prompt="CONTEXT_AMI_INTM_REJECT_EXTENSION?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_OUTPUT_FILE_EXTENSION" prompt="CONTEXT_AMI_OUTPUT_FILE_EXTENSION?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_OUTPUT_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_OUTPUT_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_OUTPUT_FILE_NAME" prompt="CONTEXT_AMI_OUTPUT_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ROW_SEPARATOR" prompt="CONTEXT_AMI_ROW_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_ARCHIVE_FILE_PATH" prompt="CONTEXT_ETL_ARCHIVE_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_INTM_FILE_ENCODING" prompt="CONTEXT_ETL_INTM_FILE_ENCODING?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_INTM_FILE_PATH" prompt="CONTEXT_ETL_INTM_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_INTM_REJECT_PATH" prompt="CONTEXT_ETL_INTM_REJECT_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_INTM_TEMP_FILE_PATH" prompt="CONTEXT_ETL_INTM_TEMP_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_OUTPUT_FILE_ENCODING" prompt="CONTEXT_ETL_OUTPUT_FILE_ENCODING?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_OUTPUT_FILE_PATH" prompt="CONTEXT_ETL_OUTPUT_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_TARGET_FILE_PATH_CON" prompt="CONTEXT_ETL_TARGET_FILE_PATH_CON?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_FILE_PATH" prompt="CONTEXT_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_RNWL_HOME" prompt="CONTEXT_RT_RNWL_HOME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_SOURCE" prompt="CONTEXT_RT_SOURCE?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_TRACK" prompt="CONTEXT_RT_TRACK?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_TRACK_DYNAMIC" prompt="CONTEXT_RT_TRACK_DYNAMIC?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_TRACK_STATIC" prompt="CONTEXT_RT_TRACK_STATIC?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="RUN_DAY" prompt="RUN_DAY?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR4_VALID_VENDORS_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_ADR4_VALID_VENDORS_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_CHECKPOINT_LOG_FILE_NAME" prompt="CONTEXT_AMI_CHECKPOINT_LOG_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ITEM_DETAILS_DSD" prompt="CONTEXT_AMI_ITEM_DETAILS_DSD?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ITEM_ATTRIBUTE_SHORT_DSD" prompt="CONTEXT_AMI_ITEM_ATTRIBUTE_SHORT_DSD?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_SIGNAL_FILE_PATH" prompt="CONTEXT_SIGNAL_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_INPUT_PATH" prompt="CONTEXT_ETL_INPUT_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_LOG_PATH" prompt="CONTEXT_ETL_LOG_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_TEAM_NAME" prompt="CONTEXT_AMI_TEAM_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_JOB_NAME" prompt="CONTEXT_AMI_JOB_NAME?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ITEM_DETAILS" prompt="CONTEXT_AMI_ITEM_DETAILS?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_SITE_MASTER" prompt="CONTEXT_AMI_SITE_MASTER?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_LOG_FILE_NAME" prompt="CONTEXT_AMI_LOG_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR4_VALID_VENDORS_FILE_NAME" prompt="CONTEXT_AMI_ADR4_VALID_VENDORS_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_CHECKPOINT_FILE_NAME" prompt="CONTEXT_CHECKPOINT_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_JMS_PATH" prompt="CONTEXT_ETL_JMS_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_INT_MARC_JOB_NAME" prompt="CONTEXT_AMI_INT_MARC_JOB_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_SITE_MASTER_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_SITE_MASTER_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_MARC_TRIGGER" prompt="CONTEXT_AMI_MARC_TRIGGER?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_CON_MARC_JOB_NAME" prompt="CONTEXT_AMI_CON_MARC_JOB_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_TARGET_FILE_PATH_INT" prompt="CONTEXT_ETL_TARGET_FILE_PATH_INT?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_TRACK_PTP_DYNAMIC" prompt="CONTEXT_RT_TRACK_PTP_DYNAMIC?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_STATS_FILE_NAME" prompt="CONTEXT_AMI_STATS_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_LISTING_FILE_NAME" prompt="CONTEXT_AMI_LISTING_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="288" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="true"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value=""/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value=""/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Talend Client_62/Talend-Studio-20160704_1411-V6.2.1/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICT_DEFAULT_PROJECTSETTING" value="true"/>
+    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="CHECK" name="STATS_DEFAULT_PROJECTSETTING" value="true"/>
+    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value=""/>
+    <routinesParameter id="_skQ90KTIEeaMu5dZhuNBYQ" name="DQTechnical"/>
+    <routinesParameter id="_sfWooKTIEeaMu5dZhuNBYQ" name="DataMasking"/>
+    <routinesParameter id="_slKVsKTIEeaMu5dZhuNBYQ" name="DataOperation"/>
+    <routinesParameter id="_sjXl8KTIEeaMu5dZhuNBYQ" name="DataQualityDependencies"/>
+    <routinesParameter id="_si7hEKTIEeaMu5dZhuNBYQ" name="DataQuality"/>
+    <routinesParameter id="_sj0R4KTIEeaMu5dZhuNBYQ" name="DqStringHandling"/>
+    <routinesParameter id="_sl58kKTIEeaMu5dZhuNBYQ" name="Mathematical"/>
+    <routinesParameter id="_smWogKTIEeaMu5dZhuNBYQ" name="Numeric"/>
+    <routinesParameter id="_smzUcKTIEeaMu5dZhuNBYQ" name="Relational"/>
+    <routinesParameter id="_sktpwKTIEeaMu5dZhuNBYQ" name="SQLike"/>
+    <routinesParameter id="_snQAYKTIEeaMu5dZhuNBYQ" name="StringHandling"/>
+    <routinesParameter id="_snssUKTIEeaMu5dZhuNBYQ" name="TalendDataGenerator"/>
+    <routinesParameter id="_soIxMKTIEeaMu5dZhuNBYQ" name="TalendDate"/>
+    <routinesParameter id="_soldIKTIEeaMu5dZhuNBYQ" name="TalendString"/>
+  </parameters>
+  <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="-64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_1" show="false"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_OUTPUT_FILE_PATH"/>
+    <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
+    <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
+    <elementParameter field="CHECK" name="ERROR" value="false"/>
+    <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
+    <elementParameter field="TABLE" name="FILES">
+      <elementValue elementRef="FILEMASK" value="&quot;*&quot;+context.RUN_DAY+&quot;.txt&quot;"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILESIZE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_MODIFIEDDATE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_ASC" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_DESC" value="false"/>
+    <elementParameter field="CHECK" name="IFEXCLUDE" value="true"/>
+    <elementParameter field="TEXT" name="EXCLUDEFILEMASK" value="&quot;rt_mdm_article_master_marc_con_Control*&quot;"/>
+    <elementParameter field="CHECK" name="FORMAT_FILEPATH_TO_SLASH" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tFileRowCount" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="-64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileRowCount_1" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\r\n&quot;"/>
+    <elementParameter field="CHECK" name="IGNORE_EMPTY_ROW" value="true"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.CONTEXT_ETL_OUTPUT_FILE_ENCODING"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileRowCount_1"/>
+  </node>
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="-64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFixedFlowInput_11" show="false"/>
+    <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
+    <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
+    <elementParameter field="TABLE" name="VALUES">
+      <elementValue elementRef="SCHEMA_COLUMN" value="File_Name"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILE&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Row_Count"/>
+      <elementValue elementRef="VALUE" value="((Integer)globalMap.get(&quot;tFileRowCount_1_COUNT&quot;))-1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Status"/>
+      <elementValue elementRef="VALUE" value="&quot;Y&quot;"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
+    <elementParameter field="TABLE" name="INTABLE" show="false"/>
+    <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" value="" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFixedFlowInput_11">
+      <column comment="" key="false" length="-1" name="File_Name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Row_Count" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Status" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="-64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_6" show="false"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_OUTPUT_FILE_PATH+&quot;rt_mdm_article_master_marc_int_Control&quot;+&quot;_&quot;+context.RUN_DAY+context.CONTEXT_AMI_OUTPUT_FILE_EXTENSION"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\r\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;\t&quot;"/>
+    <elementParameter field="CHECK" name="APPEND" value="true"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CREATE" value="false"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.CONTEXT_ETL_INTM_FILE_ENCODING"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>Control_file"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileOutputDelimited_6">
+      <column comment="" key="false" length="-1" name="File_Name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Row_Count" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Status" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileDelete" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="-224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileDelete_1" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Talend 6.2/in.csv&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;C:/Talend 6.2/delete_folder&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PATH" value="((String)globalMap.get(&quot;tFileExist_11_FILENAME&quot;))"/>
+    <elementParameter field="CHECK" name="FAILON" value="false"/>
+    <elementParameter field="CHECK" name="FOLDER" value="false" show="false"/>
+    <elementParameter field="CHECK" name="FOLDER_FILE" value="true"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note &quot;CURRENT_STATUS&quot; including:&#xA;&quot;File (or path) deleted.&quot;&#xA;&quot;No file (or path) deleted.&quot;&#xA;&quot;File (or path) does not exist or is invalid.&quot;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileDelete_1"/>
+  </node>
+  <node componentName="tFileExist" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="-224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileExist_11" show="false"/>
+    <elementParameter field="FILE" name="FILE_NAME" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_OUTPUT_FILE_PATH+&quot;rt_mdm_article_master_marc_int_Control&quot;+&quot;_&quot;+context.RUN_DAY+context.CONTEXT_AMI_OUTPUT_FILE_EXTENSION"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_2" show="false"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_OUTPUT_FILE_PATH"/>
+    <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
+    <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
+    <elementParameter field="CHECK" name="ERROR" value="false"/>
+    <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
+    <elementParameter field="TABLE" name="FILES">
+      <elementValue elementRef="FILEMASK" value="&quot;*&quot;+context.RUN_DAY+&quot;.txt&quot;"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILESIZE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_MODIFIEDDATE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_ASC" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_DESC" value="false"/>
+    <elementParameter field="CHECK" name="IFEXCLUDE" value="true"/>
+    <elementParameter field="TEXT" name="EXCLUDEFILEMASK" value="&quot;rt_mdm_article_master_marc_con_Control*&quot;"/>
+    <elementParameter field="CHECK" name="FORMAT_FILEPATH_TO_SLASH" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_2" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_2_CURRENT_FILEPATH&quot;))"/>
+    <elementParameter field="CHECK" name="ENABLE_COPY_DIRECTORY" value="false"/>
+    <elementParameter field="DIRECTORY" name="SOURCE_DERECTORY" value="&quot;C:/Users/ksmitaj3/Desktop/VCC&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="DESTINATION" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.CONTEXT_ETL_TARGET_FILE_PATH_INT"/>
+    <elementParameter field="CHECK" name="RENAME" value="false"/>
+    <elementParameter field="TEXT" name="DESTINATION_RENAME" value="((String)globalMap.get(&quot;tFileList_2_CURRENT_FILE&quot;)).substring(0,((String)globalMap.get(&quot;tFileList_2_CURRENT_FILE&quot;)).indexOf(&quot;.&quot;)-8)+context.CONTEXT_VMC_OUTPUT_FILE_EXTENSION" show="false"/>
+    <elementParameter field="CHECK" name="REMOVE_FILE" value="false"/>
+    <elementParameter field="CHECK" name="REPLACE_FILE" value="true"/>
+    <elementParameter field="CHECK" name="CREATE_DIRECTORY" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileCopy_2"/>
+  </node>
+  <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_3" show="false"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_OUTPUT_FILE_PATH"/>
+    <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
+    <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
+    <elementParameter field="CHECK" name="ERROR" value="false"/>
+    <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
+    <elementParameter field="TABLE" name="FILES">
+      <elementValue elementRef="FILEMASK" value="&quot;MD_ItemDCDetails_&quot;+context.RUN_DAY+context.CONTEXT_AMI_OUTPUT_FILE_EXTENSION"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILESIZE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_MODIFIEDDATE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_ASC" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_DESC" value="false"/>
+    <elementParameter field="CHECK" name="IFEXCLUDE" value="false"/>
+    <elementParameter field="TEXT" name="EXCLUDEFILEMASK" value="&quot;*.txt&quot;" show="false"/>
+    <elementParameter field="CHECK" name="FORMAT_FILEPATH_TO_SLASH" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_1" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_3_CURRENT_FILEPATH&quot;))"/>
+    <elementParameter field="CHECK" name="ENABLE_COPY_DIRECTORY" value="false"/>
+    <elementParameter field="DIRECTORY" name="SOURCE_DERECTORY" value="&quot;C:/Users/ksmitaj3/Desktop/VCC&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="DESTINATION" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK_PTP_DYNAMIC"/>
+    <elementParameter field="CHECK" name="RENAME" value="false"/>
+    <elementParameter field="TEXT" name="DESTINATION_RENAME" value="((String)globalMap.get(&quot;tFileList_3_CURRENT_FILE&quot;)).substring(0,((String)globalMap.get(&quot;tFileList_3_CURRENT_FILE&quot;)).indexOf(&quot;.&quot;))+&quot;_persistent&quot;+context.CONTEXT_AMI_OUTPUT_FILE_EXTENSION" show="false"/>
+    <elementParameter field="CHECK" name="REMOVE_FILE" value="false"/>
+    <elementParameter field="CHECK" name="REPLACE_FILE" value="true"/>
+    <elementParameter field="CHECK" name="CREATE_DIRECTORY" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileCopy_1"/>
+  </node>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFileList_1" target="tFileRowCount_1">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" value="2" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate2" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFileList_1" target="tFileList_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk6" show="false"/>
+  </connection>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFileRowCount_1" offsetLabelX="0" offsetLabelY="0" source="tFileRowCount_1" target="tFixedFlowInput_11">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" value="2" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row11" lineStyle="0" metaname="tFixedFlowInput_11" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_11" target="tFileOutputDelimited_6">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row11" show="false"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tFileExist_11" offsetLabelX="0" offsetLabelY="0" source="tFileExist_11" target="tFileDelete_1">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Boolean)globalMap.get(&quot;tFileExist_11_EXISTS&quot;))"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="If3" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileExist_11" offsetLabelX="0" offsetLabelY="0" source="tFileExist_11" target="tFileList_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk11" show="false"/>
+  </connection>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFileList_2" offsetLabelX="-11" offsetLabelY="6" source="tFileList_2" target="tFileCopy_2">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" value="2" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate4" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileList_2" offsetLabelX="0" offsetLabelY="0" source="tFileList_2" target="tFileList_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
+  </connection>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFileList_3" offsetLabelX="-12" offsetLabelY="6" source="tFileList_3" target="tFileCopy_1">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" value="2" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate5" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileDelete_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileExist_11" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

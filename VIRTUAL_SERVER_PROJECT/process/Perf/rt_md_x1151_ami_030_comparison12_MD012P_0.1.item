@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="CONTEXT_ETL_INTM_FILE_ENCODING" prompt="CONTEXT_ETL_INTM_FILE_ENCODING?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_INTM_FILE_PATH" prompt="CONTEXT_ETL_INTM_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_OUTPUT_FILE_PATH" prompt="CONTEXT_ETL_OUTPUT_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_INTM_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_INTM_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_OUTPUT_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_OUTPUT_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ROW_SEPARATOR" prompt="CONTEXT_AMI_ROW_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_HEADER" prompt="CONTEXT_AMI_HEADER?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_INTM_FILE_EXTENSION" prompt="CONTEXT_AMI_INTM_FILE_EXTENSION?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_OUTPUT_FILE_EXTENSION" prompt="CONTEXT_AMI_OUTPUT_FILE_EXTENSION?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_TO" prompt="CONTEXT_AMI_GROUPEMAILID_TO?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_FROM" prompt="CONTEXT_AMI_GROUPEMAILID_FROM?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_FAILURE_SUBJECT" prompt="CONTEXT_AMI_GROUPEMAILID_FAILURE_SUBJECT?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_SUCCESS_SUBJECT" prompt="CONTEXT_AMI_GROUPEMAILID_SUCCESS_SUBJECT?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_FAILURE_MESSAGE" prompt="CONTEXT_AMI_GROUPEMAILID_FAILURE_MESSAGE?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_SUCCESS_MESSAGE" prompt="CONTEXT_AMI_GROUPEMAILID_SUCCESS_MESSAGE?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_SMTP_HOST" prompt="CONTEXT_AMI_GROUPEMAILID_SMTP_HOST?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_ARCHIVE_FILE_PATH" prompt="CONTEXT_ETL_ARCHIVE_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_REJECT_SUBJECT" prompt="CONTEXT_AMI_GROUPEMAILID_REJECT_SUBJECT?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_REJECT_MESSAGE" prompt="CONTEXT_AMI_GROUPEMAILID_REJECT_MESSAGE?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_OUTPUT_FILE_NAME" prompt="CONTEXT_AMI_OUTPUT_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_INTM_REJECT_PATH" prompt="CONTEXT_ETL_INTM_REJECT_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_INTM_REJECT_EXTENSION" prompt="CONTEXT_AMI_INTM_REJECT_EXTENSION?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ARD4_ADR7_DB_CONNECTIVITY_FILE" prompt="CONTEXT_AMI_ARD4_ADR7_DB_CONNECTIVITY_FILE?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR4_VALID_ITEMS_FILE_NAME" prompt="CONTEXT_AMI_ADR4_VALID_ITEMS_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR7_VALID_ITEMS_FILE_NAME" prompt="CONTEXT_AMI_ADR7_VALID_ITEMS_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR4_VALID_ITEMS_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_ADR4_VALID_ITEMS_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR7_VALID_ITEMS_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_ADR7_VALID_ITEMS_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR7_VALID_VENDORS_FILE_NAME" prompt="CONTEXT_AMI_ADR7_VALID_VENDORS_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR7_VALID_VENDORS_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_ADR7_VALID_VENDORS_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_INTM_TEMP_FILE_PATH" prompt="CONTEXT_ETL_INTM_TEMP_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_REJECT_TO" prompt="CONTEXT_AMI_GROUPEMAILID_REJECT_TO?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_OUTPUT_FILE_ENCODING" prompt="CONTEXT_ETL_OUTPUT_FILE_ENCODING?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_SUCCESS_TO" prompt="CONTEXT_AMI_GROUPEMAILID_SUCCESS_TO?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_RNWL_HOME" prompt="CONTEXT_RT_RNWL_HOME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_SOURCE" prompt="CONTEXT_RT_SOURCE?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_TRACK" prompt="CONTEXT_RT_TRACK?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_TRACK_STATIC" prompt="CONTEXT_RT_TRACK_STATIC?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_TRACK_DYNAMIC" prompt="CONTEXT_RT_TRACK_DYNAMIC?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_TARGET_FILE_PATH_CON" prompt="CONTEXT_ETL_TARGET_FILE_PATH_CON?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_INPUT_PATH" prompt="CONTEXT_ETL_INPUT_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_LOG_PATH" prompt="CONTEXT_ETL_LOG_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_JMS_PATH" prompt="CONTEXT_ETL_JMS_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="RUN_DAY" prompt="RUN_DAY?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_FILE_PATH" prompt="CONTEXT_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_TEAM_NAME" prompt="CONTEXT_AMI_TEAM_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_LOG_FILE_NAME" prompt="CONTEXT_AMI_LOG_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_CHECKPOINT_LOG_FILE_NAME" prompt="CONTEXT_AMI_CHECKPOINT_LOG_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_CHECKPOINT_FILE_NAME" prompt="CONTEXT_CHECKPOINT_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_SIGNAL_FILE_PATH" prompt="CONTEXT_SIGNAL_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_SITE_MASTER" prompt="CONTEXT_AMI_SITE_MASTER?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR4_VALID_VENDORS_FILE_NAME" prompt="CONTEXT_AMI_ADR4_VALID_VENDORS_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR4_VALID_VENDORS_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_ADR4_VALID_VENDORS_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ITEM_DETAILS_DSD" prompt="CONTEXT_AMI_ITEM_DETAILS_DSD?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ITEM_DETAILS" prompt="CONTEXT_AMI_ITEM_DETAILS?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ITEM_ATTRIBUTE_SHORT_DSD" prompt="CONTEXT_AMI_ITEM_ATTRIBUTE_SHORT_DSD?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_MARC_TRIGGER" prompt="CONTEXT_AMI_MARC_TRIGGER?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_CON_MARC_JOB_NAME" prompt="CONTEXT_AMI_CON_MARC_JOB_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_INT_MARC_JOB_NAME" prompt="CONTEXT_AMI_INT_MARC_JOB_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_SITE_MASTER_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_SITE_MASTER_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_TARGET_FILE_PATH_INT" prompt="CONTEXT_ETL_TARGET_FILE_PATH_INT?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_TRACK_PTP_DYNAMIC" prompt="CONTEXT_RT_TRACK_PTP_DYNAMIC?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_STATS_FILE_NAME" prompt="CONTEXT_AMI_STATS_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_LISTING_FILE_NAME" prompt="CONTEXT_AMI_LISTING_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="128" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value=""/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value=""/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Talend Client_62/Talend-Studio-20160704_1411-V6.2.1/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICT_DEFAULT_PROJECTSETTING" value="true"/>
+    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="CHECK" name="STATS_DEFAULT_PROJECTSETTING" value="true"/>
+    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value=""/>
+    <routinesParameter id="_oVqQ0zkwEee9gdzmHsjG8Q" name="DQTechnical"/>
+    <routinesParameter id="_oTa1IjkwEee9gdzmHsjG8Q" name="DataMasking"/>
+    <routinesParameter id="_oV9LwDkwEee9gdzmHsjG8Q" name="DataOperation"/>
+    <routinesParameter id="_oVWu0zkwEee9gdzmHsjG8Q" name="DataQualityDependencies"/>
+    <routinesParameter id="_oVNk4DkwEee9gdzmHsjG8Q" name="DataQuality"/>
+    <routinesParameter id="_oVgf1TkwEee9gdzmHsjG8Q" name="DqStringHandling"/>
+    <routinesParameter id="_oV9LxDkwEee9gdzmHsjG8Q" name="Mathematical"/>
+    <routinesParameter id="_oWGVsDkwEee9gdzmHsjG8Q" name="Numeric"/>
+    <routinesParameter id="_oWQGszkwEee9gdzmHsjG8Q" name="Relational"/>
+    <routinesParameter id="_oVzawDkwEee9gdzmHsjG8Q" name="SQLike"/>
+    <routinesParameter id="_oWZ3sDkwEee9gdzmHsjG8Q" name="StringHandling"/>
+    <routinesParameter id="_oWZ3tDkwEee9gdzmHsjG8Q" name="TalendDataGenerator"/>
+    <routinesParameter id="_oWjBozkwEee9gdzmHsjG8Q" name="TalendDate"/>
+    <routinesParameter id="_oWsyoDkwEee9gdzmHsjG8Q" name="TalendString"/>
+    <routinesParameter id="_802xgLVdEea5F5lJ8ZSjAg" name="FREE_ON_BOARD"/>
+    <routinesParameter id="_kWvwwLLUEeaeys0B72K_jQ" name="General"/>
+    <routinesParameter id="_X9r5IKV9EeajbdcilgQ9aQ" name="GenericValidation"/>
+    <routinesParameter id="_CkTh0NfzEeahxY1zJgC4ZA" name="MyRoutines"/>
+    <routinesParameter id="_9ZfQANHiEeaNXu_EsmRGQA" name="checkdigitR"/>
+  </parameters>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="0">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_INTM_FILE_PATH+&quot;rt_md_ami_int_md012p&quot;+&quot;_&quot;+context.RUN_DAY+context.CONTEXT_AMI_INTM_FILE_EXTENSION"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.CONTEXT_AMI_INTM_FILE_FIELD_SEPARATOR"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_0AvUEO3SEeapiYXNvEgFCA - MD012P" show="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/ashekhus/Desktop/AMI_DSD&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="true"/>
+    <elementParameter field="TABLE" name="TRIMSELECT" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAJOR_MKT_NBR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MINOR_MKT_NBR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STORE_LOCATION_NUMBER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.CONTEXT_ETL_OUTPUT_FILE_ENCODING"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAJOR_MKT_NBR"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MINOR_MKT_NBR"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STORE_LOCATION_NUMBER"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>rt_md_ami_int_md012p"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="MD012P" name="tFileInputDelimited_1">
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="MD012P" name="REJECT">
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="224" posY="0">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_INTM_FILE_PATH"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_I2rOsDliEeeRMNJzyckr4g-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="1000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out1">
+      <column comment="" key="false" length="1" name="MAINTENANCE_TYPE" nullable="false" pattern="" precision="-1" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="out2">
+      <column comment="" key="false" length="1" name="MAINTENANCE_TYPE" nullable="false" pattern="" precision="-1" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="out1">
+        <mapperTableEntries name="MAINTENANCE_TYPE" expression="&quot;U&quot;" type="id_String"/>
+        <mapperTableEntries name="MAJOR_MKT_NBR" expression="row1.MAJOR_MKT_NBR " type="id_String"/>
+        <mapperTableEntries name="MINOR_MKT_NBR" expression="row1.MINOR_MKT_NBR " type="id_String"/>
+        <mapperTableEntries name="STORE_LOCATION_NUMBER" expression="row1.STORE_LOCATION_NUMBER " type="id_String"/>
+      </outputTables>
+      <outputTables sizeState="INTERMEDIATE" name="out2" activateCondensedTool="true" rejectInnerJoin="true">
+        <mapperTableEntries name="MAINTENANCE_TYPE" expression="&quot;A&quot;" type="id_String"/>
+        <mapperTableEntries name="MAJOR_MKT_NBR" expression="row1.MAJOR_MKT_NBR " type="id_String"/>
+        <mapperTableEntries name="MINOR_MKT_NBR" expression="row1.MINOR_MKT_NBR " type="id_String"/>
+        <mapperTableEntries name="STORE_LOCATION_NUMBER" expression="row1.STORE_LOCATION_NUMBER " type="id_String" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="MAJOR_MKT_NBR" type="id_String"/>
+        <mapperTableEntries name="MINOR_MKT_NBR" type="id_String"/>
+        <mapperTableEntries name="STORE_LOCATION_NUMBER" type="id_String" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="FIRST_MATCH" lookupMode="LOAD_ONCE" innerJoin="true" persistent="true">
+        <mapperTableEntries name="MAINTENANCE_TYPE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="MAJOR_MKT_NBR" expression="row1.MAJOR_MKT_NBR " type="id_String"/>
+        <mapperTableEntries name="MINOR_MKT_NBR" expression="row1.MINOR_MKT_NBR " type="id_String"/>
+        <mapperTableEntries name="STORE_LOCATION_NUMBER" expression="row1.STORE_LOCATION_NUMBER " type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_2" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK_DYNAMIC+&quot;MD012P&quot;+&quot;_persistent&quot;+context.CONTEXT_AMI_OUTPUT_FILE_EXTENSION"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\r\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;\t&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_6DS58DbwEeeCd-0BMEufgQ - MD012P_Delta" show="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/ashekhus/Desktop/AMI_DSD&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="true"/>
+    <elementParameter field="TABLE" name="TRIMSELECT" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAINTENANCE_TYPE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAJOR_MKT_NBR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MINOR_MKT_NBR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STORE_LOCATION_NUMBER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.CONTEXT_ETL_OUTPUT_FILE_ENCODING"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAINTENANCE_TYPE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAJOR_MKT_NBR"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MINOR_MKT_NBR"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STORE_LOCATION_NUMBER"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>MD012P_Persistent"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="MD012P_Delta" name="tFileInputDelimited_2">
+      <column comment="" key="false" length="1" name="MAINTENANCE_TYPE" nullable="true" pattern="" precision="-1" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="MD012P_Delta" name="REJECT">
+      <column comment="" key="false" length="1" name="MAINTENANCE_TYPE" nullable="true" pattern="" precision="-1" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="-64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_1" show="false"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_INTM_FILE_PATH+&quot;MD012P_U&quot;+&quot;_&quot;+context.RUN_DAY+context.CONTEXT_AMI_INTM_FILE_EXTENSION"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\r\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;\t&quot;"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_6DS58DbwEeeCd-0BMEufgQ - MD012P_Delta" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.CONTEXT_ETL_OUTPUT_FILE_ENCODING"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>MD012P_Unchanged"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="MD012P_Delta" name="tFileOutputDelimited_1">
+      <column comment="" key="false" length="1" name="MAINTENANCE_TYPE" nullable="true" pattern="" precision="-1" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_2" show="false"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_INTM_FILE_PATH+&quot;MD012P_delta&quot;+&quot;_&quot;+context.RUN_DAY+context.CONTEXT_AMI_OUTPUT_FILE_EXTENSION"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\r\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;\t&quot;"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_6DS58DbwEeeCd-0BMEufgQ - MD012P_Delta" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.CONTEXT_ETL_OUTPUT_FILE_ENCODING"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>MD012P_Delta_A"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="MD012P_Delta" name="tFileOutputDelimited_2">
+      <column comment="" key="false" length="1" name="MAINTENANCE_TYPE" nullable="true" pattern="" precision="-1" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_3" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK_DYNAMIC+&quot;MD012P&quot;+&quot;_persistent&quot;+context.CONTEXT_AMI_OUTPUT_FILE_EXTENSION"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\r\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;\t&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_6DS58DbwEeeCd-0BMEufgQ - MD012P_Delta" show="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/ashekhus/Desktop/AMI_DSD&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="true"/>
+    <elementParameter field="TABLE" name="TRIMSELECT" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAINTENANCE_TYPE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAJOR_MKT_NBR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MINOR_MKT_NBR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STORE_LOCATION_NUMBER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.CONTEXT_ETL_OUTPUT_FILE_ENCODING"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAINTENANCE_TYPE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAJOR_MKT_NBR"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MINOR_MKT_NBR"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STORE_LOCATION_NUMBER"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>MD012P_Persistent"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="MD012P_Delta" name="tFileInputDelimited_3">
+      <column comment="" key="false" length="1" name="MAINTENANCE_TYPE" nullable="true" pattern="" precision="-1" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="MD012P_Delta" name="REJECT">
+      <column comment="" key="false" length="1" name="MAINTENANCE_TYPE" nullable="true" pattern="" precision="-1" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="256" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_2" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_INTM_FILE_PATH"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_I2rOsDliEeeRMNJzyckr4g-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="1000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="out5">
+      <column comment="" key="false" length="1" name="MAINTENANCE_TYPE" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="out5" activateCondensedTool="true" rejectInnerJoin="true">
+        <mapperTableEntries name="MAINTENANCE_TYPE" expression="&quot;D&quot;" type="id_String"/>
+        <mapperTableEntries name="MAJOR_MKT_NBR" expression="row4.MAJOR_MKT_NBR " type="id_String"/>
+        <mapperTableEntries name="MINOR_MKT_NBR" expression="row4.MINOR_MKT_NBR " type="id_String"/>
+        <mapperTableEntries name="STORE_LOCATION_NUMBER" expression="row4.STORE_LOCATION_NUMBER " type="id_String" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row4" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="MAINTENANCE_TYPE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="MAJOR_MKT_NBR" type="id_String"/>
+        <mapperTableEntries name="MINOR_MKT_NBR" type="id_String"/>
+        <mapperTableEntries name="STORE_LOCATION_NUMBER" type="id_String" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row5" activateCondensedTool="true" matchingMode="FIRST_MATCH" lookupMode="LOAD_ONCE" innerJoin="true" persistent="true">
+        <mapperTableEntries name="MAJOR_MKT_NBR" expression="row4.MAJOR_MKT_NBR " type="id_String"/>
+        <mapperTableEntries name="MINOR_MKT_NBR" expression="row4.MINOR_MKT_NBR " type="id_String"/>
+        <mapperTableEntries name="STORE_LOCATION_NUMBER" expression="row4.STORE_LOCATION_NUMBER " type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_5" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_INTM_FILE_PATH+&quot;rt_md_ami_int_md012p&quot;+&quot;_&quot;+context.RUN_DAY+context.CONTEXT_AMI_INTM_FILE_EXTENSION"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.CONTEXT_AMI_INTM_FILE_FIELD_SEPARATOR"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_0AvUEO3SEeapiYXNvEgFCA - MD012P" show="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/ashekhus/Desktop/AMI_DSD&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="true"/>
+    <elementParameter field="TABLE" name="TRIMSELECT" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAJOR_MKT_NBR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MINOR_MKT_NBR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STORE_LOCATION_NUMBER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.CONTEXT_ETL_OUTPUT_FILE_ENCODING"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAJOR_MKT_NBR"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MINOR_MKT_NBR"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STORE_LOCATION_NUMBER"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>rt_md_ami_int_md012p"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="MD012P" name="tFileInputDelimited_5">
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="MD012P" name="REJECT">
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_3" show="false"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_INTM_FILE_PATH+&quot;MD012P_delta&quot;+&quot;_&quot;+context.RUN_DAY+context.CONTEXT_AMI_OUTPUT_FILE_EXTENSION"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\r\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;\t&quot;"/>
+    <elementParameter field="CHECK" name="APPEND" value="true"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_6DS58DbwEeeCd-0BMEufgQ - MD012P_Delta" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.CONTEXT_ETL_OUTPUT_FILE_ENCODING"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>MD012P_Delta_D"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="MD012P_Delta" name="tFileOutputDelimited_3">
+      <column comment="" key="false" length="1" name="MAINTENANCE_TYPE" nullable="true" pattern="" precision="-1" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="4" offsetLabelY="3" posX="64" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_4" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_INTM_FILE_PATH+&quot;MD012P_U&quot;+&quot;_&quot;+context.RUN_DAY+context.CONTEXT_AMI_INTM_FILE_EXTENSION"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\r\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;\t&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_6DS58DbwEeeCd-0BMEufgQ - MD012P_Delta" show="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/ashekhus/Desktop/AMI_DSD&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="true"/>
+    <elementParameter field="TABLE" name="TRIMSELECT" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAINTENANCE_TYPE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAJOR_MKT_NBR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MINOR_MKT_NBR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STORE_LOCATION_NUMBER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.CONTEXT_ETL_OUTPUT_FILE_ENCODING"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAINTENANCE_TYPE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAJOR_MKT_NBR"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MINOR_MKT_NBR"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STORE_LOCATION_NUMBER"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>MD012P_Unchanged"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="MD012P_Delta" name="tFileInputDelimited_4">
+      <column comment="" key="false" length="1" name="MAINTENANCE_TYPE" nullable="true" pattern="" precision="-1" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="MD012P_Delta" name="REJECT">
+      <column comment="" key="false" length="1" name="MAINTENANCE_TYPE" nullable="true" pattern="" precision="-1" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tUnite" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tUnite_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_6DS58DbwEeeCd-0BMEufgQ - MD012P_Delta" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="MD012P_Delta" name="tUnite_1">
+      <column comment="" key="false" length="1" name="MAINTENANCE_TYPE" nullable="true" pattern="" precision="-1" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_4" show="false"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_INTM_FILE_PATH+&quot;MD012P&quot;+&quot;_persistent&quot;+context.CONTEXT_AMI_OUTPUT_FILE_EXTENSION"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\r\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;\t&quot;"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_6DS58DbwEeeCd-0BMEufgQ - MD012P_Delta" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.CONTEXT_ETL_OUTPUT_FILE_ENCODING"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>MD012P_persistent"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="MD012P_Delta" name="tFileOutputDelimited_4">
+      <column comment="" key="false" length="1" name="MAINTENANCE_TYPE" nullable="true" pattern="" precision="-1" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="10" offsetLabelY="1" posX="64" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_6" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_INTM_FILE_PATH+&quot;MD012P_delta&quot;+&quot;_&quot;+context.RUN_DAY+context.CONTEXT_AMI_OUTPUT_FILE_EXTENSION"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\r\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;\t&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_6DS58DbwEeeCd-0BMEufgQ - MD012P_Delta" show="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/ashekhus/Desktop/AMI_DSD&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="true"/>
+    <elementParameter field="TABLE" name="TRIMSELECT" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAINTENANCE_TYPE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAJOR_MKT_NBR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MINOR_MKT_NBR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STORE_LOCATION_NUMBER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.CONTEXT_ETL_OUTPUT_FILE_ENCODING"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAINTENANCE_TYPE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MAJOR_MKT_NBR"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MINOR_MKT_NBR"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STORE_LOCATION_NUMBER"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>MD012P_Delta"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="MD012P_Delta" name="tFileInputDelimited_6">
+      <column comment="" key="false" length="1" name="MAINTENANCE_TYPE" nullable="true" pattern="" precision="-1" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="MD012P_Delta" name="REJECT">
+      <column comment="" key="false" length="1" name="MAINTENANCE_TYPE" nullable="true" pattern="" precision="-1" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFilterRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFilterRow_11" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter field="TABLE" name="CONDITIONS">
+      <elementValue elementRef="INPUT_COLUMN" value="MAINTENANCE_TYPE"/>
+      <elementValue elementRef="FUNCTION" value=""/>
+      <elementValue elementRef="OPERATOR" value="!="/>
+      <elementValue elementRef="RVALUE" value="&quot;D&quot;"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="MD012P_Delta" name="tFilterRow_11">
+      <column comment="" key="false" length="1" name="MAINTENANCE_TYPE" nullable="true" pattern="" precision="-1" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FILTER" label="MD012P_Delta" name="FILTER">
+      <column comment="" key="false" length="1" name="MAINTENANCE_TYPE" nullable="true" pattern="" precision="-1" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="MD012P_Delta" name="REJECT">
+      <column comment="" key="false" length="1" name="MAINTENANCE_TYPE" nullable="true" pattern="" precision="-1" sourceType="CHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MAJOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MINOR_MKT_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="STORE_LOCATION_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tFileInputDelimited_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_1" target="tFileOutputDelimited_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="MAJOR_MKT_NBR"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MINOR_MKT_NBR"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="STORE_LOCATION_NUMBER"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MAINTENANCE_TYPE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="out2" lineStyle="0" metaname="out2" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_1" target="tFileOutputDelimited_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="8" metaname="tFileInputDelimited_2" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_2" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tFileInputDelimited_3" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_3" target="tMap_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_3" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_3" target="tFileInputDelimited_4">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="out5" lineStyle="0" metaname="out5" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tFileOutputDelimited_3">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="STORE_LOCATION_NUMBER"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out5" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row5" lineStyle="8" metaname="tFileInputDelimited_5" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_5" target="tMap_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row5" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row9" lineStyle="10" mergeOrder="1" metaname="tFileInputDelimited_4" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_4" target="tUnite_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row9" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row12" lineStyle="0" metaname="tUnite_1" offsetLabelX="0" offsetLabelY="0" source="tUnite_1" target="tFileOutputDelimited_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row12" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tFileInputDelimited_6" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_6" target="tFilterRow_11">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row6" show="false"/>
+  </connection>
+  <connection connectorName="FILTER" label="row3" lineStyle="10" mergeOrder="2" metaname="tFilterRow_11" offsetLabelX="0" offsetLabelY="0" source="tFilterRow_11" target="tUnite_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_4" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>
