@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="CONTEXT_ETL_INTM_FILE_ENCODING" prompt="CONTEXT_ETL_INTM_FILE_ENCODING?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_INTM_FILE_PATH" prompt="CONTEXT_ETL_INTM_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_OUTPUT_FILE_PATH" prompt="CONTEXT_ETL_OUTPUT_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_INTM_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_INTM_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_OUTPUT_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_OUTPUT_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ROW_SEPARATOR" prompt="CONTEXT_AMI_ROW_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_HEADER" prompt="CONTEXT_AMI_HEADER?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_INTM_FILE_EXTENSION" prompt="CONTEXT_AMI_INTM_FILE_EXTENSION?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_OUTPUT_FILE_EXTENSION" prompt="CONTEXT_AMI_OUTPUT_FILE_EXTENSION?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_TO" prompt="CONTEXT_AMI_GROUPEMAILID_TO?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_FROM" prompt="CONTEXT_AMI_GROUPEMAILID_FROM?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_FAILURE_SUBJECT" prompt="CONTEXT_AMI_GROUPEMAILID_FAILURE_SUBJECT?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_SUCCESS_SUBJECT" prompt="CONTEXT_AMI_GROUPEMAILID_SUCCESS_SUBJECT?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_FAILURE_MESSAGE" prompt="CONTEXT_AMI_GROUPEMAILID_FAILURE_MESSAGE?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_SUCCESS_MESSAGE" prompt="CONTEXT_AMI_GROUPEMAILID_SUCCESS_MESSAGE?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_SMTP_HOST" prompt="CONTEXT_AMI_GROUPEMAILID_SMTP_HOST?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_ARCHIVE_FILE_PATH" prompt="CONTEXT_ETL_ARCHIVE_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_REJECT_SUBJECT" prompt="CONTEXT_AMI_GROUPEMAILID_REJECT_SUBJECT?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_REJECT_MESSAGE" prompt="CONTEXT_AMI_GROUPEMAILID_REJECT_MESSAGE?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_OUTPUT_FILE_NAME" prompt="CONTEXT_AMI_OUTPUT_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_INTM_REJECT_PATH" prompt="CONTEXT_ETL_INTM_REJECT_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_INTM_REJECT_EXTENSION" prompt="CONTEXT_AMI_INTM_REJECT_EXTENSION?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ARD4_ADR7_DB_CONNECTIVITY_FILE" prompt="CONTEXT_AMI_ARD4_ADR7_DB_CONNECTIVITY_FILE?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR4_VALID_ITEMS_FILE_NAME" prompt="CONTEXT_AMI_ADR4_VALID_ITEMS_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR7_VALID_ITEMS_FILE_NAME" prompt="CONTEXT_AMI_ADR7_VALID_ITEMS_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR4_VALID_ITEMS_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_ADR4_VALID_ITEMS_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR7_VALID_ITEMS_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_ADR7_VALID_ITEMS_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR7_VALID_VENDORS_FILE_NAME" prompt="CONTEXT_AMI_ADR7_VALID_VENDORS_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR7_VALID_VENDORS_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_ADR7_VALID_VENDORS_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_INTM_TEMP_FILE_PATH" prompt="CONTEXT_ETL_INTM_TEMP_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_REJECT_TO" prompt="CONTEXT_AMI_GROUPEMAILID_REJECT_TO?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_OUTPUT_FILE_ENCODING" prompt="CONTEXT_ETL_OUTPUT_FILE_ENCODING?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_GROUPEMAILID_SUCCESS_TO" prompt="CONTEXT_AMI_GROUPEMAILID_SUCCESS_TO?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_RNWL_HOME" prompt="CONTEXT_RT_RNWL_HOME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_SOURCE" prompt="CONTEXT_RT_SOURCE?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_TRACK" prompt="CONTEXT_RT_TRACK?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_TRACK_STATIC" prompt="CONTEXT_RT_TRACK_STATIC?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_TRACK_DYNAMIC" prompt="CONTEXT_RT_TRACK_DYNAMIC?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_TARGET_INT_FILE_PATH" prompt="CONTEXT_ETL_TARGET_INT_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_INPUT_PATH" prompt="CONTEXT_ETL_INPUT_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_LOG_PATH" prompt="CONTEXT_ETL_LOG_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_JMS_PATH" prompt="CONTEXT_ETL_JMS_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="RUN_DAY" prompt="RUN_DAY?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_FILE_PATH" prompt="CONTEXT_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR7_SERVER" prompt="CONTEXT_ADR7_SERVER?" promptNeeded="false" repositoryContextId="_aWV2QLB4EeaOr91d2ymlaQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR7_ADDITIONAL_PARAMETERS" prompt="CONTEXT_ADR7_ADDITIONAL_PARAMETERS?" promptNeeded="false" repositoryContextId="_aWV2QLB4EeaOr91d2ymlaQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR7_LOGIN" prompt="CONTEXT_ADR7_LOGIN?" promptNeeded="false" repositoryContextId="_aWV2QLB4EeaOr91d2ymlaQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR7_DATABASE" prompt="CONTEXT_ADR7_DATABASE?" promptNeeded="false" repositoryContextId="_aWV2QLB4EeaOr91d2ymlaQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR7_PASSWORD" prompt="CONTEXT_ADR7_PASSWORD?" promptNeeded="false" repositoryContextId="_aWV2QLB4EeaOr91d2ymlaQ" type="id_Password" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR4_ADDITIONAL_PARAMETERS" prompt="CONTEXT_ADR4_ADDITIONAL_PARAMETERS?" promptNeeded="false" repositoryContextId="_bajyMLkREeaO0PEoVDBlRQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR4_LOGIN" prompt="CONTEXT_ADR4_LOGIN?" promptNeeded="false" repositoryContextId="_bajyMLkREeaO0PEoVDBlRQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR4_PASSWORD" prompt="CONTEXT_ADR4_PASSWORD?" promptNeeded="false" repositoryContextId="_bajyMLkREeaO0PEoVDBlRQ" type="id_Password" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR4_DATABASE" prompt="CONTEXT_ADR4_DATABASE?" promptNeeded="false" repositoryContextId="_bajyMLkREeaO0PEoVDBlRQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR4_SERVER" prompt="CONTEXT_ADR4_SERVER?" promptNeeded="false" repositoryContextId="_bajyMLkREeaO0PEoVDBlRQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_CHECKPOINT_LOG_FILE_NAME" prompt="CONTEXT_AMI_CHECKPOINT_LOG_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_TEAM_NAME" prompt="CONTEXT_AMI_TEAM_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_INT_JOB_NAME" prompt="CONTEXT_AMI_INT_JOB_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_LOG_FILE_NAME" prompt="CONTEXT_AMI_LOG_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR4_VALID_VENDORS_FILE_FIELD_SEPARATOR" prompt="CONTEXT_AMI_ADR4_VALID_VENDORS_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_MARA_TRIGGER" prompt="CONTEXT_AMI_MARA_TRIGGER?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_CON_JOB_NAME" prompt="CONTEXT_AMI_CON_JOB_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_TRACK_PTP_DYNAMIC" prompt="CONTEXT_RT_TRACK_PTP_DYNAMIC?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_TARGET_CON_FILE_PATH" prompt="CONTEXT_ETL_TARGET_CON_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_STATS_FILE_NAME" prompt="CONTEXT_AMI_STATS_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_SIGNAL_FILE_PATH" prompt="CONTEXT_SIGNAL_FILE_PATH?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_SITE_MASTER" prompt="CONTEXT_AMI_SITE_MASTER?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_AMI_ADR4_VALID_VENDORS_FILE_NAME" prompt="CONTEXT_AMI_ADR4_VALID_VENDORS_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_CHECKPOINT_FILE_NAME" prompt="CONTEXT_CHECKPOINT_FILE_NAME?" promptNeeded="false" repositoryContextId="_FWV7ULCFEea1ceH3OYwnIQ" type="id_String" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="32" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="64" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="true"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Talend Client_62/Talend-Studio-20160704_1411-V6.2.1/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICT_DEFAULT_PROJECTSETTING" value="true"/>
+    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="CHECK" name="STATS_DEFAULT_PROJECTSETTING" value="true"/>
+    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value=""/>
+    <routinesParameter id="_X7gcg_GoEeaZoNrOnhOTug" name="DQTechnical"/>
+    <routinesParameter id="_X5H24PGoEeaZoNrOnhOTug" name="DataMasking"/>
+    <routinesParameter id="_X7zXcPGoEeaZoNrOnhOTug" name="DataOperation"/>
+    <routinesParameter id="_X7Nhk_GoEeaZoNrOnhOTug" name="DataQualityDependencies"/>
+    <routinesParameter id="_X7DwkPGoEeaZoNrOnhOTug" name="DataQuality"/>
+    <routinesParameter id="_X7XSlfGoEeaZoNrOnhOTug" name="DqStringHandling"/>
+    <routinesParameter id="_X7zXdPGoEeaZoNrOnhOTug" name="Mathematical"/>
+    <routinesParameter id="_X79Ic_GoEeaZoNrOnhOTug" name="Numeric"/>
+    <routinesParameter id="_X8G5cPGoEeaZoNrOnhOTug" name="Relational"/>
+    <routinesParameter id="_X7qNgPGoEeaZoNrOnhOTug" name="SQLike"/>
+    <routinesParameter id="_X8QDYPGoEeaZoNrOnhOTug" name="StringHandling"/>
+    <routinesParameter id="_X8QDZPGoEeaZoNrOnhOTug" name="TalendDataGenerator"/>
+    <routinesParameter id="_X8Z0Y_GoEeaZoNrOnhOTug" name="TalendDate"/>
+    <routinesParameter id="_X8i-UPGoEeaZoNrOnhOTug" name="TalendString"/>
+    <routinesParameter id="_kWvwwLLUEeaeys0B72K_jQ" name="General"/>
+    <routinesParameter id="_X9r5IKV9EeajbdcilgQ9aQ" name="GenericValidation"/>
+    <routinesParameter id="_CkTh0NfzEeahxY1zJgC4ZA" name="MyRoutines"/>
+    <routinesParameter id="_9ZfQANHiEeaNXu_EsmRGQA" name="checkdigitR"/>
+  </parameters>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_13" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="rt_md_x1151_ami_030_comparison13_BuyerandSellerAgeDetails"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_nlj_EPKvEeanhqM-88Zbwg"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>rt_md_x1151_ami_030_comparison13_BuyerandSellerAgeDetails"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_13"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="-31" offsetLabelY="0" posX="672" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_14" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="rt_md_x1151_ami_030_comparison14_ItemSpecialMessages"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_H2UMkPNTEea6cK93FolqKw"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>rt_md_x1151_ami_030_comparison14_ItemSpecialMessages"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_14"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="39" offsetLabelY="0" posX="992" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_15" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="rt_md_x1151_ami_030_comparison15_ItemStoreLevelDiscontinuationDetails"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_XDClsPNkEea6cK93FolqKw"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>rt_md_x1151_ami_030_comparison15_ItemStoreLevelDiscontinuationDetails"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_15"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="21" offsetLabelY="0" posX="256" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_16" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="rt_md_x1151_ami_030_comparison16_DoNotBuyDoNotShipDetails"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_kJcvYPNxEea6cK93FolqKw"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>rt_md_x1151_ami_030_comparison16_DoNotBuyDoNotShipDetails"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_16"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_17" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="rt_md_x1151_ami_030_comparison17_DiscountIndicatorAtOpstudyLevel"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ubzMIPN1Eea6cK93FolqKw"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>rt_md_x1151_ami_030_comparison17_DiscountIndicatorAtOpstudyLevel"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_17"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_18" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="rt_md_x1151_ami_030_comparison18_GiftCardDolarAmtPercentage"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_-k6gkPN8Eea6cK93FolqKw"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>rt_md_x1151_ami_030_comparison18_GiftCardDolarAmtPecentage"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_18"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="608">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_19" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="rt_md_x1151_ami_030_comparison19_WERCSDetails"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_8cM44POCEea6cK93FolqKw"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>rt_md_x1151_ami_030_comparison19_WERCSDetails"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_19"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="608">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_20" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="rt_md_x1151_ami_030_comparison20_ItemScenarios"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_Sv-qQPQCEeapxPlWPIe0Nw"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>rt_md_x1151_ami_030_comparison20_ItemScenarios"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_20"/>
+  </node>
+  <node componentName="tCheckpointStart" componentVersion="0.100" offsetLabelX="0" offsetLabelY="0" posX="0" posY="0" sizeX="32" sizeY="35">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpointStart_1" show="false"/>
+    <elementParameter field="FILE" name="CHECKPOINT_DIRECTORY" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_INTM_FILE_PATH"/>
+    <elementParameter field="TEXT" name="CHECKPOINT_FILE" value="&quot;rt_md_x1151_ami_030_comparison3.checkpoint&quot;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tCheckpoint" componentVersion="0.100" offsetLabelX="0" offsetLabelY="0" posX="288" posY="0" sizeX="32" sizeY="35">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpoint_1" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="// if((Boolean) globalMap.get(&quot;tCheckpoint_xxx_NEEDS_RECOVERY&quot;)) System.out.println(&quot;This checkpoint needs recovery&quot;);&#xA;// if((Boolean) globalMap.get(&quot;tCheckpoint_xxx_NEEDS_EXECUTION&quot;)) System.out.println(&quot;This checkpoint needs execution&quot;);&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tCheckpoint" componentVersion="0.100" offsetLabelX="0" offsetLabelY="0" posX="672" posY="0" sizeX="32" sizeY="35">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpoint_2" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="// if((Boolean) globalMap.get(&quot;tCheckpoint_xxx_NEEDS_RECOVERY&quot;)) System.out.println(&quot;This checkpoint needs recovery&quot;);&#xA;// if((Boolean) globalMap.get(&quot;tCheckpoint_xxx_NEEDS_EXECUTION&quot;)) System.out.println(&quot;This checkpoint needs execution&quot;);&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tCheckpoint" componentVersion="0.100" offsetLabelX="0" offsetLabelY="0" posX="992" posY="0" sizeX="32" sizeY="35">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpoint_3" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="// if((Boolean) globalMap.get(&quot;tCheckpoint_xxx_NEEDS_RECOVERY&quot;)) System.out.println(&quot;This checkpoint needs recovery&quot;);&#xA;// if((Boolean) globalMap.get(&quot;tCheckpoint_xxx_NEEDS_EXECUTION&quot;)) System.out.println(&quot;This checkpoint needs execution&quot;);&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tCheckpoint" componentVersion="0.100" offsetLabelX="0" offsetLabelY="0" posX="256" posY="224" sizeX="32" sizeY="35">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpoint_4" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="// if((Boolean) globalMap.get(&quot;tCheckpoint_xxx_NEEDS_RECOVERY&quot;)) System.out.println(&quot;This checkpoint needs recovery&quot;);&#xA;// if((Boolean) globalMap.get(&quot;tCheckpoint_xxx_NEEDS_EXECUTION&quot;)) System.out.println(&quot;This checkpoint needs execution&quot;);&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tCheckpoint" componentVersion="0.100" offsetLabelX="0" offsetLabelY="0" posX="672" posY="224" sizeX="32" sizeY="35">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpoint_5" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="// if((Boolean) globalMap.get(&quot;tCheckpoint_xxx_NEEDS_RECOVERY&quot;)) System.out.println(&quot;This checkpoint needs recovery&quot;);&#xA;// if((Boolean) globalMap.get(&quot;tCheckpoint_xxx_NEEDS_EXECUTION&quot;)) System.out.println(&quot;This checkpoint needs execution&quot;);&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tCheckpoint" componentVersion="0.100" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="224" sizeX="32" sizeY="35">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpoint_6" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="// if((Boolean) globalMap.get(&quot;tCheckpoint_xxx_NEEDS_RECOVERY&quot;)) System.out.println(&quot;This checkpoint needs recovery&quot;);&#xA;// if((Boolean) globalMap.get(&quot;tCheckpoint_xxx_NEEDS_EXECUTION&quot;)) System.out.println(&quot;This checkpoint needs execution&quot;);&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tCheckpoint" componentVersion="0.100" offsetLabelX="0" offsetLabelY="0" posX="256" posY="480" sizeX="32" sizeY="35">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpoint_7" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="// if((Boolean) globalMap.get(&quot;tCheckpoint_xxx_NEEDS_RECOVERY&quot;)) System.out.println(&quot;This checkpoint needs recovery&quot;);&#xA;// if((Boolean) globalMap.get(&quot;tCheckpoint_xxx_NEEDS_EXECUTION&quot;)) System.out.println(&quot;This checkpoint needs execution&quot;);&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tCheckpoint" componentVersion="0.100" offsetLabelX="0" offsetLabelY="0" posX="832" posY="480" sizeX="32" sizeY="35">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpoint_8" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="// if((Boolean) globalMap.get(&quot;tCheckpoint_xxx_NEEDS_RECOVERY&quot;)) System.out.println(&quot;This checkpoint needs recovery&quot;);&#xA;// if((Boolean) globalMap.get(&quot;tCheckpoint_xxx_NEEDS_EXECUTION&quot;)) System.out.println(&quot;This checkpoint needs execution&quot;);&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tCheckpointEnd" componentVersion="0.100" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="480" sizeX="32" sizeY="35">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpointEnd_1" show="false"/>
+    <elementParameter field="CHECK" name="CLEAR_CHECKPOINT_FILE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_15" offsetLabelX="0" offsetLabelY="0" source="tRunJob_15" target="tRunJob_16">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk13" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tCheckpointStart_1" offsetLabelX="0" offsetLabelY="0" source="tCheckpointStart_1" target="tCheckpoint_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk8" show="false"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tCheckpoint_1" offsetLabelX="0" offsetLabelY="0" source="tCheckpoint_1" target="tRunJob_13">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Boolean)globalMap.get(&quot;tCheckpoint_1_NEEDS_EXECUTION&quot;))"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="If1" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tCheckpoint_1" offsetLabelX="0" offsetLabelY="0" source="tCheckpoint_1" target="tCheckpoint_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk9" show="false"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tCheckpoint_2" offsetLabelX="0" offsetLabelY="0" source="tCheckpoint_2" target="tRunJob_14">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Boolean)globalMap.get(&quot;tCheckpoint_2_NEEDS_EXECUTION&quot;))"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="If2" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tCheckpoint_2" offsetLabelX="0" offsetLabelY="0" source="tCheckpoint_2" target="tCheckpoint_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk10" show="false"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tCheckpoint_3" offsetLabelX="0" offsetLabelY="0" source="tCheckpoint_3" target="tRunJob_15">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Boolean)globalMap.get(&quot;tCheckpoint_3_NEEDS_EXECUTION&quot;))"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="If3" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tCheckpoint_3" offsetLabelX="0" offsetLabelY="0" source="tCheckpoint_3" target="tCheckpoint_4">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk11" show="false"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tCheckpoint_4" offsetLabelX="0" offsetLabelY="0" source="tCheckpoint_4" target="tRunJob_16">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Boolean)globalMap.get(&quot;tCheckpoint_4_NEEDS_EXECUTION&quot;))"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="If4" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tCheckpoint_4" offsetLabelX="0" offsetLabelY="0" source="tCheckpoint_4" target="tCheckpoint_5">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk12" show="false"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tCheckpoint_5" offsetLabelX="0" offsetLabelY="0" source="tCheckpoint_5" target="tRunJob_17">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Boolean)globalMap.get(&quot;tCheckpoint_5_NEEDS_EXECUTION&quot;))"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="If5" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tCheckpoint_5" offsetLabelX="0" offsetLabelY="0" source="tCheckpoint_5" target="tCheckpoint_6">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk14" show="false"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tCheckpoint_6" offsetLabelX="0" offsetLabelY="0" source="tCheckpoint_6" target="tRunJob_18">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Boolean)globalMap.get(&quot;tCheckpoint_6_NEEDS_EXECUTION&quot;))"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="If6" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tCheckpoint_6" offsetLabelX="0" offsetLabelY="0" source="tCheckpoint_6" target="tCheckpoint_7">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tCheckpoint_7" offsetLabelX="0" offsetLabelY="0" source="tCheckpoint_7" target="tRunJob_19">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Boolean)globalMap.get(&quot;tCheckpoint_7_NEEDS_EXECUTION&quot;))"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="If7" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tCheckpoint_7" offsetLabelX="0" offsetLabelY="0" source="tCheckpoint_7" target="tCheckpoint_8">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk15" show="false"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tCheckpoint_8" offsetLabelX="0" offsetLabelY="0" source="tCheckpoint_8" target="tRunJob_20">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Boolean)globalMap.get(&quot;tCheckpoint_8_NEEDS_EXECUTION&quot;))"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="If8" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tCheckpoint_8" offsetLabelX="0" offsetLabelY="0" source="tCheckpoint_8" target="tCheckpointEnd_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk16" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_13" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_14" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_15" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_16" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_17" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_18" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_19" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_20" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpointStart_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpoint_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpoint_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpoint_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpoint_4" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpoint_5" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpoint_6" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpoint_7" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpoint_8" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCheckpointEnd_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>
