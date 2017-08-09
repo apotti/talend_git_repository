@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="CONTEXT_ADR7_ADDITIONAL_PARAMETERS" prompt="CONTEXT_ADR7_ADDITIONAL_PARAMETERS?" promptNeeded="false" repositoryContextId="_aWV2QLB4EeaOr91d2ymlaQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR7_DATABASE" prompt="CONTEXT_ADR7_DATABASE?" promptNeeded="false" repositoryContextId="_aWV2QLB4EeaOr91d2ymlaQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR7_LOGIN" prompt="CONTEXT_ADR7_LOGIN?" promptNeeded="false" repositoryContextId="_aWV2QLB4EeaOr91d2ymlaQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR7_PASSWORD" prompt="CONTEXT_ADR7_PASSWORD?" promptNeeded="false" repositoryContextId="_aWV2QLB4EeaOr91d2ymlaQ" type="id_Password" value=""/>
+    <contextParameter comment="" name="CONTEXT_ADR7_SERVER" prompt="CONTEXT_ADR7_SERVER?" promptNeeded="false" repositoryContextId="_aWV2QLB4EeaOr91d2ymlaQ" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_ARCHIVE_FILE_PATH" prompt="CONTEXT_ETL_ARCHIVE_FILE_PATH?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_INPUT_PATH" prompt="CONTEXT_ETL_INPUT_PATH?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_INTM_FILE_ENCODING" prompt="CONTEXT_ETL_INTM_FILE_ENCODING?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_INTM_FILE_PATH" prompt="CONTEXT_ETL_INTM_FILE_PATH?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_INTM_REJECT_PATH" prompt="CONTEXT_ETL_INTM_REJECT_PATH?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_INTM_TEMP_FILE_PATH" prompt="CONTEXT_ETL_INTM_TEMP_FILE_PATH?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_JMS_PATH" prompt="CONTEXT_ETL_JMS_PATH?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_LOG_PATH" prompt="CONTEXT_ETL_LOG_PATH?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_OUTPUT_FILE_ENCODING" prompt="CONTEXT_ETL_OUTPUT_FILE_ENCODING?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_OUTPUT_FILE_PATH" prompt="CONTEXT_ETL_OUTPUT_FILE_PATH?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_ETL_TARGET_INT_FILE_PATH" prompt="CONTEXT_ETL_TARGET_INT_FILE_PATH?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_FILE_PATH" prompt="CONTEXT_FILE_PATH?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_ADR4_VALID_ITEMS_FILE_FIELD_SEPARATOR" prompt="CONTEXT_PIR_ADR4_VALID_ITEMS_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_ADR4_VALID_ITEMS_FILE_NAME" prompt="CONTEXT_PIR_ADR4_VALID_ITEMS_FILE_NAME?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_ADR4_VALID_VENDORS_FILE_FIELD_SEPARATOR" prompt="CONTEXT_PIR_ADR4_VALID_VENDORS_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_ADR4_VALID_VENDORS_FILE_NAME" prompt="CONTEXT_PIR_ADR4_VALID_VENDORS_FILE_NAME?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_ADR7_VALID_ITEMS_FILE_FIELD_SEPARATOR" prompt="CONTEXT_PIR_ADR7_VALID_ITEMS_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_ADR7_VALID_ITEMS_FILE_NAME" prompt="CONTEXT_PIR_ADR7_VALID_ITEMS_FILE_NAME?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_ADR7_VALID_VENDORS_FILE_FIELD_SEPARATOR" prompt="CONTEXT_PIR_ADR7_VALID_VENDORS_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_ADR7_VALID_VENDORS_FILE_NAME" prompt="CONTEXT_PIR_ADR7_VALID_VENDORS_FILE_NAME?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_ARD4_ADR7_DB_CONNECTIVITY_FILE" prompt="CONTEXT_PIR_ARD4_ADR7_DB_CONNECTIVITY_FILE?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_GROUPEMAILID_FAILURE_MESSAGE" prompt="CONTEXT_PIR_GROUPEMAILID_FAILURE_MESSAGE?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_GROUPEMAILID_FAILURE_SUBJECT" prompt="CONTEXT_PIR_GROUPEMAILID_FAILURE_SUBJECT?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_GROUPEMAILID_FROM" prompt="CONTEXT_PIR_GROUPEMAILID_FROM?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_GROUPEMAILID_REJECT_MESSAGE" prompt="CONTEXT_PIR_GROUPEMAILID_REJECT_MESSAGE?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_GROUPEMAILID_REJECT_SUBJECT" prompt="CONTEXT_PIR_GROUPEMAILID_REJECT_SUBJECT?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_GROUPEMAILID_REJECT_TO" prompt="CONTEXT_PIR_GROUPEMAILID_REJECT_TO?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_GROUPEMAILID_SMTP_HOST" prompt="CONTEXT_PIR_GROUPEMAILID_SMTP_HOST?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_GROUPEMAILID_SUCCESS_MESSAGE" prompt="CONTEXT_PIR_GROUPEMAILID_SUCCESS_MESSAGE?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_GROUPEMAILID_SUCCESS_SUBJECT" prompt="CONTEXT_PIR_GROUPEMAILID_SUCCESS_SUBJECT?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_GROUPEMAILID_SUCCESS_TO" prompt="CONTEXT_PIR_GROUPEMAILID_SUCCESS_TO?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_GROUPEMAILID_TO" prompt="CONTEXT_PIR_GROUPEMAILID_TO?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_HEADER" prompt="CONTEXT_PIR_HEADER?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_INTM_FILE_EXTENSION" prompt="CONTEXT_PIR_INTM_FILE_EXTENSION?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_INTM_FILE_FIELD_SEPARATOR" prompt="CONTEXT_PIR_INTM_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_INTM_REJECT_EXTENSION" prompt="CONTEXT_PIR_INTM_REJECT_EXTENSION?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_OUTPUT_FILE_EXTENSION" prompt="CONTEXT_PIR_OUTPUT_FILE_EXTENSION?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_OUTPUT_FILE_FIELD_SEPARATOR" prompt="CONTEXT_PIR_OUTPUT_FILE_FIELD_SEPARATOR?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_OUTPUT_FILE_MD_DC_PIR_ItemCostDetails" prompt="CONTEXT_PIR_OUTPUT_FILE_MD_DC_PIR_ItemCostDetails?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_OUTPUT_FILE_MD_DC_PIRCost_VendorItemDetails" prompt="CONTEXT_PIR_OUTPUT_FILE_MD_DC_PIRCost_VendorItemDetails?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_OUTPUT_FILE_MD_DSD_PIRCost_Master_Catalog" prompt="CONTEXT_PIR_OUTPUT_FILE_MD_DSD_PIRCost_Master_Catalog?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_OUTPUT_FILE_MD_DSD_PIRCost_PayonScanDetails" prompt="CONTEXT_PIR_OUTPUT_FILE_MD_DSD_PIRCost_PayonScanDetails?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_OUTPUT_FILE_MD_DSD_PIRCost_VendorItemCost" prompt="CONTEXT_PIR_OUTPUT_FILE_MD_DSD_PIRCost_VendorItemCost?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_OUTPUT_FILE_NAME" prompt="CONTEXT_PIR_OUTPUT_FILE_NAME?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_ROW_SEPARATOR" prompt="CONTEXT_PIR_ROW_SEPARATOR?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_PIR_UNIQUE_CDC_DC" prompt="CONTEXT_PIR_UNIQUE_CDC_DC?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_RNWL_HOME" prompt="CONTEXT_RT_RNWL_HOME?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_SOURCE" prompt="CONTEXT_RT_SOURCE?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_TRACK" prompt="CONTEXT_RT_TRACK?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_TRACK_DYNAMIC" prompt="CONTEXT_RT_TRACK_DYNAMIC?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="CONTEXT_RT_TRACK_STATIC" prompt="CONTEXT_RT_TRACK_STATIC?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+    <contextParameter comment="" name="RUN_DAY" prompt="RUN_DAY?" promptNeeded="false" repositoryContextId="_Bns_Etu2EeaR9-4QevdyYA" type="id_String" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="true"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value=""/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value=""/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Talend Client_62/Talend-Studio-20160704_1411-V6.2.1/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICT_DEFAULT_PROJECTSETTING" value="true"/>
+    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="CHECK" name="STATS_DEFAULT_PROJECTSETTING" value="true"/>
+    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value=""/>
+    <routinesParameter id="_c4gY4L3dEeaxPPS-m6w02Q" name="DataMasking"/>
+    <routinesParameter id="_c6jAQL3dEeaxPPS-m6w02Q" name="DataQuality"/>
+    <routinesParameter id="_c6rjIL3dEeaxPPS-m6w02Q" name="DataQualityDependencies"/>
+    <routinesParameter id="_c64-gL3dEeaxPPS-m6w02Q" name="DqStringHandling"/>
+    <routinesParameter id="_c6-eEL3dEeaxPPS-m6w02Q" name="DQTechnical"/>
+    <routinesParameter id="_c7EksL3dEeaxPPS-m6w02Q" name="SQLike"/>
+    <routinesParameter id="_c7KEQL3dEeaxPPS-m6w02Q" name="DataOperation"/>
+    <routinesParameter id="_c7Qx8L3dEeaxPPS-m6w02Q" name="Mathematical"/>
+    <routinesParameter id="_c7WRgL3dEeaxPPS-m6w02Q" name="Numeric"/>
+    <routinesParameter id="_c7fbcL3dEeaxPPS-m6w02Q" name="Relational"/>
+    <routinesParameter id="_c7mJIL3dEeaxPPS-m6w02Q" name="StringHandling"/>
+    <routinesParameter id="_c7td4L3dEeaxPPS-m6w02Q" name="TalendDataGenerator"/>
+    <routinesParameter id="_c7y9cL3dEeaxPPS-m6w02Q" name="TalendDate"/>
+    <routinesParameter id="_c76SML3dEeaxPPS-m6w02Q" name="TalendString"/>
+  </parameters>
+  <node componentName="tAS400Input" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAS400Input_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tAS400Connection_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_WYLUYLB0EeaOr91d2ymlaQ" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="jt400_V6R1.jar" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="context.CONTEXT_ADR7_SERVER" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.CONTEXT_ADR7_DATABASE" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="AS400" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.CONTEXT_ADR7_LOGIN" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kucn9qNXLcQdiVXM6lqM9ERKdjfgpEatueU=" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_gnRPAMBhEealkegnaSwX8w - IT002P" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;IT002P&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xD;&#xA;  IT002P.ITEM_NUMBER, &#xD;&#xA;  IT002P.VENDOR_NUMBER, &#xD;&#xA;  IT002P.DISTRIBUTION_CENTER_NBR&#xD;&#xA;FROM IT002P&#xD;&#xA;WHERE DISTRIBUTION_CENTER_NBR NOT IN ('ALLWH','STORE')&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="as400_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.CONTEXT_ADR7_ADDITIONAL_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="true"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ITEM_NUMBER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VENDOR_NUMBER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DISTRIBUTION_CENTER_NBR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>IT002P"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="IT002P" name="tAS400Input_1">
+      <column comment="" defaultValue="" key="true" length="6" name="ITEM_NUMBER" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="true" length="6" name="VENDOR_NUMBER" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="DISTRIBUTION_CENTER_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <additionalProperties key="Comment" value=""/>
+      <additionalProperties key="SYSTEM_TABLE_NAME" value="MD836P"/>
+      <additionalProperties key="TABLE_SCHEMA" value="CSPDLIB"/>
+      <additionalProperties key="SYSTEM_TABLE_SCHEMA" value="CSPDLIB"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="640" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_INTM_TEMP_FILE_PATH"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_RZJsQPJ4EearF7VqmzZbkA-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="1000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out1">
+      <column comment="" key="true" length="6" name="ITEM_NUMBER" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="true" length="6" name="VENDOR_NUMBER" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="DISTRIBUTION_CENTER_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="out1">
+        <mapperTableEntries name="ITEM_NUMBER" expression="row1.ITEM_NUMBER " type="id_String"/>
+        <mapperTableEntries name="VENDOR_NUMBER" expression="row1.VENDOR_NUMBER " type="id_String"/>
+        <mapperTableEntries name="DISTRIBUTION_CENTER_NBR" expression="row1.DISTRIBUTION_CENTER_NBR " type="id_String"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="ITEM_NUMBER" type="id_String"/>
+        <mapperTableEntries name="VENDOR_NUMBER" type="id_String"/>
+        <mapperTableEntries name="DISTRIBUTION_CENTER_NBR" type="id_String"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row3" activateCondensedTool="true" matchingMode="FIRST_MATCH" lookupMode="LOAD_ONCE" innerJoin="true" persistent="true">
+        <mapperTableEntries name="Item_Number" expression="row1.ITEM_NUMBER " type="id_String" operator="="/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row5" activateCondensedTool="true" matchingMode="FIRST_MATCH" lookupMode="LOAD_ONCE" innerJoin="true" persistent="true">
+        <mapperTableEntries name="VENDOR_NUMBER" expression="row1.VENDOR_NUMBER " type="id_String" operator="="/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="896" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_1" show="false"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_INTM_FILE_PATH+&quot;rt_md_pir_010_int_it002p&quot;+&quot;_&quot;+context.RUN_DAY+context.CONTEXT_PIR_INTM_FILE_EXTENSION"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.CONTEXT_PIR_INTM_FILE_FIELD_SEPARATOR"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_gnRPAMBhEealkegnaSwX8w - IT002P" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CREATE" value="false"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.CONTEXT_ETL_INTM_FILE_ENCODING"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>RT_MD_PIR_010_INT_IT002P"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="IT002P" name="tFileOutputDelimited_1">
+      <column comment="" defaultValue="" key="true" length="6" name="ITEM_NUMBER" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="true" length="6" name="VENDOR_NUMBER" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="DISTRIBUTION_CENTER_NBR" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_4" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_INPUT_PATH+context.CONTEXT_PIR_ADR7_VALID_ITEMS_FILE_NAME+&quot;_&quot;+context.RUN_DAY+context.CONTEXT_PIR_INTM_FILE_EXTENSION"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.CONTEXT_PIR_ADR4_VALID_ITEMS_FILE_FIELD_SEPARATOR"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_JLKeULLWEeaq2Pd7reg8vQ - ADR7_VALID_ITEMS" show="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/gargvi2/Desktop/Kolkata&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="true"/>
+    <elementParameter field="TABLE" name="TRIMSELECT" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Item_Number"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.CONTEXT_ETL_INTM_FILE_ENCODING"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Item_Number"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>ADR7_VALID_ITEMS_FILE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="ADR7_VALID_ITEMS" name="tFileInputDelimited_4">
+      <column comment="" key="true" length="6" name="Item_Number" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="ADR7_VALID_ITEMS" name="REJECT">
+      <column comment="" key="true" length="6" name="Item_Number" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="896" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_3" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.CONTEXT_RT_RNWL_HOME+context.CONTEXT_RT_TRACK+context.RUN_DAY.substring(0,8)+context.CONTEXT_ETL_INPUT_PATH+context.CONTEXT_PIR_ADR7_VALID_VENDORS_FILE_NAME+&quot;_&quot;+context.RUN_DAY+context.CONTEXT_PIR_INTM_FILE_EXTENSION"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.CONTEXT_PIR_ADR7_VALID_VENDORS_FILE_FIELD_SEPARATOR"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_RhA-EMaiEea1ZJ904p_nzA - SCHEMA_OF_ADR7_VALID_VENDOR" show="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/gargvi2/Desktop/Kolkata&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="true"/>
+    <elementParameter field="TABLE" name="TRIMSELECT" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="VENDOR_NUMBER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.CONTEXT_ETL_INTM_FILE_ENCODING"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="VENDOR_NUMBER"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>ADR7_VALID_VENDORS_FILE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="SCHEMA_OF_ADR7_VALID_VENDOR" name="tFileInputDelimited_3">
+      <column comment="" key="true" length="6" name="VENDOR_NUMBER" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="SCHEMA_OF_ADR7_VALID_VENDOR" name="REJECT">
+      <column comment="" key="true" length="6" name="VENDOR_NUMBER" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tAS400Connection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAS400Connection_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_WYLUYLB0EeaOr91d2ymlaQ" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="jt400_V6R1.jar"/>
+    <elementParameter field="TEXT" name="HOST" value="context.CONTEXT_ADR7_SERVER"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.CONTEXT_ADR7_DATABASE"/>
+    <elementParameter field="TEXT" name="TYPE" value="AS400" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.CONTEXT_ADR7_LOGIN"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kucn9qNXLcQdiVXM6lqM9ERKdjfgpEatueU="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.CONTEXT_ADR7_ADDITIONAL_PARAMETERS"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>ADR7_Connection"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tAS400Close" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAS400Close_1" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tAS400Connection_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tAS400Input_1" offsetLabelX="0" offsetLabelY="0" source="tAS400Input_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tAS400Input_1" offsetLabelX="0" offsetLabelY="0" source="tAS400Input_1" target="tAS400Close_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tFileOutputDelimited_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="DISTRIBUTION_CENTER_NBR"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="8" metaname="tFileInputDelimited_4" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_4" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row5" lineStyle="8" metaname="tFileInputDelimited_3" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_3" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row5" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tAS400Connection_1" offsetLabelX="0" offsetLabelY="0" source="tAS400Connection_1" target="tAS400Input_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAS400Input_1" show="false"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Extract IT002P with relevent File"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;255;255"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAS400Connection_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAS400Close_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

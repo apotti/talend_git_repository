@@ -1,0 +1,259 @@
+package routines;
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class MyRoutines {
+	
+	private static final java.util.Map<String, String> seq_Hash = new java.util.HashMap<String, String>();
+	
+	public static String sequence(String seqName) {
+		
+		String currentValue = "0000";
+		if (seq_Hash.containsKey(seqName)) {
+			currentValue = seq_Hash.get(seqName);
+		}
+		char[] valueArray = currentValue.toCharArray();  
+		for (int position=3; position>=0; position--) {
+			if (valueArray[position] < 'Z') {
+				if (valueArray[position] == '9') {
+					valueArray[position] = 'A';
+				} else {
+					valueArray[position]++;
+				}
+				break;
+			} else {
+				valueArray[position] = '0';
+			}
+		}
+		seq_Hash.put(seqName,String.valueOf(valueArray));
+		return String.valueOf(valueArray);
+	}
+	
+	public static String checkdigit(String input) {
+        //input="978968070057";
+        String r1="";
+        int m=0;
+        int n=0;
+        int r = 0;
+        
+        String input1 = input.trim();
+        
+        int l = input.trim().length();
+        System.out.println(input1);
+        if (l ==11)
+        {
+               System.out.println(" in 11 :" + input);
+        
+  
+
+        
+        int d11 = Integer.parseInt(input1.substring(10,11).trim());
+        int d10 = Integer.parseInt(input1.substring(9,10));
+        
+        int d9 = Integer.parseInt(input1.substring(8,9));
+        
+        int d8 = Integer.parseInt(input1.substring(7,8));
+        
+        int d7 = Integer.parseInt(input1.substring(6,7));
+        int d6 = Integer.parseInt(input1.substring(5,6));
+        
+        int d5 = Integer.parseInt(input1.substring(4,5));
+        
+        int d4 = Integer.parseInt(input1.substring(3,4));
+        
+        int d3 = Integer.parseInt(input1.substring(2,3));
+        
+        int d2 = Integer.parseInt(input1.substring(1,2));
+        
+        int d1 = Integer.parseInt(input1.substring(0,1));
+        
+        
+        
+        
+
+        // compute sums of first 5 even digits and the odd digits     
+          m = d2 + d4 + d6 + d8 + d10;    
+          n = d1 + d3 + d5 + d7 + d9 + d11;      
+          
+        // use UPC formula to determine required value for d12 
+          r = 10 - ((m + 3*n) % 10);
+          if ( r== 10)
+          {
+                 r =0;
+          }
+          
+          r1 = Integer.toString(r);
+        
+        System.out.println(" ia m done in 11");
+
+        }
+        
+        if (l ==12)
+        {
+               
+               System.out.println(" in 12 :" + input);
+        
+
+               int d12 = Integer.parseInt(input1.substring(11,12));
+               
+               
+        int d11 = Integer.parseInt(input1.substring(10,11).trim());
+        
+        int d10 = Integer.parseInt(input1.substring(9,10));
+        
+        int d9 = Integer.parseInt(input1.substring(8,9));
+        
+        int d8 = Integer.parseInt(input1.substring(7,8));
+        
+        int d7 = Integer.parseInt(input1.substring(6,7));
+        int d6 = Integer.parseInt(input1.substring(5,6));
+        
+        int d5 = Integer.parseInt(input1.substring(4,5));
+        
+        int d4 = Integer.parseInt(input1.substring(3,4));
+        
+        int d3 = Integer.parseInt(input1.substring(2,3));
+        
+        int d2 = Integer.parseInt(input1.substring(1,2));
+        
+        int d1 = Integer.parseInt(input1.substring(0,1));
+        
+        
+        
+        
+
+        // compute sums of first 5 even digits and the odd digits     
+          m = d2 + d4 + d6 + d8 + d10 + d12;     
+          n = d1 + d3 + d5 + d7 + d9 + d11;      
+          System.out.println("m= " + m + " n= " + n);
+        // use UPC formula to determine required value for d12 
+          r = 10 - ((m *3 + n) % 10);
+          if ( r== 10)
+          {
+                 r =0;
+          }
+        
+          r1 = Integer.toString(r);
+        
+        
+
+        }
+
+        if (l ==13)
+        {
+               
+               System.out.println(" in 13 :" + input);
+        /*int d12 = Integer.parseInt(input1.substring(11,1));*/
+
+               int d13 = Integer.parseInt(input1.substring(12,13).trim());
+               
+               int d12 = Integer.parseInt(input1.substring(11,12).trim());
+               
+        int d11 = Integer.parseInt(input1.substring(10,11).trim());
+        int d10 = Integer.parseInt(input1.substring(9,10));
+        
+        int d9 = Integer.parseInt(input1.substring(8,9));
+        
+        int d8 = Integer.parseInt(input1.substring(7,8));
+        
+        int d7 = Integer.parseInt(input1.substring(6,7));
+        int d6 = Integer.parseInt(input1.substring(5,6));
+        
+        int d5 = Integer.parseInt(input1.substring(4,5));
+        
+        int d4 = Integer.parseInt(input1.substring(3,4));
+        
+        int d3 = Integer.parseInt(input1.substring(2,3));
+        
+        int d2 = Integer.parseInt(input1.substring(1,2));
+        
+        int d1 = Integer.parseInt(input1.substring(0,1));
+        
+        
+        
+        
+
+        // compute sums of first 5 even digits and the odd digits     
+          m = d2 + d4 + d6 + d8 + d10 + d12;     
+          n = d1 + d3 + d5 + d7 + d9 + d11 + d13; 
+          
+        // use UPC formula to determine required value for d12 
+          r = 10 - ((m + 3*n) % 10);
+          if ( r== 10)
+          {
+                 r =0;
+          }
+          
+          r1 = Integer.toString(r);
+        
+        
+
+        }
+        
+        if (l ==10)
+        {
+               
+               System.out.println(" in 10 :" + input);
+        
+
+               
+        int d10 = Integer.parseInt(input1.substring(9,10));
+        
+        int d9 = Integer.parseInt(input1.substring(8,9));
+        
+        int d8 = Integer.parseInt(input1.substring(7,8));
+        
+        int d7 = Integer.parseInt(input1.substring(6,7));
+        int d6 = Integer.parseInt(input1.substring(5,6));
+        
+        int d5 = Integer.parseInt(input1.substring(4,5));
+        
+        int d4 = Integer.parseInt(input1.substring(3,4));
+        
+        int d3 = Integer.parseInt(input1.substring(2,3));
+        
+        int d2 = Integer.parseInt(input1.substring(1,2));
+        
+        int d1 = Integer.parseInt(input1.substring(0,1));
+        
+        
+        
+        
+
+        // compute sums of first 5 even digits and the odd digits     
+          m = d2 + d4 + d6 + d8 + d10 ;   
+          n = d1 + d3 + d5 + d7 + d9 ;    
+          System.out.println("m= " + m + " n= " + n);
+        // use UPC formula to determine required value for d12 
+          r = 10 - ((m *3 + n) % 10);
+          if ( r== 10)
+          {
+                 r =0;
+          }
+           
+          r1 = Integer.toString(r);
+        
+        
+
+        }
+
+        
+        return r1;
+        }
+}

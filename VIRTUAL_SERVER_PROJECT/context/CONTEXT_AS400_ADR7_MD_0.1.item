@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_4wIbQHz0EeeHc7Ox8Sn7yw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_4wIbQXz0EeeHc7Ox8Sn7yw" comment="" name="CONTEXT_ADR7_LOGIN" prompt="CONTEXT_ADR7_LOGIN?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_4wIbQnz0EeeHc7Ox8Sn7yw" comment="" name="CONTEXT_ADR7_PASSWORD" prompt="CONTEXT_ADR7_PASSWORD?" promptNeeded="false" type="id_Password" value=""/>
+  <contextParameter xmi:id="_4wIbQ3z0EeeHc7Ox8Sn7yw" comment="" name="CONTEXT_ADR7_SERVER" prompt="CONTEXT_ADR7_SERVER?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_4wIbRHz0EeeHc7Ox8Sn7yw" comment="" name="CONTEXT_ADR7_DATABASE" prompt="CONTEXT_ADR7_DATABASE?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_4wIbRXz0EeeHc7Ox8Sn7yw" comment="" name="CONTEXT_ADR7_ADDITIONAL_PARAMETERS" prompt="CONTEXT_ADR7_ADDITIONAL_PARAMETERS?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>
