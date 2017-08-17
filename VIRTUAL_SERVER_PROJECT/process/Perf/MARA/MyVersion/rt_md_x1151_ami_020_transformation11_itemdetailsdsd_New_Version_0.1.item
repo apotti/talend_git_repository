@@ -1437,6 +1437,7 @@
   </node>
   <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="736">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_3" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="100" show="false"/>
     <elementParameter field="TABLE" name="VALUES" show="false">
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_ITEM_NUMBER"/>
@@ -1615,6 +1616,7 @@
   </node>
   <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="736">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_7" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Data/My_New_Project/DEV/Tgt_Files/MN003P_and_Others.txt&quot;"/>
@@ -2595,6 +2597,7 @@
   </connection>
   <connection connectorName="FLOW" label="row9" lineStyle="0" metaname="tRowGenerator_3" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_3" target="tFileOutputDelimited_7">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row9" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row15" lineStyle="0" metaname="tFileInputDelimited_8" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_8" target="tMap_1">
