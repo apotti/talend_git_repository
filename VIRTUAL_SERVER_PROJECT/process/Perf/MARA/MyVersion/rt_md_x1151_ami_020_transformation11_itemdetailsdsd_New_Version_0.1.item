@@ -2142,11 +2142,11 @@
       <column comment="" key="false" length="4" name="MN633P_PRODUCT_SHELF_LIFE_DAYS" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_REORDER_SOURCE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="MN003P_PLANOGRAM_LINK_NBR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="MN003P_ITEM_UNIT_OF_MEASURE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="MN633P_HUMIDITY_AFFECTS_PROD_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="MN633P_RX_DOSAGE_FORM" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="MN633P_SPECIAL_SHIP_CONTAIN_REQ" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="MN633P_DISPLAYER_WIC_INDICATOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MN003P_ITEM_UNIT_OF_MEASURE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="MN633P_HUMIDITY_AFFECTS_PROD_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="MN633P_RX_DOSAGE_FORM" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="MN633P_SPECIAL_SHIP_CONTAIN_REQ" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="MN633P_DISPLAYER_WIC_INDICATOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_ITEM_DISCONTD_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="5" name="MN003P_SAME_RETAIL_LINK" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="5" usefulColumn="true"/>
       <column comment="" key="false" length="7" name="MN003P_FCST_COMBINE_HIST_EFFECT" nullable="true" pattern="" precision="2" sourceType="DECIMAL" type="id_String" originalLength="7" usefulColumn="true"/>
@@ -2367,11 +2367,11 @@
       <column comment="" key="false" length="4" name="MN633P_PRODUCT_SHELF_LIFE_DAYS" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_REORDER_SOURCE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="MN003P_PLANOGRAM_LINK_NBR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="MN003P_ITEM_UNIT_OF_MEASURE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="MN633P_HUMIDITY_AFFECTS_PROD_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="MN633P_RX_DOSAGE_FORM" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="MN633P_SPECIAL_SHIP_CONTAIN_REQ" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="MN633P_DISPLAYER_WIC_INDICATOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MN003P_ITEM_UNIT_OF_MEASURE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="MN633P_HUMIDITY_AFFECTS_PROD_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="MN633P_RX_DOSAGE_FORM" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="MN633P_SPECIAL_SHIP_CONTAIN_REQ" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="MN633P_DISPLAYER_WIC_INDICATOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_ITEM_DISCONTD_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="5" name="MN003P_SAME_RETAIL_LINK" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="5" usefulColumn="true"/>
       <column comment="" key="false" length="7" name="MN003P_FCST_COMBINE_HIST_EFFECT" nullable="true" pattern="" precision="2" sourceType="DECIMAL" type="id_String" originalLength="7" usefulColumn="true"/>
