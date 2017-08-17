@@ -2944,7 +2944,7 @@
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRowGenerator_4" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_4" target="tFileInputDelimited_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk7" show="false"/>
   </connection>
-  <note opaque="true" posX="1152" posY="672" sizeHeight="129" sizeWidth="385" text="Copy this subjob from the mainjob and make it work"/>
+  <note opaque="false" posX="1024" posY="640" sizeHeight="129" sizeWidth="385" text="Copy this subjob from the mainjob and make it work"/>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
