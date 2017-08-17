@@ -2092,7 +2092,7 @@
     <nodeData xsi:type="MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="out">
+      <outputTables sizeState="INTERMEDIATE" name="out" activateCondensedTool="true">
         <mapperTableEntries name="MN003P_ITEM_NUMBER" expression="row15.MN003P_ITEM_NUMBER " type="id_String"/>
         <mapperTableEntries name="MN003P_PRODUCT_IDENTIFIER" expression="row15.MN003P_PRODUCT_IDENTIFIER " type="id_String"/>
         <mapperTableEntries name="MN603P_DANGEROUS_DRUG_INDICATOR" expression="row15.MN603P_DANGEROUS_DRUG_INDICATOR" type="id_String" nullable="true"/>
@@ -2149,10 +2149,10 @@
         <mapperTableEntries name="MN003P_ITEM_DISCONTD_IND" expression="row15.MN003P_ITEM_DISCONTD_IND" type="id_String"/>
         <mapperTableEntries name="MN003P_SAME_RETAIL_LINK" expression="row15.MN003P_SAME_RETAIL_LINK" type="id_String" nullable="true"/>
         <mapperTableEntries name="MN003P_FCST_COMBINE_HIST_EFFECT" expression="row15.MN003P_FCST_COMBINE_HIST_EFFECT" type="id_String" nullable="true"/>
-        <mapperTableEntries name="LIC_FLAG" expression="row1.LIC_FLAG == null? &quot;&quot; : row1.LIC_FLAG " type="id_String" nullable="true"/>
-        <mapperTableEntries name="COUPON_FLAG" expression="row1.COUPON_FLAG == null ? &quot;&quot; : row1.COUPON_FLAG " type="id_String" nullable="true"/>
-        <mapperTableEntries name="PLU_FLAG" expression="row1.PLU_FLAG == null ? &quot;&quot; : row1.PLU_FLAG " type="id_String" nullable="true"/>
-        <mapperTableEntries name="EXCEPTION_UPC" expression="row1.EXCEPTION_UPC == null ? &quot;&quot; : row1.EXCEPTION_UPC " type="id_String"/>
+        <mapperTableEntries name="LIC_FLAG" expression="row1.LIC_FLAG " type="id_String" nullable="true"/>
+        <mapperTableEntries name="COUPON_FLAG" expression="row1.COUPON_FLAG " type="id_String" nullable="true"/>
+        <mapperTableEntries name="PLU_FLAG" expression="row1.PLU_FLAG " type="id_String" nullable="true"/>
+        <mapperTableEntries name="EXCEPTION_UPC" expression="row1.EXCEPTION_UPC " type="id_String"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row15" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="MN003P_ITEM_NUMBER" type="id_String"/>
