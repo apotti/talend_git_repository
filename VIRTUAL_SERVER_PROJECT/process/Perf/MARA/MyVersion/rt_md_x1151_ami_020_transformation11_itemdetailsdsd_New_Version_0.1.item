@@ -46,8 +46,8 @@
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
     <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
     <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
     <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
@@ -2109,9 +2109,9 @@
         <mapperTableEntries name="MN003P_PRODUCT_PRE_PRICE_IND" expression="row15.MN003P_PRODUCT_PRE_PRICE_IND" type="id_String"/>
         <mapperTableEntries name="MN003P_PRE_PRICE_AMT" expression="row15.MN003P_PRE_PRICE_AMT" type="id_String"/>
         <mapperTableEntries name="MN603P_EAS_INDICATOR" expression="row15.MN603P_EAS_INDICATOR" type="id_String" nullable="true"/>
-        <mapperTableEntries name="MN003P_ITEM_MYLAR_DESCRIPTION" expression="row15.MN003P_ITEM_MYLAR_DESCRIPTION " type="id_String"/>
+        <mapperTableEntries name="MN003P_ITEM_MYLAR_DESCRIPTION" expression="row15.MN003P_ITEM_MYLAR_DESCRIPTION == null ? &quot;&quot; : row15.MN003P_ITEM_MYLAR_DESCRIPTION.replace(&quot;\t&quot;, &quot; &quot;) " type="id_String"/>
         <mapperTableEntries name="MN003P_ITEM_RECEIPT_DESCRIPTION" expression="row15.MN003P_ITEM_RECEIPT_DESCRIPTION" type="id_String"/>
-        <mapperTableEntries name="MN633P_ITEM_DESCRIPTION" expression="row15.MN633P_ITEM_DESCRIPTION " type="id_String" nullable="true"/>
+        <mapperTableEntries name="MN633P_ITEM_DESCRIPTION" expression="row15.MN633P_ITEM_DESCRIPTION == null ? &quot;&quot; : row15.MN633P_ITEM_DESCRIPTION.replace(&quot;\t&quot;, &quot; &quot;) " type="id_String" nullable="true"/>
         <mapperTableEntries name="MN603P_EXT_QUANTITY_OF_UNITS" expression="row15.MN603P_EXT_QUANTITY_OF_UNITS" type="id_String" nullable="true"/>
         <mapperTableEntries name="MN803P_SKUS_PER_RETAIL_UNIT" expression="row15.MN803P_SKUS_PER_RETAIL_UNIT" type="id_String" nullable="true"/>
         <mapperTableEntries name="MN003P_PURCHASE_ORDER_UNIT" expression="row15.MN003P_PURCHASE_ORDER_UNIT" type="id_String"/>
@@ -2535,6 +2535,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row9" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row15" lineStyle="0" metaname="tFileInputDelimited_8" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_8" target="tMap_1">
+    <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="false" show="false"/>
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
       <elementValue elementRef="TRACE_COLUMN" value="MN633P_CONSUMER_UNIT_LENGTH"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
