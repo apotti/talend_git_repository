@@ -2154,7 +2154,7 @@
       <column comment="" key="false" length="1" name="EXCEPTION_UPC" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out">
         <mapperTableEntries name="MN003P_ITEM_NUMBER" expression="row15.MN003P_ITEM_NUMBER " type="id_String"/>
@@ -2218,7 +2218,7 @@
         <mapperTableEntries name="PLU_FLAG" expression="row1.PLU_FLAG == null ? &quot;&quot; : row1.PLU_FLAG " type="id_String" nullable="true"/>
         <mapperTableEntries name="EXCEPTION_UPC" expression="row1.EXCEPTION_UPC == null ? &quot;&quot; : row1.EXCEPTION_UPC " type="id_String"/>
       </outputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row10" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="row15" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="MN003P_ITEM_NUMBER" type="id_String"/>
         <mapperTableEntries name="MN003P_PRODUCT_IDENTIFIER" type="id_String"/>
         <mapperTableEntries name="MN603P_DANGEROUS_DRUG_INDICATOR" type="id_String" nullable="true"/>
@@ -2279,7 +2279,7 @@
       <inputTables sizeState="INTERMEDIATE" name="row1" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE" persistent="true">
         <mapperTableEntries name="ITEM_NUMBER" expression="row15.MN003P_ITEM_NUMBER " type="id_String"/>
         <mapperTableEntries name="PRODUCT_IDENTIFIER" expression="row15.MN003P_PRODUCT_IDENTIFIER " type="id_String"/>
-        <mapperTableEntries name="LIC_FLAG" type="id_String" nullable="true"/>
+        <mapperTableEntries name="LIC_FLAG" expression="" type="id_String" nullable="true"/>
         <mapperTableEntries name="COUPON_FLAG" type="id_String" nullable="true"/>
         <mapperTableEntries name="PLU_FLAG" type="id_String" nullable="true"/>
         <mapperTableEntries name="EXCEPTION_UPC" type="id_String"/>
@@ -2597,9 +2597,9 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row9" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="row10" lineStyle="0" metaname="tFileInputDelimited_8" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_8" target="tMap_1">
+  <connection connectorName="FLOW" label="row15" lineStyle="0" metaname="tFileInputDelimited_8" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_8" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row10" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row15" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="out" lineStyle="0" metaname="out" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tFileOutputDelimited_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
