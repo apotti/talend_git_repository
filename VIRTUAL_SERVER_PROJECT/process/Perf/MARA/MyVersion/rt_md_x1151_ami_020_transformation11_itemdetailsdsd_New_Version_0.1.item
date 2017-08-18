@@ -3193,6 +3193,13 @@
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="RADIO" name="PARTITIONER" value="true"/>
+    <elementParameter field="RADIO" name="NONE" value="false"/>
+    <elementParameter field="CHECK" name="HASH_PARTITION" value="true"/>
+    <elementParameter field="TABLE" name="HASH_KEYS">
+      <elementValue elementRef="KEY_COLUMN" value="MN003P_ITEM_NUMBER"/>
+      <elementValue elementRef="KEY_COLUMN" value="MN003P_PRODUCT_IDENTIFIER"/>
+    </elementParameter>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row15" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_8" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_8" target="tRowGenerator_4">
@@ -3206,10 +3213,19 @@
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="RADIO" name="DEPARTITIONER" value="true"/>
+    <elementParameter field="RADIO" name="NONE" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="out" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row1" lineStyle="8" metaname="tFileInputDelimited_6" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_6" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="RADIO" name="PARTITIONER" value="true"/>
+    <elementParameter field="RADIO" name="NONE" value="false"/>
+    <elementParameter field="CHECK" name="HASH_PARTITION" value="true"/>
+    <elementParameter field="TABLE" name="HASH_KEYS">
+      <elementValue elementRef="KEY_COLUMN" value="ITEM_NUMBER"/>
+      <elementValue elementRef="KEY_COLUMN" value="ITEM_NUMBER"/>
+    </elementParameter>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row10" lineStyle="0" metaname="tRowGenerator_4" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_4" target="tFileOutputDelimited_8">
