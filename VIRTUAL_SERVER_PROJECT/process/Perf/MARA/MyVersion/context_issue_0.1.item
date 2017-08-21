@@ -401,7 +401,7 @@
     <elementParameter field="TEXT" name="NB_ROWS" value="10" show="false"/>
     <elementParameter field="TABLE" name="VALUES" show="false">
       <elementValue elementRef="SCHEMA_COLUMN" value="Item_number"/>
-      <elementValue elementRef="ARRAY" value="&quot;Smith&quot;,&quot;Thomson&quot;,&quot;Willis&quot;,&quot;Higgins&quot;,&quot;Harris&quot; "/>
+      <elementValue elementRef="ARRAY" value="&quot;A&quot;,&quot;B&quot;,&quot;C&quot;,&quot;D&quot; "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Product_identifier"/>
       <elementValue elementRef="ARRAY" value="&quot;A&quot;,&quot;B&quot;,&quot;C&quot;,&quot;D&quot; "/>
     </elementParameter>
