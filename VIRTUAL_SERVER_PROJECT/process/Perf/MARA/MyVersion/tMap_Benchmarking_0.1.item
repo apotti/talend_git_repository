@@ -894,7 +894,6 @@
       <column comment="" key="false" length="7" name="MN633P_CONSUMER_UNIT_WIDTH" nullable="true" pattern="" precision="3" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="7" name="MN633P_CONSUMER_UNIT_HEIGHT" nullable="true" pattern="" precision="3" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN633P_TEMPERATURE_CONTROL_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="MN003P_ITEM_SUPPLY_SOURCE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_ITEM_ORDER_METHOD" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="MN603P_EXT_UNIT_OF_MEASURE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="MN633P_PRODUCT_FRESHNESS_EXPIRE" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
@@ -922,16 +921,12 @@
       <column comment="" key="false" length="1" name="MN633P_SPECIAL_SHIP_CONTAIN_REQ" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN633P_DISPLAYER_WIC_INDICATOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_ITEM_DISCONTD_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="14" name="MN003P_PRODUCT_IDENTIFIER_WITH_CHK_DGT" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="5" name="MN003P_SAME_RETAIL_LINK" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="7" name="MN003P_FCST_COMBINE_HIST_EFFECT" nullable="true" pattern="" precision="2" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
       <uiProperties shellMaximized="true"/>
-      <varTables sizeState="INTERMEDIATE" name="Var">
-        <mapperTableEntries name="Check_Digit" expression="(!Relational.ISNULL(row1.MN003P_PRODUCT_IDENTIFIER)&amp;&amp;&#xD;&#xA;!row1.LIC_FLAG.equalsIgnoreCase(&quot;Y&quot;)&amp;&amp;&#xD;&#xA;!row1.COUPON_FLAG.equalsIgnoreCase(&quot;Y&quot;)&amp;&amp;&#xD;&#xA;!row1.PLU_FLAG.equalsIgnoreCase(&quot;Y&quot;) &amp;&amp;&#xA;!row1.EXCEPTION_UPC.equalsIgnoreCase(&quot;Y&quot;))&#xD;&#xA;?row1.MN003P_PRODUCT_IDENTIFIER.trim()+checkdigitR.checkdigit(row1.MN003P_PRODUCT_IDENTIFIER):&#xD;&#xA;(row1.LIC_FLAG.equalsIgnoreCase(&quot;Y&quot;) || row1.COUPON_FLAG.equalsIgnoreCase(&quot;Y&quot;) || row1.PLU_FLAG.equalsIgnoreCase(&quot;Y&quot;) || row1.EXCEPTION_UPC.equalsIgnoreCase(&quot;Y&quot;))?&#xD;&#xA;StringHandling.RIGHT(&quot;00000000000000&quot;+StringHandling.TRIM(row1.MN003P_PRODUCT_IDENTIFIER) ,13) +checkdigitR.checkdigit(StringHandling.RIGHT(&quot;00000000000000&quot;+StringHandling.TRIM(row1.MN003P_PRODUCT_IDENTIFIER) ,13) ):row1.MN003P_PRODUCT_IDENTIFIER " type="id_String"/>
-        <mapperTableEntries name="ITEM_SUPPLY_SOURCE" expression="row1.MN003P_ITEM_NUMBER.trim().equals(&quot;000000&quot;)&amp;&amp;&#xD;&#xA;(row1.MN003P_ITEM_SUPPLY_SOURCE == null ||row1.MN003P_ITEM_SUPPLY_SOURCE.equals(&quot;  &quot;)&#xD;&#xA;||row1.MN003P_ITEM_SUPPLY_SOURCE.equals(&quot; &quot;)&#xD;&#xA;||row1.MN003P_ITEM_SUPPLY_SOURCE.trim().length()==0 ) ?&quot;D&quot;:row1.MN003P_ITEM_SUPPLY_SOURCE " type="id_String"/>
-      </varTables>
+      <varTables sizeState="INTERMEDIATE" name="Var"/>
       <outputTables sizeState="INTERMEDIATE" name="copyOfcopyOfout_6" activateExpressionFilter="true">
         <mapperTableEntries name="MAINTENANCE_TYPE" expression="&quot;A&quot;" type="id_String"/>
         <mapperTableEntries name="MN003P_ITEM_NUMBER" expression="row1.MN003P_ITEM_NUMBER " type="id_String"/>
@@ -960,7 +955,6 @@
         <mapperTableEntries name="MN633P_CONSUMER_UNIT_WIDTH" expression="row1.MN633P_CONSUMER_UNIT_WIDTH " type="id_String" nullable="true"/>
         <mapperTableEntries name="MN633P_CONSUMER_UNIT_HEIGHT" expression="row1.MN633P_CONSUMER_UNIT_HEIGHT " type="id_String" nullable="true"/>
         <mapperTableEntries name="MN633P_TEMPERATURE_CONTROL_CODE" expression="row1.MN633P_TEMPERATURE_CONTROL_CODE " type="id_String" nullable="true"/>
-        <mapperTableEntries name="MN003P_ITEM_SUPPLY_SOURCE" expression="Var.ITEM_SUPPLY_SOURCE " type="id_String"/>
         <mapperTableEntries name="MN003P_ITEM_ORDER_METHOD" expression="row1.MN003P_ITEM_ORDER_METHOD " type="id_String"/>
         <mapperTableEntries name="MN603P_EXT_UNIT_OF_MEASURE" expression="row1.MN603P_EXT_UNIT_OF_MEASURE " type="id_String" nullable="true"/>
         <mapperTableEntries name="MN633P_PRODUCT_FRESHNESS_EXPIRE" expression="row1.MN633P_PRODUCT_FRESHNESS_EXPIRE " type="id_String" nullable="true"/>
@@ -988,7 +982,6 @@
         <mapperTableEntries name="MN633P_SPECIAL_SHIP_CONTAIN_REQ" expression="row1.MN633P_SPECIAL_SHIP_CONTAIN_REQ " type="id_String" nullable="true"/>
         <mapperTableEntries name="MN633P_DISPLAYER_WIC_INDICATOR" expression="row1.MN633P_DISPLAYER_WIC_INDICATOR " type="id_String" nullable="true"/>
         <mapperTableEntries name="MN003P_ITEM_DISCONTD_IND" expression="row1.MN003P_ITEM_DISCONTD_IND " type="id_String"/>
-        <mapperTableEntries name="MN003P_PRODUCT_IDENTIFIER_WITH_CHK_DGT" expression="Var.Check_Digit " type="id_String"/>
         <mapperTableEntries name="MN003P_SAME_RETAIL_LINK" expression="row1.MN003P_SAME_RETAIL_LINK " type="id_String"/>
         <mapperTableEntries name="MN003P_FCST_COMBINE_HIST_EFFECT" expression="row1.MN003P_FCST_COMBINE_HIST_EFFECT " type="id_String" nullable="true"/>
       </outputTables>
@@ -1173,7 +1166,6 @@
       <column comment="" key="false" length="7" name="MN633P_CONSUMER_UNIT_WIDTH" nullable="true" pattern="" precision="3" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="7" name="MN633P_CONSUMER_UNIT_HEIGHT" nullable="true" pattern="" precision="3" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN633P_TEMPERATURE_CONTROL_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="MN003P_ITEM_SUPPLY_SOURCE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_ITEM_ORDER_METHOD" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="MN603P_EXT_UNIT_OF_MEASURE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="MN633P_PRODUCT_FRESHNESS_EXPIRE" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
@@ -1201,7 +1193,6 @@
       <column comment="" key="false" length="1" name="MN633P_SPECIAL_SHIP_CONTAIN_REQ" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN633P_DISPLAYER_WIC_INDICATOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_ITEM_DISCONTD_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="14" name="MN003P_PRODUCT_IDENTIFIER_WITH_CHK_DGT" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="5" name="MN003P_SAME_RETAIL_LINK" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="7" name="MN003P_FCST_COMBINE_HIST_EFFECT" nullable="true" pattern="" precision="2" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
