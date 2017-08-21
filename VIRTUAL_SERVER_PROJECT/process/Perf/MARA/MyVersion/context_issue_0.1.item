@@ -854,7 +854,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_8vG4oIRPEeeuRuQJjwP6Ow-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_EGWCMIaQEeebn_r8zX8CnA-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="1000000"/>
@@ -867,47 +867,47 @@
       <column comment="" key="false" length="1" name="MN603P_DANGEROUS_DRUG_INDICATOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_CONTROL_DRUG_CLASS" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN633P_RX_ITEM_GENERIC_INDICATOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="5" name="MN003P_ALCOHOL_PERCENT" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="MN003P_ALCOHOL_PERCENT" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="MN603P_EXT_ALCOHOL_BEV_CLASS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_HAZARDOUS_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_ITEM_FOOD_STAMP_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="MN003P_NDC_NUMBER" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_ITEM_EMPL_DISCOUNT_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="9" name="MN003P_ITEM_MAX_ORD_DOLLAR" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="7" name="MN003P_ITEM_MAX_ORDER_QTY" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="9" name="MN003P_ITEM_MAX_ORD_DOLLAR" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="MN003P_ITEM_MAX_ORDER_QTY" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_PRODUCT_PRE_PRICE_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="5" name="MN003P_PRE_PRICE_AMT" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="MN003P_PRE_PRICE_AMT" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN603P_EAS_INDICATOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="33" name="MN003P_ITEM_MYLAR_DESCRIPTION" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="18" name="MN003P_ITEM_RECEIPT_DESCRIPTION" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="MN633P_ITEM_DESCRIPTION" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="8" name="MN603P_EXT_QUANTITY_OF_UNITS" nullable="true" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="5" name="MN803P_SKUS_PER_RETAIL_UNIT" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="MN603P_EXT_QUANTITY_OF_UNITS" nullable="true" pattern="" precision="2" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="MN803P_SKUS_PER_RETAIL_UNIT" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="MN003P_PURCHASE_ORDER_UNIT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="7" name="MN633P_CONSUMER_UNIT_LENGTH" nullable="true" pattern="" precision="3" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="7" name="MN633P_CONSUMER_UNIT_WIDTH" nullable="true" pattern="" precision="3" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="7" name="MN633P_CONSUMER_UNIT_HEIGHT" nullable="true" pattern="" precision="3" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="MN633P_CONSUMER_UNIT_LENGTH" nullable="true" pattern="" precision="3" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="MN633P_CONSUMER_UNIT_WIDTH" nullable="true" pattern="" precision="3" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="MN633P_CONSUMER_UNIT_HEIGHT" nullable="true" pattern="" precision="3" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN633P_TEMPERATURE_CONTROL_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="MN003P_ITEM_SUPPLY_SOURCE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_ITEM_ORDER_METHOD" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="MN603P_EXT_UNIT_OF_MEASURE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="3" name="MN633P_PRODUCT_FRESHNESS_EXPIRE" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MN633P_PRODUCT_FRESHNESS_EXPIRE" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="MN003P_BRAND_NAME" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_ITEM_PRICE_REQUIRED_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="7" name="MN633P_DO_NOT_SELL_BEFORE_DATE" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="MN633P_DO_NOT_SELL_BEFORE_DATE" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="MN003P_PRODUCT_BRAND_NAME" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="MN003P_PRODUCT_TYPE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_WALG_ITEM_INDICATOR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_TAX_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN633P_FLEXIBLE_SPENDING_ACCOUNT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="MN633P_ITEM_SERVICE_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="MN633P_WCARD_PROFILE_MASK" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="4" name="MN003P_SKU_PER_UNIT_PACK" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="MN633P_WCARD_PROFILE_MASK" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="MN003P_SKU_PER_UNIT_PACK" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="MN622P_FEDERAL_EPA_RATING" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="MN621P_MANUFACTURER_STOCK_NBR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="MN003P_STORE_DEPT_NUMBER" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="MN603P_PRODUCT_CATEGORY_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="4" name="MN633P_PRODUCT_SHELF_LIFE_DAYS" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="MN633P_PRODUCT_SHELF_LIFE_DAYS" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_REORDER_SOURCE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="MN003P_PLANOGRAM_LINK_NBR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="MN003P_ITEM_UNIT_OF_MEASURE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -918,7 +918,7 @@
       <column comment="" key="false" length="1" name="MN003P_ITEM_DISCONTD_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="MN003P_PRODUCT_IDENTIFIER_WITH_CHK_DGT" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="5" name="MN003P_SAME_RETAIL_LINK" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="7" name="MN003P_FCST_COMBINE_HIST_EFFECT" nullable="true" pattern="" precision="2" sourceType="VARCHAR" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="MN003P_FCST_COMBINE_HIST_EFFECT" nullable="true" pattern="" precision="2" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
       <uiProperties shellMaximized="true"/>
@@ -933,47 +933,47 @@
         <mapperTableEntries name="MN603P_DANGEROUS_DRUG_INDICATOR" expression="row1.MN603P_DANGEROUS_DRUG_INDICATOR " type="id_String" nullable="true"/>
         <mapperTableEntries name="MN003P_CONTROL_DRUG_CLASS" expression="row1.MN003P_CONTROL_DRUG_CLASS " type="id_String"/>
         <mapperTableEntries name="MN633P_RX_ITEM_GENERIC_INDICATOR" expression="row1.MN633P_RX_ITEM_GENERIC_INDICATOR " type="id_String" nullable="true"/>
-        <mapperTableEntries name="MN003P_ALCOHOL_PERCENT" expression="row1.MN003P_ALCOHOL_PERCENT " type="id_BigDecimal"/>
+        <mapperTableEntries name="MN003P_ALCOHOL_PERCENT" expression="row1.MN003P_ALCOHOL_PERCENT " type="id_String"/>
         <mapperTableEntries name="MN603P_EXT_ALCOHOL_BEV_CLASS" expression="row1.MN603P_EXT_ALCOHOL_BEV_CLASS " type="id_String" nullable="true"/>
         <mapperTableEntries name="MN003P_HAZARDOUS_IND" expression="row1.MN003P_HAZARDOUS_IND " type="id_String" nullable="true"/>
         <mapperTableEntries name="MN003P_ITEM_FOOD_STAMP_IND" expression="row1.MN003P_ITEM_FOOD_STAMP_IND " type="id_String"/>
         <mapperTableEntries name="MN003P_NDC_NUMBER" expression="row1.MN003P_NDC_NUMBER " type="id_String"/>
         <mapperTableEntries name="MN003P_ITEM_EMPL_DISCOUNT_IND" expression="row1.MN003P_ITEM_EMPL_DISCOUNT_IND " type="id_String"/>
-        <mapperTableEntries name="MN003P_ITEM_MAX_ORD_DOLLAR" expression="row1.MN003P_ITEM_MAX_ORD_DOLLAR " type="id_BigDecimal"/>
-        <mapperTableEntries name="MN003P_ITEM_MAX_ORDER_QTY" expression="row1.MN003P_ITEM_MAX_ORDER_QTY " type="id_BigDecimal"/>
+        <mapperTableEntries name="MN003P_ITEM_MAX_ORD_DOLLAR" expression="row1.MN003P_ITEM_MAX_ORD_DOLLAR " type="id_String"/>
+        <mapperTableEntries name="MN003P_ITEM_MAX_ORDER_QTY" expression="row1.MN003P_ITEM_MAX_ORDER_QTY " type="id_String"/>
         <mapperTableEntries name="MN003P_PRODUCT_PRE_PRICE_IND" expression="row1.MN003P_PRODUCT_PRE_PRICE_IND " type="id_String"/>
-        <mapperTableEntries name="MN003P_PRE_PRICE_AMT" expression="row1.MN003P_PRE_PRICE_AMT " type="id_BigDecimal"/>
+        <mapperTableEntries name="MN003P_PRE_PRICE_AMT" expression="row1.MN003P_PRE_PRICE_AMT " type="id_String"/>
         <mapperTableEntries name="MN603P_EAS_INDICATOR" expression="row1.MN603P_EAS_INDICATOR " type="id_String" nullable="true"/>
         <mapperTableEntries name="MN003P_ITEM_MYLAR_DESCRIPTION" expression="row1.MN003P_ITEM_MYLAR_DESCRIPTION " type="id_String"/>
         <mapperTableEntries name="MN003P_ITEM_RECEIPT_DESCRIPTION" expression="row1.MN003P_ITEM_RECEIPT_DESCRIPTION " type="id_String"/>
         <mapperTableEntries name="MN633P_ITEM_DESCRIPTION" expression="row1.MN633P_ITEM_DESCRIPTION " type="id_String" nullable="true"/>
-        <mapperTableEntries name="MN603P_EXT_QUANTITY_OF_UNITS" expression="row1.MN603P_EXT_QUANTITY_OF_UNITS " type="id_BigDecimal" nullable="true"/>
-        <mapperTableEntries name="MN803P_SKUS_PER_RETAIL_UNIT" expression="row1.MN803P_SKUS_PER_RETAIL_UNIT " type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="MN603P_EXT_QUANTITY_OF_UNITS" expression="row1.MN603P_EXT_QUANTITY_OF_UNITS " type="id_String" nullable="true"/>
+        <mapperTableEntries name="MN803P_SKUS_PER_RETAIL_UNIT" expression="row1.MN803P_SKUS_PER_RETAIL_UNIT " type="id_String" nullable="true"/>
         <mapperTableEntries name="MN003P_PURCHASE_ORDER_UNIT" expression="row1.MN003P_PURCHASE_ORDER_UNIT " type="id_String"/>
-        <mapperTableEntries name="MN633P_CONSUMER_UNIT_LENGTH" expression="row1.MN633P_CONSUMER_UNIT_LENGTH " type="id_BigDecimal" nullable="true"/>
-        <mapperTableEntries name="MN633P_CONSUMER_UNIT_WIDTH" expression="row1.MN633P_CONSUMER_UNIT_WIDTH " type="id_BigDecimal" nullable="true"/>
-        <mapperTableEntries name="MN633P_CONSUMER_UNIT_HEIGHT" expression="row1.MN633P_CONSUMER_UNIT_HEIGHT " type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="MN633P_CONSUMER_UNIT_LENGTH" expression="row1.MN633P_CONSUMER_UNIT_LENGTH " type="id_String" nullable="true"/>
+        <mapperTableEntries name="MN633P_CONSUMER_UNIT_WIDTH" expression="row1.MN633P_CONSUMER_UNIT_WIDTH " type="id_String" nullable="true"/>
+        <mapperTableEntries name="MN633P_CONSUMER_UNIT_HEIGHT" expression="row1.MN633P_CONSUMER_UNIT_HEIGHT " type="id_String" nullable="true"/>
         <mapperTableEntries name="MN633P_TEMPERATURE_CONTROL_CODE" expression="row1.MN633P_TEMPERATURE_CONTROL_CODE " type="id_String" nullable="true"/>
         <mapperTableEntries name="MN003P_ITEM_SUPPLY_SOURCE" expression="Var.ITEM_SUPPLY_SOURCE " type="id_String"/>
         <mapperTableEntries name="MN003P_ITEM_ORDER_METHOD" expression="row1.MN003P_ITEM_ORDER_METHOD " type="id_String"/>
         <mapperTableEntries name="MN603P_EXT_UNIT_OF_MEASURE" expression="row1.MN603P_EXT_UNIT_OF_MEASURE " type="id_String" nullable="true"/>
-        <mapperTableEntries name="MN633P_PRODUCT_FRESHNESS_EXPIRE" expression="row1.MN633P_PRODUCT_FRESHNESS_EXPIRE " type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="MN633P_PRODUCT_FRESHNESS_EXPIRE" expression="row1.MN633P_PRODUCT_FRESHNESS_EXPIRE " type="id_String" nullable="true"/>
         <mapperTableEntries name="MN003P_BRAND_NAME" expression="row1.MN003P_BRAND_NAME " type="id_String"/>
         <mapperTableEntries name="MN003P_ITEM_PRICE_REQUIRED_IND" expression="row1.MN003P_ITEM_PRICE_REQUIRED_IND " type="id_String"/>
-        <mapperTableEntries name="MN633P_DO_NOT_SELL_BEFORE_DATE" expression="row1.MN633P_DO_NOT_SELL_BEFORE_DATE " type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="MN633P_DO_NOT_SELL_BEFORE_DATE" expression="row1.MN633P_DO_NOT_SELL_BEFORE_DATE " type="id_String" nullable="true"/>
         <mapperTableEntries name="MN003P_PRODUCT_BRAND_NAME" expression="row1.MN003P_PRODUCT_BRAND_NAME " type="id_String"/>
         <mapperTableEntries name="MN003P_PRODUCT_TYPE" expression="row1.MN003P_PRODUCT_TYPE " type="id_String"/>
         <mapperTableEntries name="MN003P_WALG_ITEM_INDICATOR" expression="row1.MN003P_WALG_ITEM_INDICATOR " type="id_String"/>
         <mapperTableEntries name="MN003P_TAX_CODE" expression="row1.MN003P_TAX_CODE " type="id_String"/>
         <mapperTableEntries name="MN633P_FLEXIBLE_SPENDING_ACCOUNT" expression="row1.MN633P_FLEXIBLE_SPENDING_ACCOUNT " type="id_String" nullable="true"/>
         <mapperTableEntries name="MN633P_ITEM_SERVICE_TYPE" expression="row1.MN633P_ITEM_SERVICE_TYPE " type="id_String" nullable="true"/>
-        <mapperTableEntries name="MN633P_WCARD_PROFILE_MASK" expression="row1.MN633P_WCARD_PROFILE_MASK " type="id_BigDecimal" nullable="true"/>
-        <mapperTableEntries name="MN003P_SKU_PER_UNIT_PACK" expression="row1.MN003P_SKU_PER_UNIT_PACK " type="id_BigDecimal"/>
+        <mapperTableEntries name="MN633P_WCARD_PROFILE_MASK" expression="row1.MN633P_WCARD_PROFILE_MASK " type="id_String" nullable="true"/>
+        <mapperTableEntries name="MN003P_SKU_PER_UNIT_PACK" expression="row1.MN003P_SKU_PER_UNIT_PACK " type="id_String"/>
         <mapperTableEntries name="MN622P_FEDERAL_EPA_RATING" expression="row1.MN622P_FEDERAL_EPA_RATING " type="id_String" nullable="true"/>
         <mapperTableEntries name="MN621P_MANUFACTURER_STOCK_NBR" expression="row1.MN621P_MANUFACTURER_STOCK_NBR " type="id_String" nullable="true"/>
         <mapperTableEntries name="MN003P_STORE_DEPT_NUMBER" expression="row1.MN003P_STORE_DEPT_NUMBER " type="id_String"/>
         <mapperTableEntries name="MN603P_PRODUCT_CATEGORY_CODE" expression="row1.MN603P_PRODUCT_CATEGORY_CODE " type="id_String" nullable="true"/>
-        <mapperTableEntries name="MN633P_PRODUCT_SHELF_LIFE_DAYS" expression="row1.MN633P_PRODUCT_SHELF_LIFE_DAYS " type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="MN633P_PRODUCT_SHELF_LIFE_DAYS" expression="row1.MN633P_PRODUCT_SHELF_LIFE_DAYS " type="id_String" nullable="true"/>
         <mapperTableEntries name="MN003P_REORDER_SOURCE" expression="row1.MN003P_REORDER_SOURCE " type="id_String"/>
         <mapperTableEntries name="MN003P_PLANOGRAM_LINK_NBR" expression="row1.MN003P_PLANOGRAM_LINK_NBR " type="id_String"/>
         <mapperTableEntries name="MN003P_ITEM_UNIT_OF_MEASURE" expression="row1.MN003P_ITEM_UNIT_OF_MEASURE " type="id_String"/>
@@ -984,7 +984,7 @@
         <mapperTableEntries name="MN003P_ITEM_DISCONTD_IND" expression="row1.MN003P_ITEM_DISCONTD_IND " type="id_String"/>
         <mapperTableEntries name="MN003P_PRODUCT_IDENTIFIER_WITH_CHK_DGT" expression="Var.Check_Digit " type="id_String"/>
         <mapperTableEntries name="MN003P_SAME_RETAIL_LINK" expression="row1.MN003P_SAME_RETAIL_LINK " type="id_String"/>
-        <mapperTableEntries name="MN003P_FCST_COMBINE_HIST_EFFECT" expression="row1.MN003P_FCST_COMBINE_HIST_EFFECT " type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="MN003P_FCST_COMBINE_HIST_EFFECT" expression="row1.MN003P_FCST_COMBINE_HIST_EFFECT " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="MN003P_ITEM_NUMBER" type="id_String"/>
@@ -1251,47 +1251,47 @@
       <column comment="" key="false" length="1" name="MN603P_DANGEROUS_DRUG_INDICATOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_CONTROL_DRUG_CLASS" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN633P_RX_ITEM_GENERIC_INDICATOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="5" name="MN003P_ALCOHOL_PERCENT" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="MN003P_ALCOHOL_PERCENT" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="MN603P_EXT_ALCOHOL_BEV_CLASS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_HAZARDOUS_IND" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_ITEM_FOOD_STAMP_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="MN003P_NDC_NUMBER" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_ITEM_EMPL_DISCOUNT_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="9" name="MN003P_ITEM_MAX_ORD_DOLLAR" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="7" name="MN003P_ITEM_MAX_ORDER_QTY" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="9" name="MN003P_ITEM_MAX_ORD_DOLLAR" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="MN003P_ITEM_MAX_ORDER_QTY" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_PRODUCT_PRE_PRICE_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="5" name="MN003P_PRE_PRICE_AMT" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="MN003P_PRE_PRICE_AMT" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN603P_EAS_INDICATOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="33" name="MN003P_ITEM_MYLAR_DESCRIPTION" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="18" name="MN003P_ITEM_RECEIPT_DESCRIPTION" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="MN633P_ITEM_DESCRIPTION" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="8" name="MN603P_EXT_QUANTITY_OF_UNITS" nullable="true" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="5" name="MN803P_SKUS_PER_RETAIL_UNIT" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="MN603P_EXT_QUANTITY_OF_UNITS" nullable="true" pattern="" precision="2" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="MN803P_SKUS_PER_RETAIL_UNIT" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="MN003P_PURCHASE_ORDER_UNIT" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="7" name="MN633P_CONSUMER_UNIT_LENGTH" nullable="true" pattern="" precision="3" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="7" name="MN633P_CONSUMER_UNIT_WIDTH" nullable="true" pattern="" precision="3" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="7" name="MN633P_CONSUMER_UNIT_HEIGHT" nullable="true" pattern="" precision="3" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="MN633P_CONSUMER_UNIT_LENGTH" nullable="true" pattern="" precision="3" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="MN633P_CONSUMER_UNIT_WIDTH" nullable="true" pattern="" precision="3" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="MN633P_CONSUMER_UNIT_HEIGHT" nullable="true" pattern="" precision="3" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN633P_TEMPERATURE_CONTROL_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="MN003P_ITEM_SUPPLY_SOURCE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_ITEM_ORDER_METHOD" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="MN603P_EXT_UNIT_OF_MEASURE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="3" name="MN633P_PRODUCT_FRESHNESS_EXPIRE" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="MN633P_PRODUCT_FRESHNESS_EXPIRE" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="MN003P_BRAND_NAME" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_ITEM_PRICE_REQUIRED_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="7" name="MN633P_DO_NOT_SELL_BEFORE_DATE" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="MN633P_DO_NOT_SELL_BEFORE_DATE" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="MN003P_PRODUCT_BRAND_NAME" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="MN003P_PRODUCT_TYPE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_WALG_ITEM_INDICATOR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_TAX_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN633P_FLEXIBLE_SPENDING_ACCOUNT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="MN633P_ITEM_SERVICE_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="MN633P_WCARD_PROFILE_MASK" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="4" name="MN003P_SKU_PER_UNIT_PACK" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="MN633P_WCARD_PROFILE_MASK" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="MN003P_SKU_PER_UNIT_PACK" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="MN622P_FEDERAL_EPA_RATING" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="MN621P_MANUFACTURER_STOCK_NBR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="MN003P_STORE_DEPT_NUMBER" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="MN603P_PRODUCT_CATEGORY_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="4" name="MN633P_PRODUCT_SHELF_LIFE_DAYS" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="MN633P_PRODUCT_SHELF_LIFE_DAYS" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="MN003P_REORDER_SOURCE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="MN003P_PLANOGRAM_LINK_NBR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="MN003P_ITEM_UNIT_OF_MEASURE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -1302,7 +1302,7 @@
       <column comment="" key="false" length="1" name="MN003P_ITEM_DISCONTD_IND" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="MN003P_PRODUCT_IDENTIFIER_WITH_CHK_DGT" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="5" name="MN003P_SAME_RETAIL_LINK" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="7" name="MN003P_FCST_COMBINE_HIST_EFFECT" nullable="true" pattern="" precision="2" sourceType="VARCHAR" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="MN003P_FCST_COMBINE_HIST_EFFECT" nullable="true" pattern="" precision="2" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tRowGenerator_1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tFileOutputDelimited_1">
