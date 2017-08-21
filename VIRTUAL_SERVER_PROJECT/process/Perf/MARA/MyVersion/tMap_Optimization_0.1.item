@@ -1644,7 +1644,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="MN633P_RX_ITEM_GENERIC_INDICATOR"/>
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_ALCOHOL_PERCENT"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="0.1 "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN603P_EXT_ALCOHOL_BEV_CLASS"/>
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_HAZARDOUS_IND"/>
@@ -1656,13 +1656,13 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_ITEM_EMPL_DISCOUNT_IND"/>
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_ITEM_MAX_ORD_DOLLAR"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="0.1 "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_ITEM_MAX_ORDER_QTY"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="0.1 "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_PRODUCT_PRE_PRICE_IND"/>
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_PRE_PRICE_AMT"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="0.1 "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN603P_EAS_INDICATOR"/>
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_ITEM_MYLAR_DESCRIPTION"/>
@@ -1672,17 +1672,17 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="MN633P_ITEM_DESCRIPTION"/>
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN603P_EXT_QUANTITY_OF_UNITS"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="0.1 "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN803P_SKUS_PER_RETAIL_UNIT"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="0.1 "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_PURCHASE_ORDER_UNIT"/>
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN633P_CONSUMER_UNIT_LENGTH"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="0.1 "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN633P_CONSUMER_UNIT_WIDTH"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="0.1 "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN633P_CONSUMER_UNIT_HEIGHT"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="0.1 "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN633P_TEMPERATURE_CONTROL_CODE"/>
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_ITEM_SUPPLY_SOURCE"/>
@@ -1692,13 +1692,13 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="MN603P_EXT_UNIT_OF_MEASURE"/>
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN633P_PRODUCT_FRESHNESS_EXPIRE"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="0.1 "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_BRAND_NAME"/>
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_ITEM_PRICE_REQUIRED_IND"/>
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN633P_DO_NOT_SELL_BEFORE_DATE"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="0.1 "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_PRODUCT_BRAND_NAME"/>
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_PRODUCT_TYPE"/>
@@ -1712,9 +1712,9 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="MN633P_ITEM_SERVICE_TYPE"/>
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN633P_WCARD_PROFILE_MASK"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="0.1 "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_SKU_PER_UNIT_PACK"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="0.1 "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN622P_FEDERAL_EPA_RATING"/>
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN621P_MANUFACTURER_STOCK_NBR"/>
@@ -1724,7 +1724,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="MN603P_PRODUCT_CATEGORY_CODE"/>
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN633P_PRODUCT_SHELF_LIFE_DAYS"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="0.1 "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_REORDER_SOURCE"/>
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_PLANOGRAM_LINK_NBR"/>
@@ -1744,7 +1744,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_SAME_RETAIL_LINK"/>
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MN003P_FCST_COMBINE_HIST_EFFECT"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="0.1 "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="LIC_FLAG"/>
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="COUPON_FLAG"/>
