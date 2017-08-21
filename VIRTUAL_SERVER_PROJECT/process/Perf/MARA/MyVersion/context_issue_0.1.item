@@ -863,7 +863,7 @@
     <elementParameter field="IMAGE" name="PREVIEW" value="_EGWCMIaQEeebn_r8zX8CnA-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="1000000"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="300000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="DSD_item" name="copyOfcopyOfout_6">
