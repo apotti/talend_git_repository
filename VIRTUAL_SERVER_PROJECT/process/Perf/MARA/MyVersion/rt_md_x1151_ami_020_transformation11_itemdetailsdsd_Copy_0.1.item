@@ -2175,14 +2175,14 @@
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAS400Input_1" show="false"/>
-    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Subjob4"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="SourceDB2_CreateDSD_Temp"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
-    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Subjob5"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="CreateDSD_From_Item_Finalist"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
@@ -2203,7 +2203,7 @@
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_4" show="false"/>
-    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Subjob3"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Merge_Coupon_Excpt_Files"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
