@@ -1053,7 +1053,7 @@
         <mapperTableEntries name="PLU_FLAG" type="id_String" nullable="true"/>
         <mapperTableEntries name="EXCEPTION_UPC" type="id_String"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row2" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE" innerJoin="true" persistent="true">
         <mapperTableEntries name="Item_number" expression="row1.MN003P_ITEM_NUMBER" type="id_String" nullable="true"/>
         <mapperTableEntries name="Product_identifier" expression="row1.MN003P_PRODUCT_IDENTIFIER" type="id_String" nullable="true"/>
       </inputTables>
