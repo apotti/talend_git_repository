@@ -929,7 +929,7 @@
       <column comment="" key="false" length="1" name="EXCEPTION_UPC" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
         <mapperTableEntries name="MN003P_ITEM_NUMBER" expression="row1.MN003P_ITEM_NUMBER " type="id_String"/>
