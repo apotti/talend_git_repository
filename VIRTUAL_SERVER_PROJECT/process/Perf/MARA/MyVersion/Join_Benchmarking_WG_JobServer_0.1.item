@@ -1912,7 +1912,7 @@
   </node>
   <node componentName="tFileExist" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="608">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileExist_1" show="false"/>
-    <elementParameter field="FILE" name="FILE_NAME" value="&quot;C:/Data/My_New_Project/DEV/Src_Files/rt_md_ami_dsd_item_finallist1.txt&quot;"/>
+    <elementParameter field="FILE" name="FILE_NAME" value="&quot;C:/Data/My_New_Project/DEV/Src_Files/rt_md_ami_dsd_item_finallist.txt&quot;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="512">
