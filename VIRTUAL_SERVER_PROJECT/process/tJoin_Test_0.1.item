@@ -137,7 +137,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJoin_1" show="false"/>
     <elementParameter field="CHECK" name="USE_LOOKUP_COLS" value="true"/>
     <elementParameter field="TABLE" name="LOOKUP_COLS">
-      <elementValue elementRef="OUTPUT_COLUMN" value="ID"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="ID_lkp"/>
       <elementValue elementRef="LOOKUP_COLUMN" value="ID_lkp"/>
     </elementParameter>
     <elementParameter field="TABLE" name="JOIN_KEY">
