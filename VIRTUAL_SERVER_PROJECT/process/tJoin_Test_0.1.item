@@ -167,7 +167,7 @@
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
     <elementParameter field="TABLE" name="VALUES">
       <elementValue elementRef="SCHEMA_COLUMN" value="ID_lkp"/>
-      <elementValue elementRef="VALUE" value="&quot;ID_1&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;ID_2&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ID_lkp_DONOTUSE"/>
       <elementValue elementRef="VALUE" value="&quot;ID_1_DONOTUSE&quot;"/>
     </elementParameter>
