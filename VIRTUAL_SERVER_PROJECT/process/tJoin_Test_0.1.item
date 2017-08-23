@@ -135,8 +135,11 @@
   </node>
   <node componentName="tJoin" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJoin_1" show="false"/>
-    <elementParameter field="CHECK" name="USE_LOOKUP_COLS" value="false"/>
-    <elementParameter field="TABLE" name="LOOKUP_COLS" show="false"/>
+    <elementParameter field="CHECK" name="USE_LOOKUP_COLS" value="true"/>
+    <elementParameter field="TABLE" name="LOOKUP_COLS">
+      <elementValue elementRef="OUTPUT_COLUMN" value="ID"/>
+      <elementValue elementRef="LOOKUP_COLUMN" value="ID_lkp"/>
+    </elementParameter>
     <elementParameter field="TABLE" name="JOIN_KEY">
       <elementValue elementRef="INPUT_COLUMN" value="ID"/>
       <elementValue elementRef="LOOKUP_COLUMN" value="ID_lkp"/>
