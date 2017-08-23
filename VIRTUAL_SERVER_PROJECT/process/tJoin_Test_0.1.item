@@ -146,7 +146,7 @@
       <elementValue elementRef="INPUT_COLUMN" value="ID"/>
       <elementValue elementRef="LOOKUP_COLUMN" value="ID_lkp"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="USE_INNER_JOIN" value="false"/>
+    <elementParameter field="CHECK" name="USE_INNER_JOIN" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJoin_1">
       <column comment="" key="false" length="-1" name="ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
