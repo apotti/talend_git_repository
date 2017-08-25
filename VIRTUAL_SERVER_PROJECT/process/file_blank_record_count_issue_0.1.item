@@ -130,8 +130,8 @@
     <elementParameter field="TABLE" name="INTABLE">
       <elementValue elementRef="ID" value="&quot;1&quot;"/>
       <elementValue elementRef="Name" value="&quot;TLND&quot;"/>
-      <elementValue elementRef="ID" value="&quot;2&quot;"/>
-      <elementValue elementRef="Name" value="&quot;INFA&quot;"/>
+      <elementValue elementRef="ID" value=""/>
+      <elementValue elementRef="Name" value=""/>
       <elementValue elementRef="ID" value="&quot;3&quot;"/>
       <elementValue elementRef="Name" value="&quot;MSFT&quot;"/>
       <elementValue elementRef="ID" value="&quot;4&quot;"/>
