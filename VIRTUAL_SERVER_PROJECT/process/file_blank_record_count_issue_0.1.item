@@ -134,6 +134,8 @@
       <elementValue elementRef="Name" value="&quot;INFA&quot;"/>
       <elementValue elementRef="ID" value="&quot;3&quot;"/>
       <elementValue elementRef="Name" value="&quot;MSFT&quot;"/>
+      <elementValue elementRef="ID" value="&quot;4&quot;"/>
+      <elementValue elementRef="Name" value="&quot;AAPL&quot;"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
