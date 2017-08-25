@@ -1,0 +1,159 @@
+package routines;
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+//import java.text.DecimalFormat;
+
+//import com.sun.xml.internal.ws.util.StringUtils;
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class Generic_Validation {
+
+    /**
+     * helloExample: not return value, only print "hello" + message.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("world") input: The string need to be printed.
+     * 
+     * {example} helloExemple("world") # hello world !.
+     */
+	public static String remove_dquotes(String message) {
+		String replaceDquote = null;
+		if ( message != null) {
+			replaceDquote = message.replaceAll("^\"|\"$","");
+        	
+        	//(message ,),"\\r",); 
+        }
+        
+       // System.out.println("Hello " + replaceDquote + " !"); //$NON-NLS-1$ //$NON-NLS-2$
+        return replaceDquote;
+    }
+	
+	public static String remove_carriageRetrun(String message) {
+		String replaceCarriageReturn = null;
+		if ( message != null) {
+			replaceCarriageReturn = message.replaceAll("\\r","");
+        	
+        	//(message ,),"\\r",); 
+        }
+        
+       // System.out.println("Hello " + replaceCarriageReturn + " !"); //$NON-NLS-1$ //$NON-NLS-2$
+        return replaceCarriageReturn;
+    }
+	
+	public static String remove_dquote_carriageRetrun(String message) {
+		String replaceDquoteCR = null;
+		if ( message != null) {
+			replaceDquoteCR = message.replaceAll("^\"|\"$","").replaceAll("\\r", "");
+        	//(message ,),"\\r",); 
+        }
+        
+       // System.out.println("Hello " + replaceDquoteCR + " !"); //$NON-NLS-1$ //$NON-NLS-2$
+        return replaceDquoteCR;
+    }
+	/*public static String makeValidID(String input) {
+		if (input != null && !(input.isEmpty()))
+		{
+		input = input.replaceAll("[^A-Za-z0-9]","").trim().replaceAll("\\s","_").toUpperCase() ;
+		}
+    return input;
+}*/
+	public static String makeValidID(String input) {
+		if (input != null && !(input.isEmpty()))
+		{
+		input = input.replaceAll("[^A-Za-z0-9]","_").toUpperCase();
+		}
+    return input;
+}
+	public static String makeValidText(String input) {
+		if(input != null && !(input.isEmpty())){
+		input = input.replaceAll("[^A-Za-z0-9\\s]","").trim();
+		}
+    return input;
+}
+	
+	public static String stringFilterOut(String input) {
+		if(input != null && !(input.isEmpty())){
+		input = input.replaceAll("[^A-Za-z0-9]","").trim().toUpperCase();
+		}
+    return input;
+}
+	
+	public static Double firstNonNull(Double input1,Double input2){
+		return input1 != null ? input1 : (input2 != null ? input2 : 0.0);
+	}
+	
+/*public static double roundOfFivePlace(double input){		
+		DecimalFormat decimalFormat = new DecimalFormat("#.#####");
+		return Double.parseDouble(decimalFormat.format(input));
+	}
+
+public static double roundOfTwoPlace(double input){		
+	DecimalFormat decimalFormat = new DecimalFormat("#.##");
+	return Double.parseDouble(decimalFormat.format(input));
+}*/
+
+public static double round(double value, int places) {
+    BigDecimal bd = new BigDecimal(value);
+    bd = bd.setScale(places, RoundingMode.HALF_UP);
+    return bd.doubleValue();
+}
+
+public static BigDecimal roundBD(BigDecimal value, int places) {
+    //BigDecimal bd = new BigDecimal(value);
+     return value.setScale(places, RoundingMode.HALF_UP);
+    //return bd.doubleValue();
+}
+
+public static BigDecimal defaultValueBD() {
+	return new BigDecimal(0);
+	//return value.setScale(places, RoundingMode.HALF_UP);
+
+}
+public static double bigDecimalToDouble(BigDecimal value) {
+    //BigDecimal bd = new BigDecimal(value);
+     return value.doubleValue();
+    //return bd.doubleValue();
+}
+public static BigDecimal stringToBigDecimal(String input){
+	//BigDecimal bd = new BigDecimal(input);
+	return new BigDecimal(input);
+}
+public static BigDecimal doubleBigDecimal(Double input) {
+	return new BigDecimal(input);
+	//return value.setScale(places, RoundingMode.HALF_UP);
+
+}
+
+public static boolean compareLong(String upc){
+	boolean flag = false;
+	Long long1 = new Long(0L);
+    Long long2 = new Long(upc);
+   // System.out.println("upc::::"+upc);
+    flag = long1.equals(long2);
+   // System.out.println("comparison::::"+flag);
+	
+return flag;
+}
+}

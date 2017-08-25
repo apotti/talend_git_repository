@@ -1,0 +1,35 @@
+package routines;
+
+public class Reject_Reason {
+
+	public static String rejectString(String var1,String var2,String var3,String var4,String var5,String var6,String var7,String var8,String var9,String var10,String var11){
+    	String result = null;
+    	
+    	if(null==var1 || var1.isEmpty()){
+    		result="ST006P_Sale_Category is blank";
+    	}else if(null==var2 || var2.isEmpty()){
+    		result = "ST010P_Sales_Category_Description is blank";
+    	}else if(null==var3 || var3.isEmpty()){
+    		result="ST012P_Merch_Division_Nbr is blank";
+    	}else if(null==var4 || var4.isEmpty()){
+    		result="ST012P_Merch_Division_Desc is blank";
+    	}else if(null==var5 || var5.isEmpty()){
+    		result="ST006P_Merch_Categ_Nbr is blank";
+    	}else if(null==var6 || var6.isEmpty()){
+    		result="ST020P_Merch_Categ_Desc is blank";
+    	}else if(null==var7 || var7.isEmpty()){
+    		result="ST006P_Store_Dept_Number is blank";
+    	}else if(null==var8 || var8.isEmpty()){
+    		result="MO001P_Merch_Opstudy_Desc is blank";
+    	}else if(null==var9 || var9.isEmpty()){
+    		result="ST032P_Product_Category_Code is blank";
+    	}else if(null==var10 || var10.isEmpty()){
+    		result="MO002P_Prod_Categ_Desc is blank";
+    	}else if(null==var11 || var11.isEmpty()){
+    		result="MO001P_Mrktg_Pos_Id is blank";
+    	}
+    	
+    	return result;
+    }
+      
+}
