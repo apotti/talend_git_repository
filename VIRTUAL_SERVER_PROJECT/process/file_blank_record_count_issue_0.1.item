@@ -233,7 +233,7 @@
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
         <mapperTableEntries name="ID" expression="row2.ID " type="id_String" nullable="true"/>
-        <mapperTableEntries name="Output" expression="((Integer)globalMap.get(&quot;tFileOutputDelimited_1_NB_LINE&quot;)) " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Output" expression="((Integer)globalMap.get(&quot;tFileRowCount_1_COUNT&quot;))" type="id_Integer" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row2" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="ID" type="id_String" nullable="true"/>
