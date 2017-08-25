@@ -2,7 +2,7 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default"/>
   <parameters>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="580" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="576" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
@@ -193,8 +193,8 @@
       <column comment="" key="false" length="-1" name="SINGLE_UNIT_RETAIL" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="RETAIL_MULTIPLE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="RETAIL_PRICE" nullable="true" pattern="" precision="-1" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="6" name="TIME_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="7" name="DATE_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="TIME_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="DATE_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="IT018P" name="REJECT">
       <column comment="" key="false" length="-1" name="ITEM_NUMBER" nullable="true" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
@@ -203,8 +203,8 @@
       <column comment="" key="false" length="-1" name="SINGLE_UNIT_RETAIL" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="RETAIL_MULTIPLE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="RETAIL_PRICE" nullable="true" pattern="" precision="-1" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="6" name="TIME_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="7" name="DATE_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="TIME_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="DATE_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_Integer" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -229,8 +229,8 @@
       <column comment="" key="false" length="-1" name="SINGLE_UNIT_RETAIL" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="RETAIL_MULTIPLE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="RETAIL_PRICE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="6" name="TIME_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="7" name="DATE_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="TIME_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="DATE_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="IT018P" name="REJECT">
       <column comment="" key="false" length="-1" name="ITEM_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_Integer" usefulColumn="true"/>
@@ -239,8 +239,8 @@
       <column comment="" key="false" length="-1" name="SINGLE_UNIT_RETAIL" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="RETAIL_MULTIPLE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="RETAIL_PRICE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="6" name="TIME_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="7" name="DATE_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="TIME_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="DATE_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-128" posY="544">
@@ -330,14 +330,14 @@
     <elementParameter field="TEXT" name="LABEL" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>rt_ptp_sales_price_adr7_int_020_it018P_valid_md_&lt;runday>.txt"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="IT018P" name="tFileOutputDelimited_1">
-      <column comment="" key="false" length="-1" name="ITEM_NUMBER" nullable="true" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="RETAIL_LEVEL_NUMBER" nullable="true" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="EFFECTIVE_PERIOD_FROM" nullable="true" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ITEM_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="RETAIL_LEVEL_NUMBER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="EFFECTIVE_PERIOD_FROM" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="SINGLE_UNIT_RETAIL" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="RETAIL_MULTIPLE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="RETAIL_PRICE" nullable="true" pattern="" precision="-1" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="6" name="TIME_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="7" name="DATE_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="RETAIL_PRICE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="TIME_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="DATE_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-448" posY="64">
@@ -357,9 +357,9 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="RETAIL_PRICE"/>
       <elementValue elementRef="ARRAY" value="Mathematical.ABS(10)"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="TIME_STAMP"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="Mathematical.BITAND(1 ,2 )"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="DATE_STAMP"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="Mathematical.BITAND(1 ,2 )"/>
     </elementParameter>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -370,8 +370,8 @@
       <column comment="" key="false" length="-1" name="SINGLE_UNIT_RETAIL" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="RETAIL_MULTIPLE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="RETAIL_PRICE" nullable="true" pattern="" precision="-1" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="6" name="TIME_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="7" name="DATE_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="TIME_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="DATE_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="-256" posY="64">
@@ -410,8 +410,8 @@
       <column comment="" key="false" length="-1" name="SINGLE_UNIT_RETAIL" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="RETAIL_MULTIPLE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="RETAIL_PRICE" nullable="true" pattern="" precision="-1" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="6" name="TIME_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="7" name="DATE_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="TIME_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="DATE_STAMP" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-448" posY="192">
