@@ -390,6 +390,16 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="true"/>
     <elementParameter field="CHECK" name="USEROWLABEL" value="false"/>
     <elementParameter field="TEXT" name="METTERLABEL" value="&quot;Source_Rows&quot;"/>
+    <elementParameter field="TABLE" name="THRESHLODS">
+      <elementValue elementRef="LABEL" value="Threshold_1"/>
+      <elementValue elementRef="BOTTOM" value="0"/>
+      <elementValue elementRef="TOP" value="139999"/>
+      <elementValue elementRef="COLOR" value="255;128;128"/>
+      <elementValue elementRef="LABEL" value="Threshold_2"/>
+      <elementValue elementRef="BOTTOM" value="140000"/>
+      <elementValue elementRef="TOP" value="14000000"/>
+      <elementValue elementRef="COLOR" value="0;255;0"/>
+    </elementParameter>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="Source_FF_Rows" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tSortRow_1" offsetLabelX="0" offsetLabelY="0" source="tSortRow_1" target="tMap_1">
