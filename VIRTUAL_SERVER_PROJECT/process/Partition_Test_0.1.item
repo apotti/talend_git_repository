@@ -356,7 +356,7 @@
     <elementParameter field="TEXT" name="NUM_PARTITIONS" value="3"/>
     <elementParameter field="CHECK" name="HASH_PARTITION" value="true"/>
     <elementParameter field="TABLE" name="HASH_KEYS">
-      <elementValue elementRef="KEY_COLUMN" value="Name"/>
+      <elementValue elementRef="KEY_COLUMN" value="ID"/>
     </elementParameter>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
