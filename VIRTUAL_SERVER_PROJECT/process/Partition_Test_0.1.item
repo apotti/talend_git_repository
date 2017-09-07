@@ -250,8 +250,8 @@
         <mapperTableEntries name="Name" type="id_String" nullable="true"/>
       </inputTables>
       <inputTables sizeState="INTERMEDIATE" name="row3" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE" innerJoin="true">
-        <mapperTableEntries name="ID" expression="row2.ID" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Name" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ID" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Name" expression="row2.Name" type="id_String" nullable="true"/>
       </inputTables>
     </nodeData>
   </node>
