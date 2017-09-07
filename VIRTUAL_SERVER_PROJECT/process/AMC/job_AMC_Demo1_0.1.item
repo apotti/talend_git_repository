@@ -272,7 +272,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_1" show="false"/>
     <elementParameter field="TABLE" name="GROUPBYS">
       <elementValue elementRef="OUTPUT_COLUMN" value="Name"/>
-      <elementValue elementRef="INPUT_COLUMN" value="ID"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Name"/>
     </elementParameter>
     <elementParameter field="TABLE" name="OPERATIONS"/>
     <elementParameter field="TEXT" name="LIST_DELIMITER" value="&quot;,&quot;"/>
