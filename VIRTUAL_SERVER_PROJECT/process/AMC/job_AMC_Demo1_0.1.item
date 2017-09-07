@@ -388,6 +388,8 @@
   </connection>
   <connection connectorName="FLOW" label="Source_FF_Rows" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tSortRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="true"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="false"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;Source_Rows&quot;"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="Source_FF_Rows" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tSortRow_1" offsetLabelX="0" offsetLabelY="0" source="tSortRow_1" target="tMap_1">
